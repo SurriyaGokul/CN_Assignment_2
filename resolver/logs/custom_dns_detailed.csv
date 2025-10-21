@@ -1,0 +1,401 @@
+Timestamp,Domain,Query Type,Mode,Success,Total Time (s),Steps,Cache Status,Answers,Error
+2025-10-21T12:49:25.326338,2brightsparks.co.uk.,A,iterative,True,0.4998,3,MISS,18.161.111.12; 18.161.111.88; 18.161.111.79; 18.161.111.14,
+2025-10-21T12:49:26.327472,41latitude.com.,A,iterative,False,0.4439,3,MISS,,No answers found
+2025-10-21T12:49:27.272410,7dfps.com.,A,iterative,True,0.4372,3,MISS,172.67.161.32; 104.21.9.172,
+2025-10-21T12:49:28.210070,advertos.ru.,A,iterative,True,0.7007,3,MISS,45.92.176.75,
+2025-10-21T12:49:29.412359,afairjudgement.com.,A,iterative,True,0.4318,3,MISS,172.67.178.132; 104.21.56.56,
+2025-10-21T12:49:30.344142,afresnohomeinspector.com.,A,iterative,True,1.3401,3,MISS,67.225.203.79,
+2025-10-21T12:49:32.184668,alchemedialtd.com.,A,iterative,True,0.4099,3,MISS,68.66.224.29,
+2025-10-21T12:49:33.095172,alenpuaca.com.,A,iterative,True,0.7340,3,MISS,67.205.28.253,
+2025-10-21T12:49:34.329614,amorefieldlife.com.,A,iterative,True,0.4665,3,MISS,162.241.226.124,
+2025-10-21T12:49:35.296757,aqvr.com.,A,iterative,True,0.7162,3,MISS,89.117.19.57,
+2025-10-21T12:49:36.513429,asadventure.com.,A,iterative,True,0.4248,3,MISS,18.161.97.64; 18.161.97.23; 18.161.97.123; 18.161.97.129,
+2025-10-21T12:49:37.439240,astrumonline.ru.,A,iterative,True,2.8938,3,MISS,217.69.136.59,
+2025-10-21T12:49:40.833757,auqzzx.com.,A,iterative,False,0.4022,2,MISS,,No answers found
+2025-10-21T12:49:41.736418,australiatradenow.com.,A,iterative,True,0.4319,3,MISS,3.1.109.80; 52.221.93.144,
+2025-10-21T12:49:42.668995,autofirenze.biz.,A,iterative,True,0.8942,3,MISS,89.46.109.17,
+2025-10-21T12:49:44.063644,b-matrix.com.,A,iterative,True,0.5621,3,MISS,137.135.108.176,
+2025-10-21T12:49:45.126340,bikesandtransit.com.,A,iterative,True,0.4349,3,MISS,192.0.78.24; 192.0.78.25,
+2025-10-21T12:49:46.062704,blueridgelife.com.,A,iterative,True,0.5642,3,MISS,192.124.249.6,
+2025-10-21T12:49:47.127116,buynowfromusa.com.,A,iterative,True,0.5333,3,MISS,35.223.118.1,
+2025-10-21T12:49:48.161260,camcard.com.,A,iterative,True,0.4370,3,MISS,184.169.209.203; 184.169.200.40,
+2025-10-21T12:49:49.099197,caricsports.com.,A,iterative,True,0.4300,3,MISS,104.21.51.12; 172.67.216.98,
+2025-10-21T12:49:50.029880,cetsi.fr.,A,iterative,True,0.4940,3,MISS,91.151.64.24,
+2025-10-21T12:49:51.024927,chonvn.com.,A,iterative,False,0.4008,2,MISS,,No answers found
+2025-10-21T12:49:51.927153,chuamatsua.com.,A,iterative,False,15.2067,110,MISS,,No answers found
+2025-10-21T12:50:07.634656,coutureauchocolat.com.,A,iterative,False,0.3958,2,MISS,,No answers found
+2025-10-21T12:50:08.531178,daehepharma.com.,A,iterative,False,0.5460,3,MISS,,No answers found
+2025-10-21T12:50:09.577466,datepanchang.com.,A,iterative,True,0.5801,3,MISS,13.75.93.156,
+2025-10-21T12:50:10.658963,diamondknot.com.,A,iterative,True,5.8020,3,MISS,198.185.159.144; 198.185.159.145; 198.49.23.144; 198.49.23.145,
+2025-10-21T12:50:16.962319,ditrblog.com.,A,iterative,False,0.3933,2,MISS,,No answers found
+2025-10-21T12:50:17.855567,dj-producer-j-mbargo.com.,A,iterative,False,0.4030,2,MISS,,No answers found
+2025-10-21T12:50:18.758872,door2games.com.,A,iterative,True,0.5687,3,MISS,160.153.0.43,
+2025-10-21T12:50:19.828291,effexdjs.com.,A,iterative,False,0.4076,2,MISS,,No answers found
+2025-10-21T12:50:20.737441,energybulbs.co.uk.,A,iterative,True,1.0149,3,MISS,23.227.38.32,
+2025-10-21T12:50:22.253048,eugenbotnar.com.,A,iterative,False,0.4003,2,MISS,,No answers found
+2025-10-21T12:50:23.154277,ex-jw.org.,A,iterative,True,0.3622,3,MISS,185.230.63.107; 185.230.63.186; 185.230.63.171,
+2025-10-21T12:50:24.017102,fini.net.,A,iterative,True,0.7228,3,MISS,198.57.192.137,
+2025-10-21T12:50:25.240487,forpsi.net.,A,iterative,True,0.5474,3,MISS,85.255.6.237,
+2025-10-21T12:50:26.288274,gamemob.com.,A,iterative,True,0.5728,3,MISS,3.33.130.190; 15.197.148.33,
+2025-10-21T12:50:27.362100,gensee.com.,A,iterative,True,0.4851,3,MISS,211.150.89.25,
+2025-10-21T12:50:28.347989,globalpoliticalspectrum.com.,A,iterative,False,0.4000,2,MISS,,No answers found
+2025-10-21T12:50:29.249089,group14eng.com.,A,iterative,True,0.5664,3,MISS,192.124.249.164,
+2025-10-21T12:50:30.315517,gusbi.com.,A,iterative,True,0.5615,3,MISS,185.145.195.19,
+2025-10-21T12:50:31.379005,healthnews4you.com.,A,iterative,True,0.5696,3,MISS,3.33.130.190; 15.197.148.33,
+2025-10-21T12:50:32.448824,hemcolubricants.com.,A,iterative,True,0.6765,3,MISS,194.9.94.85; 194.9.94.86,
+2025-10-21T12:50:33.626133,hornil.com.,A,iterative,True,0.5615,3,MISS,183.111.138.226,
+2025-10-21T12:50:34.688474,house-sg.com.,A,iterative,True,0.9109,3,MISS,208.98.40.211,
+2025-10-21T12:50:36.100108,i-butterfly.ru.,A,iterative,True,0.5299,3,MISS,172.67.151.138; 104.21.88.172,
+2025-10-21T12:50:37.130366,iag-inc.com.,A,iterative,True,1.2452,3,MISS,103.224.182.253,
+2025-10-21T12:50:38.876385,informarexresistere.fr.,A,iterative,True,1.6749,3,MISS,178.32.143.165,
+2025-10-21T12:50:41.051833,interfloracentral.co.uk.,A,iterative,True,1.7033,3,MISS,217.69.32.44,
+2025-10-21T12:50:43.256177,jantv.in.,A,iterative,True,0.3498,3,MISS,172.67.132.252; 104.21.5.51,
+2025-10-21T12:50:44.106629,junio.com.,A,iterative,True,0.8439,3,MISS,209.196.144.25,
+2025-10-21T12:50:45.451608,kathihill.com.,A,iterative,True,0.5403,3,MISS,159.65.187.116,
+2025-10-21T12:50:46.493792,kennethehartman.com.,A,iterative,True,0.4484,3,MISS,192.0.78.24; 192.0.78.25,
+2025-10-21T12:50:47.442610,kh.ua.,A,iterative,True,0.4695,3,MISS,195.69.185.211,
+2025-10-21T12:50:48.412939,khsm.ru.,A,iterative,True,1.5050,3,MISS,91.247.37.5,
+2025-10-21T12:50:50.418966,linksplash.info.,A,iterative,False,0.1899,2,MISS,,No answers found
+2025-10-21T12:50:51.109478,livelinks.com.,A,iterative,True,0.4283,3,MISS,108.158.61.12; 108.158.61.13; 108.158.61.76; 108.158.61.89,
+2025-10-21T12:50:52.038669,localhost.re.,A,iterative,True,0.4706,3,MISS,104.21.50.127; 172.67.163.57,
+2025-10-21T12:50:53.010134,lozo.com.,A,iterative,True,0.4252,3,MISS,44.214.239.39; 107.21.144.47,
+2025-10-21T12:50:53.936220,luckypuppygames.com.,A,iterative,True,0.5746,3,MISS,172.233.219.78; 172.237.146.8; 172.233.219.123; 172.237.146.25; 172.233.219.49; 172.237.146.38,
+2025-10-21T12:50:55.012029,memeblender.com.,A,iterative,True,0.4272,3,MISS,104.21.7.158; 172.67.136.240,
+2025-10-21T12:50:55.939960,mesites.co.za.,A,iterative,True,6.6759,4,MISS,41.204.200.130,
+2025-10-21T12:51:03.116503,michiganbulb.com.,A,iterative,True,0.7091,3,MISS,208.27.142.168,
+2025-10-21T12:51:04.326408,monsterhomesecuritystore.com.,A,iterative,False,0.3919,2,MISS,,No answers found
+2025-10-21T12:51:05.219174,mwzip.com.,A,iterative,True,0.4447,3,MISS,104.21.20.205; 172.67.194.102,
+2025-10-21T12:51:06.164545,mysearch-online.com.,A,iterative,False,0.4054,2,MISS,,No answers found
+2025-10-21T12:51:07.070661,newstetic.com.,A,iterative,True,0.4478,3,MISS,104.21.3.241; 172.67.131.89,
+2025-10-21T12:51:08.019383,niceinternetmoney.ru.,A,iterative,False,0.3691,2,MISS,,No answers found
+2025-10-21T12:51:08.889045,o-ov.com.,A,iterative,False,6.3682,38,MISS,,No answers found
+2025-10-21T12:51:15.758168,ondemandappliancerepair.com.,A,iterative,True,0.5367,3,MISS,74.208.236.102,
+2025-10-21T12:51:16.796183,owlcreek.com.,A,iterative,True,0.7259,3,MISS,205.178.189.129,
+2025-10-21T12:51:18.021992,pbprofile.com.,A,iterative,False,0.3982,2,MISS,,No answers found
+2025-10-21T12:51:18.920962,phi-pe.com.,A,iterative,False,0.4068,2,MISS,,No answers found
+2025-10-21T12:51:19.828997,pictures-thailand.com.,A,iterative,True,0.6411,3,MISS,66.96.149.1,
+2025-10-21T12:51:20.970619,pieceinch.com.,A,iterative,True,0.4284,3,MISS,104.21.66.64; 172.67.201.136,
+2025-10-21T12:51:21.899623,portclydegeneralstore.com.,A,iterative,True,0.5718,3,MISS,198.185.159.144; 198.185.159.145; 198.49.23.144; 198.49.23.145,
+2025-10-21T12:51:22.971580,ppsuika.ac.id.,A,iterative,True,0.7360,4,MISS,203.175.8.54,
+2025-10-21T12:51:24.208510,probigbets.com.,A,iterative,False,0.4115,2,MISS,,No answers found
+2025-10-21T12:51:25.120611,progettogiovani.pd.it.,A,iterative,True,0.5031,3,MISS,185.213.115.40,
+2025-10-21T12:51:26.124300,radioterminal.ru.,A,iterative,True,0.5535,3,MISS,188.225.40.161,
+2025-10-21T12:51:27.178561,reprosystems.ru.,A,iterative,True,0.5149,3,MISS,172.67.167.102; 104.21.59.11,
+2025-10-21T12:51:28.194721,retiragroup.com.,A,iterative,False,0.4032,2,MISS,,No answers found
+2025-10-21T12:51:29.098352,rtsab.com.,A,iterative,False,0.5895,3,MISS,,No answers found
+2025-10-21T12:51:30.189068,running-sigi.de.,A,iterative,False,0.3207,2,MISS,,No answers found
+2025-10-21T12:51:31.010203,sdccdonline.net.,A,iterative,False,2058.6602,2,MISS,,No answers found
+2025-10-21T13:25:50.171325,sheltercoveinn.com.,A,iterative,False,0.6779,3,MISS,,No answers found
+2025-10-21T13:25:51.349709,shivalikprints.com.,A,iterative,True,0.4420,3,MISS,162.215.11.92,
+2025-10-21T13:25:52.292568,shqqaa.com.,A,iterative,True,0.4308,3,MISS,104.21.25.127; 172.67.134.61,
+2025-10-21T13:25:53.223878,simternet.com.,A,iterative,True,0.5707,3,MISS,15.197.225.128; 3.33.251.168,
+2025-10-21T13:25:54.295560,somode.com.,A,iterative,False,0.3991,2,MISS,,No answers found
+2025-10-21T13:25:55.195245,stunninggirls.net.,A,iterative,True,0.4201,3,MISS,34.95.33.229,
+2025-10-21T13:25:56.116134,toaskfuture.com.,A,iterative,True,0.4418,3,MISS,119.18.54.195,
+2025-10-21T13:25:57.058586,tottenhamhk.com.,A,iterative,False,0.3924,2,MISS,,No answers found
+2025-10-21T13:25:57.951718,triggerfish.se.,A,iterative,True,0.4931,3,MISS,162.159.134.42; 162.159.135.42,
+2025-10-21T13:25:58.945320,tuhafhaberler.com.,A,iterative,False,0.3991,2,MISS,,No answers found
+2025-10-21T13:25:59.844470,uahoy.net.,A,iterative,False,0.3939,2,MISS,,No answers found
+2025-10-21T13:26:00.739410,us.tf.,A,iterative,False,187.6492,2,MISS,,No answers found
+2025-10-21T13:29:08.889357,wrestlingfanssuck.com.,A,iterative,True,0.5466,3,MISS,62.149.128.40,
+2025-10-21T13:29:09.936473,zzxu.cn.,A,iterative,False,53.5129,38,MISS,,No answers found
+2025-10-21T13:32:35.756651,51cdngo.com.,A,iterative,False,1.8837,3,MISS,,No answers found
+2025-10-21T13:32:38.140890,7sports.jp.,A,iterative,True,0.5565,3,MISS,150.95.219.152,
+2025-10-21T13:32:39.197982,a-loud.com.,A,iterative,True,0.5553,3,MISS,183.111.199.180,
+2025-10-21T13:32:40.254239,alkoholiker-clan.de.,A,iterative,True,0.5579,3,MISS,78.46.86.91,
+2025-10-21T13:32:41.312635,alltransport.ru.,A,iterative,True,0.5389,3,MISS,141.8.192.214,
+2025-10-21T13:32:42.352468,ambassadorsspfhf.org.,A,iterative,False,0.2458,2,MISS,,No answers found
+2025-10-21T13:32:43.098689,amedeos.net.,A,iterative,True,0.7282,3,MISS,76.223.105.230; 13.248.243.5,
+2025-10-21T13:32:44.327594,androgyn.org.,A,iterative,True,0.3830,3,MISS,217.160.0.127,
+2025-10-21T13:32:45.211039,asip.es.,A,iterative,False,0.3283,2,MISS,,No answers found
+2025-10-21T13:32:46.040289,aspiringwriter.ca.,A,iterative,False,0.3339,2,MISS,,No answers found
+2025-10-21T13:32:46.874432,atomicbase.com.,A,iterative,True,0.6709,3,MISS,192.252.149.20,
+2025-10-21T13:32:48.045932,bek.ir.,A,iterative,False,0.3942,2,MISS,,No answers found
+2025-10-21T13:32:48.940513,bigjournalism.com.,A,iterative,True,0.4290,3,MISS,172.67.215.184; 104.21.75.65,
+2025-10-21T13:32:49.870736,brfone.com.,A,iterative,True,0.6720,3,MISS,54.243.117.197; 13.223.25.84,
+2025-10-21T13:32:51.043248,brown.edu.,A,iterative,True,10.7182,3,MISS,128.148.252.151,
+2025-10-21T13:33:02.261923,c3budiman.tk.,A,iterative,False,0.3138,2,MISS,,No answers found
+2025-10-21T13:33:03.077551,capella.edu.,A,iterative,True,10.6129,3,MISS,104.18.41.240; 172.64.146.16,
+2025-10-21T13:33:14.190914,casco.com.,A,iterative,True,0.4251,3,MISS,18.172.64.52; 18.172.64.64; 18.172.64.87; 18.172.64.33,
+2025-10-21T13:33:15.117102,cellularfactory.com.,A,iterative,True,0.7343,3,MISS,208.91.197.27,
+2025-10-21T13:33:16.352230,cncdesign.co.kr.,A,iterative,True,0.9950,3,MISS,175.126.62.41,
+2025-10-21T13:33:17.847875,congsoxanh.com.,A,iterative,True,0.4368,3,MISS,172.67.150.218; 104.21.64.129,
+2025-10-21T13:33:18.785406,consejodentistas.org.,A,iterative,True,0.4105,3,MISS,213.151.115.236,
+2025-10-21T13:33:19.696441,cornesoft.com.,A,iterative,False,0.3924,2,MISS,,No answers found
+2025-10-21T13:33:20.589548,datadikdki.net.,A,iterative,True,0.6871,3,MISS,172.67.171.27; 104.21.55.109,
+2025-10-21T13:33:21.777227,doommovie.com.,A,iterative,True,0.4313,3,MISS,172.67.206.138; 104.21.50.133,
+2025-10-21T13:33:22.709432,elettronix.com.,A,iterative,True,0.5841,3,MISS,217.64.201.130,
+2025-10-21T13:33:23.794440,fanzi.pl.,A,iterative,False,0.1969,2,MISS,,No answers found
+2025-10-21T13:33:24.491927,fauzanalfi.com.,A,iterative,False,0.5887,3,MISS,,No answers found
+2025-10-21T13:33:25.581437,gamepsvita.com.,A,iterative,True,0.4376,3,MISS,192.64.118.75,
+2025-10-21T13:33:26.519856,gaybodyblog.com.,A,iterative,True,0.4234,3,MISS,148.72.167.158,
+2025-10-21T13:33:27.444010,gba4iosapp.com.,A,iterative,True,0.5200,3,MISS,198.49.23.144,
+2025-10-21T13:33:28.464763,gucenmez.com.,A,iterative,True,0.4344,3,MISS,172.67.149.173; 104.21.39.228,
+2025-10-21T13:33:29.399973,gvowebcast.com.,A,iterative,True,0.4265,3,MISS,104.21.83.130; 172.67.176.152,
+2025-10-21T13:33:30.327259,heygal.net.,A,iterative,False,0.3905,2,MISS,,No answers found
+2025-10-21T13:33:31.218485,hivelocitymedia.com.,A,iterative,True,0.4465,3,MISS,172.67.152.101; 104.21.1.224,
+2025-10-21T13:33:32.165809,horn-elektronik.com.,A,iterative,True,1.3521,3,MISS,92.43.119.40,
+2025-10-21T13:33:34.018579,hotel.ch.,A,iterative,True,0.4802,3,MISS,104.21.36.90; 172.67.191.193,
+2025-10-21T13:33:34.999579,huhgmbh.com.,A,iterative,True,0.6674,3,MISS,54.243.117.197; 13.223.25.84,
+2025-10-21T13:33:36.167924,hznzcn.com.,A,iterative,True,1.3500,3,MISS,120.55.81.189,
+2025-10-21T13:33:38.018351,i12.de.,A,iterative,False,0.5242,3,MISS,,No answers found
+2025-10-21T13:33:39.043290,itattoos.org.,A,iterative,False,0.2373,2,MISS,,No answers found
+2025-10-21T13:33:39.781207,jabeye.org.,A,iterative,True,0.7010,3,MISS,173.236.216.220,
+2025-10-21T13:33:40.983045,jcwcn.com.,A,iterative,True,1.6558,3,MISS,128.14.74.54,
+2025-10-21T13:33:43.139443,k-dsl.de.,A,iterative,False,0.3398,2,MISS,,No answers found
+2025-10-21T13:33:43.979912,ku.edu.,A,iterative,True,10.6854,3,MISS,129.237.135.76,
+2025-10-21T13:33:55.165986,lacuentaperdida.org.,A,iterative,False,0.2626,2,MISS,,No answers found
+2025-10-21T13:33:55.929248,lgmonitorreview.nl.,A,iterative,False,0.1909,2,MISS,,No answers found
+2025-10-21T13:33:56.620914,lighthouse.cc.,A,iterative,True,0.8487,3,MISS,192.110.166.196,
+2025-10-21T13:33:57.970220,likeminded.ca.,A,iterative,True,0.6238,3,MISS,198.100.154.154,
+2025-10-21T13:33:59.094630,ljyelectronic.com.,A,iterative,True,0.5252,3,MISS,156.232.155.66,
+2025-10-21T13:34:00.120490,lookpage.org.,A,iterative,False,0.2449,2,MISS,,No answers found
+2025-10-21T13:34:00.865955,mattselznick.com.,A,iterative,True,0.7081,3,MISS,44.245.84.147,
+2025-10-21T13:34:02.074798,meintrendyhandy.de.,A,iterative,True,0.6418,3,MISS,94.143.8.110,
+2025-10-21T13:34:03.217436,metabans.com.,A,iterative,True,0.4448,3,MISS,104.21.65.104; 172.67.162.83,
+2025-10-21T13:34:04.163293,motiie.com.,A,iterative,False,0.3986,2,MISS,,No answers found
+2025-10-21T13:34:05.062046,mplus.hk.,A,iterative,True,1.2520,3,MISS,159.138.153.43,
+2025-10-21T13:34:06.814519,mpskota.com.,A,iterative,True,0.4239,3,MISS,20.192.98.161,
+2025-10-21T13:34:07.739340,mumphi.de.,A,iterative,True,5.8455,3,MISS,87.106.48.102,
+2025-10-21T13:34:14.085550,newpages2u.com.,A,iterative,True,0.6691,3,MISS,110.74.174.131,
+2025-10-21T13:34:15.255260,nipslab.org.,A,iterative,True,2.1282,3,MISS,89.46.108.36,
+2025-10-21T13:34:17.885401,nucre.com.,A,iterative,False,404.7060,77,MISS,,No answers found
+2025-10-21T13:41:03.091488,oberoncompany.com.,A,iterative,True,0.4580,3,MISS,104.21.68.213; 172.67.198.171,
+2025-10-21T13:41:04.050176,obtscan.com.,A,iterative,False,0.4027,2,MISS,,No answers found
+2025-10-21T13:41:04.953631,ohdev.co.uk.,A,iterative,True,0.4697,3,MISS,51.89.253.246,
+2025-10-21T13:41:05.923729,ovtoc.com.,A,iterative,True,0.5560,3,MISS,64.190.63.222,
+2025-10-21T13:41:06.980021,panaceadream.com.,A,iterative,False,0.4062,2,MISS,,No answers found
+2025-10-21T13:41:07.886796,phoenix-music.ru.,A,iterative,False,0.3672,2,MISS,,No answers found
+2025-10-21T13:41:08.754487,qdushu.com.,A,iterative,False,0.4034,2,MISS,,No answers found
+2025-10-21T13:41:09.658275,qingjiaopidaiji.com.,A,iterative,False,0.4000,2,MISS,,No answers found
+2025-10-21T13:41:10.559226,raqualia.com.,A,iterative,False,1.1694,3,MISS,,No answers found
+2025-10-21T13:41:12.228682,redcrosseth.org.,A,iterative,True,0.5672,3,MISS,65.21.72.120,
+2025-10-21T13:41:13.296524,rousing.dk.,A,iterative,True,0.5123,3,MISS,212.237.249.17,
+2025-10-21T13:41:14.309599,sandieskorner.com.,A,iterative,False,0.4133,2,MISS,,No answers found
+2025-10-21T13:41:15.223123,seedy.dk.,A,iterative,True,0.6678,3,MISS,93.191.156.22,
+2025-10-21T13:41:16.391406,simple-health-reports.com.,A,iterative,False,0.3957,2,MISS,,No answers found
+2025-10-21T13:41:17.287819,sinemagrafik.com.,A,iterative,False,0.3993,2,MISS,,No answers found
+2025-10-21T13:41:18.187462,sscw.ee.,A,iterative,True,0.5029,3,MISS,217.146.69.45,
+2025-10-21T13:41:19.191315,stopallthathating.com.,A,iterative,False,0.4184,2,MISS,,No answers found
+2025-10-21T13:41:20.110406,supreetsethi.net.,A,iterative,False,0.3959,2,MISS,,No answers found
+2025-10-21T13:41:21.006772,thankfullyyours.com.,A,iterative,True,0.5559,3,MISS,23.227.38.32,
+2025-10-21T13:41:22.063795,thereeftank.com.,A,iterative,True,0.5456,3,MISS,151.101.193.91; 151.101.1.91; 151.101.129.91; 151.101.65.91,
+2025-10-21T13:41:23.109976,thunderex.com.,A,iterative,True,0.5733,3,MISS,97.74.85.52,
+2025-10-21T13:41:24.184024,ticketbis.com.,A,iterative,False,0.4710,3,MISS,,No answers found
+2025-10-21T13:41:25.155603,tomorrowsreflection.com.,A,iterative,True,0.5614,3,MISS,34.67.56.17,
+2025-10-21T13:41:26.217947,tonaci.com.,A,iterative,True,0.5228,3,MISS,69.46.47.132,
+2025-10-21T13:41:27.241290,topilehtipuu.com.,A,iterative,True,1.2450,3,MISS,103.224.182.253,
+2025-10-21T13:41:28.987061,tretsomshop.nl.,A,iterative,True,1.9854,3,MISS,23.227.38.32,
+2025-10-21T13:41:31.473285,tsksv.ru.,A,iterative,True,2.1162,3,MISS,91.199.149.117,
+2025-10-21T13:41:34.090044,uanet.net.,A,iterative,True,6.0285,3,MISS,38.55.165.9,
+2025-10-21T13:41:40.618944,udoo24.com.,A,iterative,True,0.4735,3,MISS,185.232.14.229,
+2025-10-21T13:41:41.593157,vaco.ru.,A,iterative,True,2.4485,3,MISS,81.88.217.58,
+2025-10-21T13:41:44.542825,valerievandenbroek.nl.,A,iterative,False,0.1816,2,MISS,,No answers found
+2025-10-21T13:41:45.224702,visualtap.com.,A,iterative,True,0.6666,3,MISS,52.20.84.62,
+2025-10-21T13:41:46.391754,volksschule-neufahrn.de.,A,iterative,False,0.3150,2,MISS,,No answers found
+2025-10-21T13:41:47.207121,webxtrap.com.,A,iterative,True,0.5638,3,MISS,109.234.165.168,
+2025-10-21T13:41:48.271854,womenology.com.,A,iterative,True,0.4229,3,MISS,213.186.33.4,
+2025-10-21T13:41:49.195187,xqgcab.com.,A,iterative,False,0.3984,2,MISS,,No answers found
+2025-10-21T13:41:50.094257,youngsnetwork.it.,A,iterative,False,0.3359,2,MISS,,No answers found
+2025-10-21T13:41:50.931036,zamlelova.ru.,A,iterative,True,3.4862,3,MISS,79.174.69.231,
+2025-10-21T13:41:54.918088,zilch.org.,A,iterative,True,0.9138,3,MISS,104.237.133.18,
+2025-10-21T13:44:32.309208,abmcare.com.,A,iterative,True,0.4340,3,MISS,104.18.11.144; 104.18.10.144,
+2025-10-21T13:44:33.243627,anvilnetworksolutions.net.,A,iterative,True,0.7469,3,MISS,217.160.0.13,
+2025-10-21T13:44:34.490998,archiportale.com.,A,iterative,True,0.4395,3,MISS,104.18.13.154; 104.18.12.154,
+2025-10-21T13:44:35.431242,arcoat.com.,A,iterative,True,0.6401,3,MISS,66.39.19.55,
+2025-10-21T13:44:36.572003,asseenontvlaunchpad.com.,A,iterative,False,0.3906,2,MISS,,No answers found
+2025-10-21T13:44:37.463102,autopareri.com.,A,iterative,True,0.4744,3,MISS,147.93.94.216,
+2025-10-21T13:44:38.438307,bbqinjector.com.,A,iterative,False,0.4005,2,MISS,,No answers found
+2025-10-21T13:44:39.339472,begleyhutton.com.,A,iterative,True,1.8763,3,MISS,198.185.159.144; 198.49.23.145; 198.185.159.145; 198.49.23.144,
+2025-10-21T13:44:41.716159,bigliettieventi.info.,A,iterative,False,0.1917,2,MISS,,No answers found
+2025-10-21T13:44:42.409102,bmw-parts.ru.,A,iterative,True,0.5647,3,MISS,91.236.136.97,
+2025-10-21T13:44:43.474181,bookingnest.com.,A,iterative,True,0.5653,3,MISS,76.223.54.146; 13.248.169.48,
+2025-10-21T13:44:44.539900,callcomm.info.,A,iterative,False,0.1885,2,MISS,,No answers found
+2025-10-21T13:44:45.229080,cdmail.fr.,A,iterative,True,1.2998,3,MISS,5.196.212.149,
+2025-10-21T13:44:47.029315,ceskykutil.cz.,A,iterative,True,0.5926,3,MISS,80.211.205.242,
+2025-10-21T13:44:48.122876,charityjob.co.uk.,A,iterative,True,0.4852,3,MISS,104.24.145.14; 172.67.64.72; 104.24.144.14,
+2025-10-21T13:44:49.108923,chekiang.info.,A,iterative,False,0.2032,2,MISS,,No answers found
+2025-10-21T13:44:49.812643,chenghuavideo.asia.,A,iterative,False,7.7559,56,MISS,,No answers found
+2025-10-21T13:44:58.069156,cia.it.,A,iterative,True,0.4903,3,MISS,52.209.118.185; 52.213.149.102,
+2025-10-21T13:44:59.061144,ciber.com.,A,iterative,True,0.4457,3,MISS,103.247.209.15,
+2025-10-21T13:45:00.007064,clickdownloadfiles.com.,A,iterative,False,0.3935,2,MISS,,No answers found
+2025-10-21T13:45:00.901637,consumerreviews24.com.,A,iterative,False,0.3931,2,MISS,,No answers found
+2025-10-21T13:45:01.795054,cosmeticaestheticsurgery.com.,A,iterative,True,31.8122,3,MISS,3.33.130.190; 15.197.148.33,
+2025-10-21T13:45:34.107520,crsgfk.de.,A,iterative,False,0.3353,2,MISS,,No answers found
+2025-10-21T13:45:34.944013,currencyrates.org.,A,iterative,True,0.4168,3,MISS,104.21.23.70; 172.67.209.125,
+2025-10-21T13:45:35.861341,cushinglawoffices.com.,A,iterative,False,0.3999,2,MISS,,No answers found
+2025-10-21T13:45:36.761723,cuteteenschoolgirlz.com.,A,iterative,False,0.3975,2,MISS,,No answers found
+2025-10-21T13:45:37.659824,de.vu.,A,iterative,True,0.3532,3,MISS,81.28.232.69,
+2025-10-21T13:45:38.513745,dilw.ie.,A,iterative,True,0.3794,3,MISS,35.214.43.230,
+2025-10-21T13:45:39.394118,dock2office.com.,A,iterative,False,0.3975,2,MISS,,No answers found
+2025-10-21T13:45:40.292061,drglendza.co.rs.,A,iterative,False,0.3390,3,MISS,,No answers found
+2025-10-21T13:45:41.132175,dricom-hosting.nl.,A,iterative,True,0.3363,3,MISS,46.249.36.223,
+2025-10-21T13:45:41.970787,e-daily.gr.,A,iterative,True,0.4775,3,MISS,104.26.13.52; 104.26.12.52; 172.67.70.26,
+2025-10-21T13:45:42.947047,e-hps.com.,A,iterative,True,0.4420,3,MISS,208.44.185.221,
+2025-10-21T13:45:43.890080,ecolems.com.,A,iterative,True,0.8684,3,MISS,51.103.54.68,
+2025-10-21T13:45:45.259194,eggcityradio.com.,A,iterative,True,1.0185,3,MISS,103.224.182.253,
+2025-10-21T13:45:46.778247,egov.sy.,A,iterative,True,0.3959,3,MISS,185.216.134.58,
+2025-10-21T13:45:47.674616,fmnara.com.,A,iterative,True,1.4204,3,MISS,49.247.215.98,
+2025-10-21T13:45:49.595544,freeditorial.com.,A,iterative,True,0.4477,3,MISS,51.178.246.100,
+2025-10-21T13:45:50.544347,ftf.com.,A,iterative,True,0.6060,3,MISS,23.227.38.65,
+2025-10-21T13:45:51.650992,gadanguides.com.,A,iterative,True,0.6540,3,MISS,93.188.2.51,
+2025-10-21T13:45:52.806090,gadgetgearpro.com.,A,iterative,False,0.3974,2,MISS,,No answers found
+2025-10-21T13:45:53.704154,gardenofwords.com.,A,iterative,True,0.4249,3,MISS,192.0.78.25; 192.0.78.24,
+2025-10-21T13:45:54.629896,get-webby.com.,A,iterative,False,0.3900,2,MISS,,No answers found
+2025-10-21T13:45:55.520116,ghimpele.ro.,A,iterative,True,0.4941,3,MISS,89.35.160.167,
+2025-10-21T13:45:56.514828,giuseppelivraghi.it.,A,iterative,True,36.8434,3,MISS,89.46.108.54,
+2025-10-21T13:46:33.858968,gregginn.com.,A,iterative,True,0.5614,3,MISS,3.33.130.190; 15.197.148.33,
+2025-10-21T13:46:34.921015,gxjbsj.com.,A,iterative,True,0.6429,3,MISS,172.247.103.2,
+2025-10-21T13:46:36.064866,hayalforum.net.,A,iterative,False,0.3931,2,MISS,,No answers found
+2025-10-21T13:46:36.958401,hdcric.com.,A,iterative,True,0.5470,3,MISS,159.69.42.212; 159.69.83.207; 159.69.186.9; 95.216.161.60,
+2025-10-21T13:46:38.006110,hralda.info.,A,iterative,False,0.1915,2,MISS,,No answers found
+2025-10-21T13:46:38.698559,hutago.com.,A,iterative,True,0.8244,3,MISS,118.27.125.209,
+2025-10-21T13:46:40.023242,iael.com.,A,iterative,True,0.5429,3,MISS,139.162.174.209; 172.104.251.198; 139.162.181.76; 172.104.149.86,
+2025-10-21T13:46:41.067113,ishidatic.com.,A,iterative,True,0.6759,3,MISS,15.197.172.60,
+2025-10-21T13:46:42.243530,laigang001.com.,A,iterative,False,0.3889,2,MISS,,No answers found
+2025-10-21T13:46:43.133892,marilynlingerie.com.,A,iterative,False,0.3938,2,MISS,,No answers found
+2025-10-21T13:46:44.028011,mechachal.org.,A,iterative,False,0.2558,2,MISS,,No answers found
+2025-10-21T13:46:44.784286,medipacademy.com.,A,iterative,True,0.4365,3,MISS,172.67.131.163; 104.21.4.41,
+2025-10-21T13:46:45.721569,metar.gr.,A,iterative,True,0.4995,3,MISS,75.119.133.58,
+2025-10-21T13:46:46.721546,michaelbyers.org.,A,iterative,True,0.5169,3,MISS,198.185.159.144; 198.185.159.145; 198.49.23.144; 198.49.23.145,
+2025-10-21T13:46:47.739167,minecraftserverdeals.com.,A,iterative,True,0.4404,3,MISS,104.21.1.113; 172.67.129.48,
+2025-10-21T13:46:48.680454,monitis.com.,A,iterative,True,0.4660,3,MISS,188.172.236.218,
+2025-10-21T13:46:49.647324,morban.co.uk.,A,iterative,True,0.8163,3,MISS,217.160.0.111,
+2025-10-21T13:46:50.964102,nasaspaceflight.com.,A,iterative,True,0.4445,3,MISS,172.66.40.183; 172.66.43.73,
+2025-10-21T13:46:51.909148,ncees.org.,A,iterative,True,0.3917,3,MISS,172.66.158.97; 104.20.28.40,
+2025-10-21T13:46:52.801546,noblewomanhood.com.,A,iterative,True,0.5374,3,MISS,74.208.236.114,
+2025-10-21T13:46:53.839798,note-so-easy.co.za.,A,iterative,True,3.1823,4,MISS,102.211.204.40,
+2025-10-21T13:46:57.522787,oaister.org.,A,iterative,True,0.4042,3,MISS,132.174.1.212,
+2025-10-21T13:46:58.427874,pahibu.net.,A,iterative,False,35.0114,2,MISS,,No answers found
+2025-10-21T13:47:33.940159,pet-connect.ru.,A,iterative,True,0.5569,3,MISS,194.58.112.174,
+2025-10-21T13:47:34.997299,polymth.com.,A,iterative,True,0.4326,3,MISS,172.67.147.218; 104.21.57.169,
+2025-10-21T13:47:35.930712,romney.com.,A,iterative,True,0.7249,3,MISS,208.91.197.27,
+2025-10-21T13:47:37.156599,rterc.in.,A,iterative,True,0.3548,3,MISS,147.79.69.9; 93.127.173.248,
+2025-10-21T13:47:38.012091,sailor.pl.,A,iterative,True,0.3320,3,MISS,88.99.19.146,
+2025-10-21T13:47:38.844982,sarahpartridge.net.,A,iterative,False,0.3978,2,MISS,,No answers found
+2025-10-21T13:47:39.743310,sendrakhizonline.com.,A,iterative,True,0.5785,3,MISS,20.244.2.144,
+2025-10-21T13:47:40.822562,shishioh.info.,A,iterative,True,0.4624,3,MISS,219.94.162.166,
+2025-10-21T13:47:41.785270,silveropt.ru.,A,iterative,False,0.3692,2,MISS,,No answers found
+2025-10-21T13:47:42.655190,skyhightmatter.info.,A,iterative,False,0.2016,2,MISS,,No answers found
+2025-10-21T13:47:43.357753,sonoma-marinfair.org.,A,iterative,True,0.3846,3,MISS,172.67.163.188; 104.21.34.187,
+2025-10-21T13:47:44.242704,stkpro.ru.,A,iterative,True,0.6687,3,MISS,205.251.138.125,
+2025-10-21T13:47:45.412010,synchchaos.com.,A,iterative,True,0.6851,3,MISS,203.161.61.102,
+2025-10-21T13:47:46.597688,synrc.com.,A,iterative,True,0.4320,3,MISS,104.21.40.117; 172.67.185.234,
+2025-10-21T13:47:47.531018,tangkas888.com.,A,iterative,True,0.4495,3,MISS,104.21.7.113; 172.67.130.50,
+2025-10-21T13:47:48.480772,tawali.com.,A,iterative,True,0.5629,3,MISS,173.249.147.46,
+2025-10-21T13:47:49.544925,teachmyass.info.,A,iterative,True,0.8494,3,MISS,103.224.182.212,
+2025-10-21T13:47:50.894923,teleskill.it.,A,iterative,True,1.4245,3,MISS,185.81.4.109,
+2025-10-21T13:47:52.819630,tenant-internet.com.,A,iterative,False,0.4053,2,MISS,,No answers found
+2025-10-21T13:47:53.724745,texasbeyondhistory.net.,A,iterative,True,1.0747,3,MISS,146.6.162.220,
+2025-10-21T13:47:55.300016,topbarbee.com.,A,iterative,True,0.6832,3,MISS,159.203.135.249,
+2025-10-21T13:47:56.484006,trackcheatingspouse.com.,A,iterative,False,0.4038,2,MISS,,No answers found
+2025-10-21T13:47:57.388132,uca.edu.,A,iterative,True,15.9715,3,MISS,161.31.3.35,
+2025-10-21T13:48:13.860454,urbannetwork.co.uk.,A,iterative,True,19.7698,3,MISS,85.92.70.198,
+2025-10-21T13:48:34.131017,verlockeshop.de.,A,iterative,True,0.6329,3,MISS,185.64.112.230,
+2025-10-21T13:48:35.264452,video-peche-poisson.fr.,A,iterative,False,0.3631,2,MISS,,No answers found
+2025-10-21T13:48:36.128409,vietcapitaltour.com.,A,iterative,False,0.4028,2,MISS,,No answers found
+2025-10-21T13:48:37.031858,virtualjerusalem.com.,A,iterative,True,0.6991,3,MISS,69.48.168.47,
+2025-10-21T13:48:38.231297,vlielandoutdoorcenter.nl.,A,iterative,True,0.3475,3,MISS,185.232.249.41,
+2025-10-21T13:48:39.079739,vpndefender.com.,A,iterative,True,0.4169,3,MISS,98.90.116.126; 3.230.91.62,
+2025-10-21T13:48:39.997144,ximangquantrieu.com.,A,iterative,True,0.5296,3,MISS,123.31.17.119,
+2025-10-21T13:48:41.027164,zpav.pl.,A,iterative,True,0.3453,3,MISS,83.238.107.112,
+2025-10-21T13:51:16.349422,120shenbing.com.,A,iterative,False,0.3877,2,MISS,,No answers found
+2025-10-21T13:51:17.238673,22hotmail.com.,A,iterative,True,0.4157,3,MISS,20.76.201.171; 20.112.250.133; 20.236.44.162; 20.231.239.246; 20.70.246.20,
+2025-10-21T13:51:18.154880,2xfzy.com.,A,iterative,True,7.3706,3,MISS,23.226.181.51,
+2025-10-21T13:51:26.026406,7apcrshrmanila.org.,A,iterative,False,0.2464,2,MISS,,No answers found
+2025-10-21T13:51:26.773449,abhair.com.,A,iterative,True,1.0556,3,MISS,23.227.38.32,
+2025-10-21T13:51:28.329986,adverman.com.,A,iterative,True,0.5598,3,MISS,77.87.198.232,
+2025-10-21T13:51:29.389802,alb-automobiles.com.,A,iterative,False,0.3989,2,MISS,,No answers found
+2025-10-21T13:51:30.289261,ana-sofia.pt.,A,iterative,True,1.8130,3,MISS,185.32.190.38,
+2025-10-21T13:51:32.603021,arrabonet.hu.,A,iterative,True,0.3444,3,MISS,213.163.44.68,
+2025-10-21T13:51:33.448029,auto-klad.ru.,A,iterative,True,2.2434,3,MISS,62.122.170.171,
+2025-10-21T13:51:36.192314,b2b2c.ca.,A,iterative,True,1.0629,3,MISS,13.107.246.36,
+2025-10-21T13:51:37.755677,bhhsneproperties.com.,A,iterative,True,0.4266,3,MISS,8.43.189.250,
+2025-10-21T13:51:38.683044,boh10suphanburi.com.,A,iterative,False,0.3970,2,MISS,,No answers found
+2025-10-21T13:51:39.580526,boneshoppe.com.,A,iterative,False,0.3985,2,MISS,,No answers found
+2025-10-21T13:51:40.479403,breezelaw.com.,A,iterative,True,0.5595,3,MISS,76.223.54.146; 13.248.169.48,
+2025-10-21T13:51:41.539634,c0.pl.,A,iterative,True,0.3445,3,MISS,95.211.144.68,
+2025-10-21T13:51:42.384966,capequilog.com.,A,iterative,True,1.3576,3,MISS,208.94.116.26,
+2025-10-21T13:51:44.243812,carolgraykennedy.com.,A,iterative,False,0.4033,2,MISS,,No answers found
+2025-10-21T13:51:45.147483,celerity.com.,A,iterative,True,0.4818,3,MISS,35.188.214.201,
+2025-10-21T13:51:46.129771,cellslider.net.,A,iterative,True,0.4307,3,MISS,20.237.25.126,
+2025-10-21T13:51:47.061106,closerdiets.com.,A,iterative,True,0.4178,3,MISS,5.22.145.16; 5.22.145.121,
+2025-10-21T13:51:47.979590,contentremarketing.com.,A,iterative,True,0.6746,3,MISS,216.10.240.70,
+2025-10-21T13:51:49.154780,daytimeghosthunter.com.,A,iterative,False,0.4085,2,MISS,,No answers found
+2025-10-21T13:51:50.063665,deine-bahn.de.,A,iterative,True,0.5911,3,MISS,92.204.239.74,
+2025-10-21T13:51:51.155084,divefishhouse.com.,A,iterative,False,0.3926,2,MISS,,No answers found
+2025-10-21T13:51:52.048305,djbarryblends.com.,A,iterative,True,0.5665,3,MISS,54.225.184.165,
+2025-10-21T13:51:53.115311,dmg-dental.com.,A,iterative,True,0.9035,3,MISS,49.13.234.53,
+2025-10-21T13:51:54.519425,empclan.com.,A,iterative,True,0.6694,3,MISS,64.26.30.251,
+2025-10-21T13:51:55.689601,ereadz.com.,A,iterative,False,0.3925,2,MISS,,No answers found
+2025-10-21T13:51:56.582937,florenseusa.com.,A,iterative,True,0.5533,3,MISS,34.95.203.179,
+2025-10-21T13:51:57.637514,frasesdemotivacao.net.,A,iterative,False,0.3955,2,MISS,,No answers found
+2025-10-21T13:51:58.533108,freepornvideosx.com.,A,iterative,False,0.4008,2,MISS,,No answers found
+2025-10-21T13:51:59.434381,gaplex.biz.,A,iterative,False,0.2054,2,MISS,,No answers found
+2025-10-21T13:52:00.140310,gardeninginflorida.com.,A,iterative,True,0.5564,3,MISS,76.223.67.189; 13.248.213.45,
+2025-10-21T13:52:01.197677,go2jump.com.,A,iterative,True,0.5623,3,MISS,34.175.54.178,
+2025-10-21T13:52:02.260483,godo.co.kr.,A,iterative,True,1.0948,3,MISS,180.210.81.80,
+2025-10-21T13:52:03.856289,grandcanyongrandhotel.com.,A,iterative,True,29.6429,3,MISS,142.44.217.176,
+2025-10-21T13:52:34.000476,greens.my.,A,iterative,True,0.3667,3,MISS,104.21.4.120; 172.67.132.13,
+2025-10-21T13:52:34.867778,gurukulonline.com.,A,iterative,True,0.5711,3,MISS,76.223.54.146; 13.248.169.48,
+2025-10-21T13:52:35.939257,gustissimo.it.,A,iterative,True,0.4805,3,MISS,178.255.74.104; 178.255.74.135; 178.255.74.133,
+2025-10-21T13:52:36.921460,hackthissite.org.,A,iterative,True,0.7143,3,MISS,137.74.187.102; 137.74.187.101; 137.74.187.103; 137.74.187.104; 137.74.187.100,
+2025-10-21T13:52:38.135838,ilikecrochet.com.,A,iterative,True,0.4321,3,MISS,192.124.249.58,
+2025-10-21T13:52:39.068555,iointegrators.com.,A,iterative,True,0.4404,3,MISS,76.120.251.25,
+2025-10-21T13:52:40.009573,irflashgame.com.,A,iterative,False,0.3999,2,MISS,,No answers found
+2025-10-21T13:52:40.909985,itgeorgia.co.,A,iterative,True,0.9209,3,MISS,64.98.135.85,
+2025-10-21T13:52:42.331484,jacquelinemertz.ch.,A,iterative,False,0.3253,2,MISS,,No answers found
+2025-10-21T13:52:43.157573,kanoon-ansar.org.,A,iterative,True,0.9311,3,MISS,194.59.214.75,
+2025-10-21T13:52:44.589054,kiyimuzik.com.,A,iterative,True,0.4292,3,MISS,104.21.63.112; 172.67.145.101,
+2025-10-21T13:52:45.519008,koopsmodellbau.de.,A,iterative,True,1.4144,3,MISS,217.160.0.247,
+2025-10-21T13:52:47.433899,lespetiteschoses.com.,A,iterative,True,0.4671,3,MISS,23.227.38.65,
+2025-10-21T13:52:48.402086,livescan4all.com.,A,iterative,True,0.6998,3,MISS,149.20.203.54,
+2025-10-21T13:52:49.601947,magic-illusion.ru.,A,iterative,True,0.5223,3,MISS,104.21.4.130; 172.67.132.25,
+2025-10-21T13:52:50.625170,majorleaguelacrosse.com.,A,iterative,True,0.4408,3,MISS,104.21.87.175; 172.67.170.123,
+2025-10-21T13:52:51.566231,medintime.ru.,A,iterative,True,0.5072,3,MISS,104.21.2.236; 172.67.129.206,
+2025-10-21T13:52:52.573899,meditekyazilim.net.,A,iterative,True,0.6225,3,MISS,185.95.3.218,
+2025-10-21T13:52:53.697225,megi.cz.,A,iterative,True,0.4838,3,MISS,45.138.107.20; 45.138.107.19,
+2025-10-21T13:52:54.681497,millionfareast.com.,A,iterative,True,0.5677,3,MISS,72.167.243.77,
+2025-10-21T13:52:55.750104,miscellaneousheathen.com.,A,iterative,True,0.7178,3,MISS,75.127.72.229,
+2025-10-21T13:52:56.968238,msf.be.,A,iterative,True,10.5559,3,MISS,77.241.81.151,
+2025-10-21T13:53:08.025464,muhammedmusa.com.,A,iterative,False,25.6028,2,MISS,,No answers found
+2025-10-21T13:53:34.129357,myface.com.,A,iterative,False,0.4367,3,MISS,,No answers found
+2025-10-21T13:53:35.067243,myfantasticpark.es.,A,iterative,True,0.6193,3,MISS,89.31.143.90,
+2025-10-21T13:53:36.186818,ngoanhien.com.,A,iterative,False,0.3931,2,MISS,,No answers found
+2025-10-21T13:53:37.080038,njafe.org.,A,iterative,True,0.6121,3,MISS,103.224.182.253,
+2025-10-21T13:53:38.192587,oberandsons.com.,A,iterative,True,0.6945,3,MISS,34.128.166.114,
+2025-10-21T13:53:39.387758,ok-magazine.ru.,A,iterative,True,0.5568,3,MISS,188.124.32.70,
+2025-10-21T13:53:40.445612,onetoshop.nl.,A,iterative,True,0.3433,3,MISS,35.204.76.89,
+2025-10-21T13:53:41.289029,oneworldinfo.com.,A,iterative,True,0.6772,3,MISS,54.243.117.197; 13.223.25.84,
+2025-10-21T13:53:42.466780,originalmagicart.com.,A,iterative,True,0.5729,3,MISS,15.197.225.128; 3.33.251.168,
+2025-10-21T13:53:43.540107,overseasmedical.com.,A,iterative,True,0.5608,3,MISS,213.123.239.55,
+2025-10-21T13:53:44.601721,pces.in.,A,iterative,True,0.3572,3,MISS,195.35.44.242,
+2025-10-21T13:53:45.459309,pilsnerurquell.com.,A,iterative,True,0.5955,3,MISS,93.185.98.138,
+2025-10-21T13:53:46.555386,ranocchi.it.,A,iterative,True,0.5005,3,MISS,52.18.99.110,
+2025-10-21T13:53:47.557183,roche-applied-science.com.,A,iterative,True,0.5749,3,MISS,149.250.245.221,
+2025-10-21T13:53:48.632434,rolflouisville.com.,A,iterative,True,0.6939,3,MISS,208.88.75.191,
+2025-10-21T13:53:49.826543,rositehost.com.,A,iterative,True,0.5627,3,MISS,178.157.78.2,
+2025-10-21T13:53:50.890219,rubenquinones.com.,A,iterative,True,0.5678,3,MISS,15.197.225.128; 3.33.251.168,
+2025-10-21T13:53:51.958567,saharaimport.com.,A,iterative,True,0.5785,3,MISS,176.9.116.24,
+2025-10-21T13:53:53.038111,sapendolo.it.,A,iterative,False,66.8416,115,MISS,,No answers found
+2025-10-21T13:55:33.709120,sf-notifications.com.,A,iterative,False,0.4250,3,MISS,,No answers found
+2025-10-21T13:55:34.635894,silkroadtours.com.,A,iterative,True,0.5603,3,MISS,23.236.62.147,
+2025-10-21T13:55:35.696312,sipflash.com.,A,iterative,False,0.5365,3,MISS,,No answers found
+2025-10-21T13:55:36.733655,sitiweb.us.,A,iterative,True,0.5487,3,MISS,136.243.45.246,
+2025-10-21T13:55:37.783435,skplus.kr.,A,iterative,False,0.3124,2,MISS,,No answers found
+2025-10-21T13:55:38.596517,solcredito.es.,A,iterative,True,0.5310,3,MISS,18.239.153.67; 18.239.153.56; 18.239.153.17; 18.239.153.86,
+2025-10-21T13:55:39.628098,stark.dk.,A,iterative,True,0.5350,3,MISS,20.50.2.80,
+2025-10-21T13:55:40.663771,supportpabiomass.org.,A,iterative,True,0.6493,3,MISS,162.248.51.100,
+2025-10-21T13:55:41.814014,sweathelp.org.,A,iterative,True,0.5202,3,MISS,107.180.114.231,
+2025-10-21T13:55:42.834397,theexoticpersian.com.,A,iterative,False,0.3926,2,MISS,,No answers found
+2025-10-21T13:55:43.727427,thepropertyvault.co.uk.,A,iterative,True,0.5548,3,MISS,76.223.67.189; 13.248.213.45,
+2025-10-21T13:55:44.782820,tripladoppia.com.,A,iterative,False,0.4002,2,MISS,,No answers found
+2025-10-21T13:55:45.683943,ugotrelis.com.,A,iterative,True,0.6772,3,MISS,213.186.33.82,
+2025-10-21T13:55:46.861531,valdo.com.,A,iterative,True,0.5346,3,MISS,23.227.38.65,
+2025-10-21T13:55:47.897057,viahttps.com.,A,iterative,True,0.7078,3,MISS,64.251.0.59,
+2025-10-21T13:55:49.105375,videofun.me.,A,iterative,False,0.3342,3,MISS,,No answers found
+2025-10-21T13:55:49.940113,vinayaprabha.com.,A,iterative,True,0.5151,3,MISS,185.230.63.107; 185.230.63.171; 185.230.63.186,
+2025-10-21T13:55:50.955916,wiltpr.com.,A,iterative,False,0.3949,2,MISS,,No answers found
+2025-10-21T13:55:51.851403,wordai.com.,A,iterative,True,0.5618,3,MISS,23.111.159.202,
+2025-10-21T13:55:52.913660,xxx-muschis.de.,A,iterative,False,0.3272,2,MISS,,No answers found
+2025-10-21T13:55:53.741355,yunpda.com.,A,iterative,False,0.4024,2,MISS,,No answers found

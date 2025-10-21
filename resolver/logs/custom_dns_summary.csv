@@ -1,0 +1,5 @@
+PCAP File,Total Queries,Successful,Failed,Success Rate (%),Avg Latency (ms),Avg Steps,Throughput (qps)
+PCAP_1_H1.pcap,100,70,30,70.00,811.91,3.03,0.04
+PCAP_2_H2.pcap,100,66,34,66.00,1389.16,3.00,0.20
+PCAP_3_H3.pcap,100,72,28,72.00,2052.34,3.01,0.50
+PCAP_4_H4.pcap,100,73,27,73.00,1273.55,3.00,0.44

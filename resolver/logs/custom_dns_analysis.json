@@ -1,0 +1,4347 @@
+[
+  {
+    "pcap_file": "PCAP_1_H1.pcap",
+    "total_queries": 100,
+    "successful": 70,
+    "failed": 30,
+    "success_rate": 70.0,
+    "avg_latency_ms": 811.9093963078091,
+    "min_latency_ms": 350.36396980285645,
+    "max_latency_ms": 6676.253080368042,
+    "avg_steps": 3.0285714285714285,
+    "throughput_qps": 0.041865851297787915,
+    "results": [
+      {
+        "domain": "2brightsparks.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5007636547088623,
+        "steps": 3,
+        "answers": [
+          "18.161.111.12",
+          "18.161.111.88",
+          "18.161.111.79",
+          "18.161.111.14"
+        ],
+        "timestamp": "2025-10-21T12:49:25.826570"
+      },
+      {
+        "domain": "41latitude.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.44420361518859863,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:49:26.771234"
+      },
+      {
+        "domain": "7dfps.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43744444847106934,
+        "steps": 3,
+        "answers": [
+          "172.67.161.32",
+          "104.21.9.172"
+        ],
+        "timestamp": "2025-10-21T12:49:27.709154"
+      },
+      {
+        "domain": "advertos.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7012310028076172,
+        "steps": 3,
+        "answers": [
+          "45.92.176.75"
+        ],
+        "timestamp": "2025-10-21T12:49:28.910730"
+      },
+      {
+        "domain": "afairjudgement.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43201756477355957,
+        "steps": 3,
+        "answers": [
+          "172.67.178.132",
+          "104.21.56.56"
+        ],
+        "timestamp": "2025-10-21T12:49:29.843523"
+      },
+      {
+        "domain": "afresnohomeinspector.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.340205192565918,
+        "steps": 3,
+        "answers": [
+          "67.225.203.79"
+        ],
+        "timestamp": "2025-10-21T12:49:31.683967"
+      },
+      {
+        "domain": "alchemedialtd.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4100813865661621,
+        "steps": 3,
+        "answers": [
+          "68.66.224.29"
+        ],
+        "timestamp": "2025-10-21T12:49:32.594347"
+      },
+      {
+        "domain": "alenpuaca.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.734158992767334,
+        "steps": 3,
+        "answers": [
+          "67.205.28.253"
+        ],
+        "timestamp": "2025-10-21T12:49:33.828950"
+      },
+      {
+        "domain": "amorefieldlife.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.46672773361206055,
+        "steps": 3,
+        "answers": [
+          "162.241.226.124"
+        ],
+        "timestamp": "2025-10-21T12:49:34.796005"
+      },
+      {
+        "domain": "aqvr.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7162959575653076,
+        "steps": 3,
+        "answers": [
+          "89.117.19.57"
+        ],
+        "timestamp": "2025-10-21T12:49:36.012637"
+      },
+      {
+        "domain": "asadventure.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.42536211013793945,
+        "steps": 3,
+        "answers": [
+          "18.161.97.64",
+          "18.161.97.23",
+          "18.161.97.123",
+          "18.161.97.129"
+        ],
+        "timestamp": "2025-10-21T12:49:36.938348"
+      },
+      {
+        "domain": "astrumonline.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 2.894136667251587,
+        "steps": 3,
+        "answers": [
+          "217.69.136.59"
+        ],
+        "timestamp": "2025-10-21T12:49:40.332990"
+      },
+      {
+        "domain": "auqzzx.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4023702144622803,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:49:41.235592"
+      },
+      {
+        "domain": "australiatradenow.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43219685554504395,
+        "steps": 3,
+        "answers": [
+          "3.1.109.80",
+          "52.221.93.144"
+        ],
+        "timestamp": "2025-10-21T12:49:42.168147"
+      },
+      {
+        "domain": "autofirenze.biz",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8946006298065186,
+        "steps": 3,
+        "answers": [
+          "89.46.109.17"
+        ],
+        "timestamp": "2025-10-21T12:49:43.563099"
+      },
+      {
+        "domain": "b-matrix.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5624496936798096,
+        "steps": 3,
+        "answers": [
+          "137.135.108.176"
+        ],
+        "timestamp": "2025-10-21T12:49:44.625761"
+      },
+      {
+        "domain": "bikesandtransit.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4354267120361328,
+        "steps": 3,
+        "answers": [
+          "192.0.78.24",
+          "192.0.78.25"
+        ],
+        "timestamp": "2025-10-21T12:49:45.561431"
+      },
+      {
+        "domain": "blueridgelife.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5644245147705078,
+        "steps": 3,
+        "answers": [
+          "192.124.249.6"
+        ],
+        "timestamp": "2025-10-21T12:49:46.626568"
+      },
+      {
+        "domain": "buynowfromusa.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5338234901428223,
+        "steps": 3,
+        "answers": [
+          "35.223.118.1"
+        ],
+        "timestamp": "2025-10-21T12:49:47.660625"
+      },
+      {
+        "domain": "camcard.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4373784065246582,
+        "steps": 3,
+        "answers": [
+          "184.169.209.203",
+          "184.169.200.40"
+        ],
+        "timestamp": "2025-10-21T12:49:48.598306"
+      },
+      {
+        "domain": "caricsports.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4305577278137207,
+        "steps": 3,
+        "answers": [
+          "104.21.51.12",
+          "172.67.216.98"
+        ],
+        "timestamp": "2025-10-21T12:49:49.529287"
+      },
+      {
+        "domain": "cetsi.fr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.49417781829833984,
+        "steps": 3,
+        "answers": [
+          "91.151.64.24"
+        ],
+        "timestamp": "2025-10-21T12:49:50.523757"
+      },
+      {
+        "domain": "chonvn.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40138816833496094,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:49:51.425965"
+      },
+      {
+        "domain": "chuamatsua.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 15.206765413284302,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:07.133545"
+      },
+      {
+        "domain": "coutureauchocolat.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39599156379699707,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:08.030007"
+      },
+      {
+        "domain": "daehepharma.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.546311616897583,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:09.076755"
+      },
+      {
+        "domain": "datepanchang.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5806028842926025,
+        "steps": 3,
+        "answers": [
+          "13.75.93.156"
+        ],
+        "timestamp": "2025-10-21T12:50:10.157721"
+      },
+      {
+        "domain": "diamondknot.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 5.80223536491394,
+        "steps": 3,
+        "answers": [
+          "198.185.159.144",
+          "198.185.159.145",
+          "198.49.23.144",
+          "198.49.23.145"
+        ],
+        "timestamp": "2025-10-21T12:50:16.460833"
+      },
+      {
+        "domain": "ditrblog.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3934485912322998,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:17.354712"
+      },
+      {
+        "domain": "dj-producer-j-mbargo.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40317225456237793,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:18.258242"
+      },
+      {
+        "domain": "door2games.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5690810680389404,
+        "steps": 3,
+        "answers": [
+          "160.153.0.43"
+        ],
+        "timestamp": "2025-10-21T12:50:19.327631"
+      },
+      {
+        "domain": "effexdjs.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4081761837005615,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:20.236115"
+      },
+      {
+        "domain": "energybulbs.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0152554512023926,
+        "steps": 3,
+        "answers": [
+          "23.227.38.32"
+        ],
+        "timestamp": "2025-10-21T12:50:21.751953"
+      },
+      {
+        "domain": "eugenbotnar.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4007418155670166,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:22.653345"
+      },
+      {
+        "domain": "ex-jw.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.3624892234802246,
+        "steps": 3,
+        "answers": [
+          "185.230.63.107",
+          "185.230.63.186",
+          "185.230.63.171"
+        ],
+        "timestamp": "2025-10-21T12:50:23.516292"
+      },
+      {
+        "domain": "fini.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.722933292388916,
+        "steps": 3,
+        "answers": [
+          "198.57.192.137"
+        ],
+        "timestamp": "2025-10-21T12:50:24.739736"
+      },
+      {
+        "domain": "forpsi.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5475859642028809,
+        "steps": 3,
+        "answers": [
+          "85.255.6.237"
+        ],
+        "timestamp": "2025-10-21T12:50:25.787646"
+      },
+      {
+        "domain": "gamemob.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5734603404998779,
+        "steps": 3,
+        "answers": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "timestamp": "2025-10-21T12:50:26.861435"
+      },
+      {
+        "domain": "gensee.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.485579252243042,
+        "steps": 3,
+        "answers": [
+          "211.150.89.25"
+        ],
+        "timestamp": "2025-10-21T12:50:27.847344"
+      },
+      {
+        "domain": "globalpoliticalspectrum.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4002344608306885,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:28.747889"
+      },
+      {
+        "domain": "group14eng.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.566687822341919,
+        "steps": 3,
+        "answers": [
+          "192.124.249.164"
+        ],
+        "timestamp": "2025-10-21T12:50:29.814985"
+      },
+      {
+        "domain": "gusbi.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5622484683990479,
+        "steps": 3,
+        "answers": [
+          "185.145.195.19"
+        ],
+        "timestamp": "2025-10-21T12:50:30.877684"
+      },
+      {
+        "domain": "healthnews4you.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5698347091674805,
+        "steps": 3,
+        "answers": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "timestamp": "2025-10-21T12:50:31.948154"
+      },
+      {
+        "domain": "hemcolubricants.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6766681671142578,
+        "steps": 3,
+        "answers": [
+          "194.9.94.85",
+          "194.9.94.86"
+        ],
+        "timestamp": "2025-10-21T12:50:33.125104"
+      },
+      {
+        "domain": "hornil.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.561683177947998,
+        "steps": 3,
+        "answers": [
+          "183.111.138.226"
+        ],
+        "timestamp": "2025-10-21T12:50:34.187420"
+      },
+      {
+        "domain": "house-sg.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.9110589027404785,
+        "steps": 3,
+        "answers": [
+          "208.98.40.211"
+        ],
+        "timestamp": "2025-10-21T12:50:35.598988"
+      },
+      {
+        "domain": "i-butterfly.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5301291942596436,
+        "steps": 3,
+        "answers": [
+          "172.67.151.138",
+          "104.21.88.172"
+        ],
+        "timestamp": "2025-10-21T12:50:36.629591"
+      },
+      {
+        "domain": "iag-inc.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.2454545497894287,
+        "steps": 3,
+        "answers": [
+          "103.224.182.253"
+        ],
+        "timestamp": "2025-10-21T12:50:38.375464"
+      },
+      {
+        "domain": "informarexresistere.fr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.6753461360931396,
+        "steps": 3,
+        "answers": [
+          "178.32.143.165"
+        ],
+        "timestamp": "2025-10-21T12:50:40.551187"
+      },
+      {
+        "domain": "interfloracentral.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.7035319805145264,
+        "steps": 3,
+        "answers": [
+          "217.69.32.44"
+        ],
+        "timestamp": "2025-10-21T12:50:42.755037"
+      },
+      {
+        "domain": "jantv.in",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.35036396980285645,
+        "steps": 3,
+        "answers": [
+          "172.67.132.252",
+          "104.21.5.51"
+        ],
+        "timestamp": "2025-10-21T12:50:43.606020"
+      },
+      {
+        "domain": "junio.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8441989421844482,
+        "steps": 3,
+        "answers": [
+          "209.196.144.25"
+        ],
+        "timestamp": "2025-10-21T12:50:44.950502"
+      },
+      {
+        "domain": "kathihill.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5416288375854492,
+        "steps": 3,
+        "answers": [
+          "159.65.187.116"
+        ],
+        "timestamp": "2025-10-21T12:50:45.992733"
+      },
+      {
+        "domain": "kennethehartman.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.44866418838500977,
+        "steps": 3,
+        "answers": [
+          "192.0.78.24",
+          "192.0.78.25"
+        ],
+        "timestamp": "2025-10-21T12:50:46.941849"
+      },
+      {
+        "domain": "kh.ua",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.46984028816223145,
+        "steps": 3,
+        "answers": [
+          "195.69.185.211"
+        ],
+        "timestamp": "2025-10-21T12:50:47.912099"
+      },
+      {
+        "domain": "khsm.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.5052285194396973,
+        "steps": 3,
+        "answers": [
+          "91.247.37.5"
+        ],
+        "timestamp": "2025-10-21T12:50:49.917803"
+      },
+      {
+        "domain": "linksplash.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.19030547142028809,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:50:50.608711"
+      },
+      {
+        "domain": "livelinks.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4289827346801758,
+        "steps": 3,
+        "answers": [
+          "108.158.61.12",
+          "108.158.61.13",
+          "108.158.61.76",
+          "108.158.61.89"
+        ],
+        "timestamp": "2025-10-21T12:50:51.538013"
+      },
+      {
+        "domain": "localhost.re",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4710884094238281,
+        "steps": 3,
+        "answers": [
+          "104.21.50.127",
+          "172.67.163.57"
+        ],
+        "timestamp": "2025-10-21T12:50:52.509425"
+      },
+      {
+        "domain": "lozo.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4256863594055176,
+        "steps": 3,
+        "answers": [
+          "44.214.239.39",
+          "107.21.144.47"
+        ],
+        "timestamp": "2025-10-21T12:50:53.435438"
+      },
+      {
+        "domain": "luckypuppygames.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5751054286956787,
+        "steps": 3,
+        "answers": [
+          "172.233.219.78",
+          "172.237.146.8",
+          "172.233.219.123",
+          "172.237.146.25",
+          "172.233.219.49",
+          "172.237.146.38"
+        ],
+        "timestamp": "2025-10-21T12:50:54.510972"
+      },
+      {
+        "domain": "memeblender.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4275658130645752,
+        "steps": 3,
+        "answers": [
+          "104.21.7.158",
+          "172.67.136.240"
+        ],
+        "timestamp": "2025-10-21T12:50:55.439040"
+      },
+      {
+        "domain": "mesites.co.za",
+        "qtype": "A",
+        "status": "success",
+        "latency": 6.676253080368042,
+        "steps": 4,
+        "answers": [
+          "41.204.200.130"
+        ],
+        "timestamp": "2025-10-21T12:51:02.615689"
+      },
+      {
+        "domain": "michiganbulb.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7093968391418457,
+        "steps": 3,
+        "answers": [
+          "208.27.142.168"
+        ],
+        "timestamp": "2025-10-21T12:51:03.825454"
+      },
+      {
+        "domain": "monsterhomesecuritystore.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3923032283782959,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:04.718228"
+      },
+      {
+        "domain": "mwzip.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.44498467445373535,
+        "steps": 3,
+        "answers": [
+          "104.21.20.205",
+          "172.67.194.102"
+        ],
+        "timestamp": "2025-10-21T12:51:05.663601"
+      },
+      {
+        "domain": "mysearch-online.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4059464931488037,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:06.569991"
+      },
+      {
+        "domain": "newstetic.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4479944705963135,
+        "steps": 3,
+        "answers": [
+          "104.21.3.241",
+          "172.67.131.89"
+        ],
+        "timestamp": "2025-10-21T12:51:07.518288"
+      },
+      {
+        "domain": "niceinternetmoney.ru",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.36935877799987793,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:08.388091"
+      },
+      {
+        "domain": "o-ov.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 6.36839747428894,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:15.256852"
+      },
+      {
+        "domain": "ondemandappliancerepair.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5371549129486084,
+        "steps": 3,
+        "answers": [
+          "74.208.236.102"
+        ],
+        "timestamp": "2025-10-21T12:51:16.294577"
+      },
+      {
+        "domain": "owlcreek.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.726071834564209,
+        "steps": 3,
+        "answers": [
+          "205.178.189.129"
+        ],
+        "timestamp": "2025-10-21T12:51:17.521053"
+      },
+      {
+        "domain": "pbprofile.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.398390531539917,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:18.419823"
+      },
+      {
+        "domain": "phi-pe.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4072568416595459,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:19.327920"
+      },
+      {
+        "domain": "pictures-thailand.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6416585445404053,
+        "steps": 3,
+        "answers": [
+          "66.96.149.1"
+        ],
+        "timestamp": "2025-10-21T12:51:20.469897"
+      },
+      {
+        "domain": "pieceinch.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4284629821777344,
+        "steps": 3,
+        "answers": [
+          "104.21.66.64",
+          "172.67.201.136"
+        ],
+        "timestamp": "2025-10-21T12:51:21.398768"
+      },
+      {
+        "domain": "portclydegeneralstore.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5719881057739258,
+        "steps": 3,
+        "answers": [
+          "198.185.159.144",
+          "198.185.159.145",
+          "198.49.23.144",
+          "198.49.23.145"
+        ],
+        "timestamp": "2025-10-21T12:51:22.471082"
+      },
+      {
+        "domain": "ppsuika.ac.id",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7362778186798096,
+        "steps": 4,
+        "answers": [
+          "203.175.8.54"
+        ],
+        "timestamp": "2025-10-21T12:51:23.707649"
+      },
+      {
+        "domain": "probigbets.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.41170620918273926,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:24.619773"
+      },
+      {
+        "domain": "progettogiovani.pd.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5034821033477783,
+        "steps": 3,
+        "answers": [
+          "185.213.115.40"
+        ],
+        "timestamp": "2025-10-21T12:51:25.623591"
+      },
+      {
+        "domain": "radioterminal.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5538873672485352,
+        "steps": 3,
+        "answers": [
+          "188.225.40.161"
+        ],
+        "timestamp": "2025-10-21T12:51:26.677815"
+      },
+      {
+        "domain": "reprosystems.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5153393745422363,
+        "steps": 3,
+        "answers": [
+          "172.67.167.102",
+          "104.21.59.11"
+        ],
+        "timestamp": "2025-10-21T12:51:27.693575"
+      },
+      {
+        "domain": "retiragroup.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4034583568572998,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:28.597683"
+      },
+      {
+        "domain": "rtsab.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.589735746383667,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:29.687749"
+      },
+      {
+        "domain": "running-sigi.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.32097744941711426,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T12:51:30.509132"
+      },
+      {
+        "domain": "sdccdonline.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 2058.6604833602905,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:25:49.670216"
+      },
+      {
+        "domain": "sheltercoveinn.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.6783668994903564,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:25:50.849061"
+      },
+      {
+        "domain": "shivalikprints.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4425349235534668,
+        "steps": 3,
+        "answers": [
+          "162.215.11.92"
+        ],
+        "timestamp": "2025-10-21T13:25:51.791913"
+      },
+      {
+        "domain": "shqqaa.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43094897270202637,
+        "steps": 3,
+        "answers": [
+          "104.21.25.127",
+          "172.67.134.61"
+        ],
+        "timestamp": "2025-10-21T13:25:52.723177"
+      },
+      {
+        "domain": "simternet.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5709929466247559,
+        "steps": 3,
+        "answers": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "timestamp": "2025-10-21T13:25:53.794521"
+      },
+      {
+        "domain": "somode.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.399289608001709,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:25:54.694258"
+      },
+      {
+        "domain": "stunninggirls.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.420454740524292,
+        "steps": 3,
+        "answers": [
+          "34.95.33.229"
+        ],
+        "timestamp": "2025-10-21T13:25:55.615139"
+      },
+      {
+        "domain": "toaskfuture.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.442075252532959,
+        "steps": 3,
+        "answers": [
+          "119.18.54.195"
+        ],
+        "timestamp": "2025-10-21T13:25:56.557580"
+      },
+      {
+        "domain": "tottenhamhk.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39250636100769043,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:25:57.450446"
+      },
+      {
+        "domain": "triggerfish.se",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.49329233169555664,
+        "steps": 3,
+        "answers": [
+          "162.159.134.42",
+          "162.159.135.42"
+        ],
+        "timestamp": "2025-10-21T13:25:58.444040"
+      },
+      {
+        "domain": "tuhafhaberler.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3993651866912842,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:25:59.343926"
+      },
+      {
+        "domain": "uahoy.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3946108818054199,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:26:00.238804"
+      },
+      {
+        "domain": "us.tf",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 187.6495406627655,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:29:08.388582"
+      },
+      {
+        "domain": "wrestlingfanssuck.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5467264652252197,
+        "steps": 3,
+        "answers": [
+          "62.149.128.40"
+        ],
+        "timestamp": "2025-10-21T13:29:09.435663"
+      },
+      {
+        "domain": "zzxu.cn",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 53.513089179992676,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:30:03.449166"
+      }
+    ]
+  },
+  {
+    "pcap_file": "PCAP_2_H2.pcap",
+    "total_queries": 100,
+    "successful": 66,
+    "failed": 34,
+    "success_rate": 66.0,
+    "avg_latency_ms": 1389.1564390876076,
+    "min_latency_ms": 383.19897651672363,
+    "max_latency_ms": 10718.347787857056,
+    "avg_steps": 3.0,
+    "throughput_qps": 0.19587168201921376,
+    "results": [
+      {
+        "domain": "51cdngo.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 1.8840110301971436,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:32:37.640349"
+      },
+      {
+        "domain": "7sports.jp",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.556922197341919,
+        "steps": 3,
+        "answers": [
+          "150.95.219.152"
+        ],
+        "timestamp": "2025-10-21T13:32:38.697539"
+      },
+      {
+        "domain": "a-loud.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5555102825164795,
+        "steps": 3,
+        "answers": [
+          "183.111.199.180"
+        ],
+        "timestamp": "2025-10-21T13:32:39.753275"
+      },
+      {
+        "domain": "alkoholiker-clan.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5580635070800781,
+        "steps": 3,
+        "answers": [
+          "78.46.86.91"
+        ],
+        "timestamp": "2025-10-21T13:32:40.811863"
+      },
+      {
+        "domain": "alltransport.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5390670299530029,
+        "steps": 3,
+        "answers": [
+          "141.8.192.214"
+        ],
+        "timestamp": "2025-10-21T13:32:41.851202"
+      },
+      {
+        "domain": "ambassadorsspfhf.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.24602532386779785,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:32:42.597826"
+      },
+      {
+        "domain": "amedeos.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7285449504852295,
+        "steps": 3,
+        "answers": [
+          "76.223.105.230",
+          "13.248.243.5"
+        ],
+        "timestamp": "2025-10-21T13:32:43.826865"
+      },
+      {
+        "domain": "androgyn.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.38319897651672363,
+        "steps": 3,
+        "answers": [
+          "217.160.0.127"
+        ],
+        "timestamp": "2025-10-21T13:32:44.710394"
+      },
+      {
+        "domain": "asip.es",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.32845234870910645,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:32:45.539150"
+      },
+      {
+        "domain": "aspiringwriter.ca",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3342556953430176,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:32:46.373675"
+      },
+      {
+        "domain": "atomicbase.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.671107292175293,
+        "steps": 3,
+        "answers": [
+          "192.252.149.20"
+        ],
+        "timestamp": "2025-10-21T13:32:47.545132"
+      },
+      {
+        "domain": "bek.ir",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3943004608154297,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:32:48.439847"
+      },
+      {
+        "domain": "bigjournalism.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4296865463256836,
+        "steps": 3,
+        "answers": [
+          "172.67.215.184",
+          "104.21.75.65"
+        ],
+        "timestamp": "2025-10-21T13:32:49.369776"
+      },
+      {
+        "domain": "brfone.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6725063323974609,
+        "steps": 3,
+        "answers": [
+          "54.243.117.197",
+          "13.223.25.84"
+        ],
+        "timestamp": "2025-10-21T13:32:50.542600"
+      },
+      {
+        "domain": "brown.edu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 10.718347787857056,
+        "steps": 3,
+        "answers": [
+          "128.148.252.151"
+        ],
+        "timestamp": "2025-10-21T13:33:01.761249"
+      },
+      {
+        "domain": "c3budiman.tk",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.31403660774230957,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:02.575637"
+      },
+      {
+        "domain": "capella.edu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 10.6133394241333,
+        "steps": 3,
+        "answers": [
+          "104.18.41.240",
+          "172.64.146.16"
+        ],
+        "timestamp": "2025-10-21T13:33:13.689915"
+      },
+      {
+        "domain": "casco.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4257228374481201,
+        "steps": 3,
+        "answers": [
+          "18.172.64.52",
+          "18.172.64.64",
+          "18.172.64.87",
+          "18.172.64.33"
+        ],
+        "timestamp": "2025-10-21T13:33:14.616280"
+      },
+      {
+        "domain": "cellularfactory.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7348604202270508,
+        "steps": 3,
+        "answers": [
+          "208.91.197.27"
+        ],
+        "timestamp": "2025-10-21T13:33:15.851425"
+      },
+      {
+        "domain": "cncdesign.co.kr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.9953880310058594,
+        "steps": 3,
+        "answers": [
+          "175.126.62.41"
+        ],
+        "timestamp": "2025-10-21T13:33:17.347152"
+      },
+      {
+        "domain": "congsoxanh.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4371626377105713,
+        "steps": 3,
+        "answers": [
+          "172.67.150.218",
+          "104.21.64.129"
+        ],
+        "timestamp": "2025-10-21T13:33:18.284571"
+      },
+      {
+        "domain": "consejodentistas.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4108572006225586,
+        "steps": 3,
+        "answers": [
+          "213.151.115.236"
+        ],
+        "timestamp": "2025-10-21T13:33:19.195776"
+      },
+      {
+        "domain": "cornesoft.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.392592191696167,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:20.088768"
+      },
+      {
+        "domain": "datadikdki.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6875772476196289,
+        "steps": 3,
+        "answers": [
+          "172.67.171.27",
+          "104.21.55.109"
+        ],
+        "timestamp": "2025-10-21T13:33:21.276687"
+      },
+      {
+        "domain": "doommovie.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4316105842590332,
+        "steps": 3,
+        "answers": [
+          "172.67.206.138",
+          "104.21.50.133"
+        ],
+        "timestamp": "2025-10-21T13:33:22.208613"
+      },
+      {
+        "domain": "elettronix.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.584519624710083,
+        "steps": 3,
+        "answers": [
+          "217.64.201.130"
+        ],
+        "timestamp": "2025-10-21T13:33:23.293568"
+      },
+      {
+        "domain": "fanzi.pl",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.19716095924377441,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:23.991137"
+      },
+      {
+        "domain": "fauzanalfi.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.5890543460845947,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:25.080550"
+      },
+      {
+        "domain": "gamepsvita.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43804359436035156,
+        "steps": 3,
+        "answers": [
+          "192.64.118.75"
+        ],
+        "timestamp": "2025-10-21T13:33:26.019043"
+      },
+      {
+        "domain": "gaybodyblog.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.42378926277160645,
+        "steps": 3,
+        "answers": [
+          "148.72.167.158"
+        ],
+        "timestamp": "2025-10-21T13:33:26.943180"
+      },
+      {
+        "domain": "gba4iosapp.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5203793048858643,
+        "steps": 3,
+        "answers": [
+          "198.49.23.144"
+        ],
+        "timestamp": "2025-10-21T13:33:27.963870"
+      },
+      {
+        "domain": "gucenmez.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43488121032714844,
+        "steps": 3,
+        "answers": [
+          "172.67.149.173",
+          "104.21.39.228"
+        ],
+        "timestamp": "2025-10-21T13:33:28.899208"
+      },
+      {
+        "domain": "gvowebcast.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4270191192626953,
+        "steps": 3,
+        "answers": [
+          "104.21.83.130",
+          "172.67.176.152"
+        ],
+        "timestamp": "2025-10-21T13:33:29.826543"
+      },
+      {
+        "domain": "heygal.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39078569412231445,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:30.717604"
+      },
+      {
+        "domain": "hivelocitymedia.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4470229148864746,
+        "steps": 3,
+        "answers": [
+          "172.67.152.101",
+          "104.21.1.224"
+        ],
+        "timestamp": "2025-10-21T13:33:31.665032"
+      },
+      {
+        "domain": "horn-elektronik.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.3526256084442139,
+        "steps": 3,
+        "answers": [
+          "92.43.119.40"
+        ],
+        "timestamp": "2025-10-21T13:33:33.517989"
+      },
+      {
+        "domain": "hotel.ch",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.48073482513427734,
+        "steps": 3,
+        "answers": [
+          "104.21.36.90",
+          "172.67.191.193"
+        ],
+        "timestamp": "2025-10-21T13:33:34.499069"
+      },
+      {
+        "domain": "huhgmbh.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.667853832244873,
+        "steps": 3,
+        "answers": [
+          "54.243.117.197",
+          "13.223.25.84"
+        ],
+        "timestamp": "2025-10-21T13:33:35.667162"
+      },
+      {
+        "domain": "hznzcn.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.3501429557800293,
+        "steps": 3,
+        "answers": [
+          "120.55.81.189"
+        ],
+        "timestamp": "2025-10-21T13:33:37.517604"
+      },
+      {
+        "domain": "i12.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.5244877338409424,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:38.542419"
+      },
+      {
+        "domain": "itattoos.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.23761200904846191,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:39.280415"
+      },
+      {
+        "domain": "jabeye.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7013278007507324,
+        "steps": 3,
+        "answers": [
+          "173.236.216.220"
+        ],
+        "timestamp": "2025-10-21T13:33:40.482175"
+      },
+      {
+        "domain": "jcwcn.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.656156301498413,
+        "steps": 3,
+        "answers": [
+          "128.14.74.54"
+        ],
+        "timestamp": "2025-10-21T13:33:42.638709"
+      },
+      {
+        "domain": "k-dsl.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.34008049964904785,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:43.479109"
+      },
+      {
+        "domain": "ku.edu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 10.685736894607544,
+        "steps": 3,
+        "answers": [
+          "129.237.135.76"
+        ],
+        "timestamp": "2025-10-21T13:33:54.665151"
+      },
+      {
+        "domain": "lacuentaperdida.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.2630453109741211,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:55.428476"
+      },
+      {
+        "domain": "lgmonitorreview.nl",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.19129681587219238,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:33:56.120155"
+      },
+      {
+        "domain": "lighthouse.cc",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8488707542419434,
+        "steps": 3,
+        "answers": [
+          "192.110.166.196"
+        ],
+        "timestamp": "2025-10-21T13:33:57.469358"
+      },
+      {
+        "domain": "likeminded.ca",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6240346431732178,
+        "steps": 3,
+        "answers": [
+          "198.100.154.154"
+        ],
+        "timestamp": "2025-10-21T13:33:58.593945"
+      },
+      {
+        "domain": "ljyelectronic.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.525303840637207,
+        "steps": 3,
+        "answers": [
+          "156.232.155.66"
+        ],
+        "timestamp": "2025-10-21T13:33:59.619561"
+      },
+      {
+        "domain": "lookpage.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.24517345428466797,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:34:00.365366"
+      },
+      {
+        "domain": "mattselznick.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7085065841674805,
+        "steps": 3,
+        "answers": [
+          "44.245.84.147"
+        ],
+        "timestamp": "2025-10-21T13:34:01.574120"
+      },
+      {
+        "domain": "meintrendyhandy.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6419079303741455,
+        "steps": 3,
+        "answers": [
+          "94.143.8.110"
+        ],
+        "timestamp": "2025-10-21T13:34:02.716324"
+      },
+      {
+        "domain": "metabans.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.44496941566467285,
+        "steps": 3,
+        "answers": [
+          "104.21.65.104",
+          "172.67.162.83"
+        ],
+        "timestamp": "2025-10-21T13:34:03.661952"
+      },
+      {
+        "domain": "motiie.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3989522457122803,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:34:04.561174"
+      },
+      {
+        "domain": "mplus.hk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.2523713111877441,
+        "steps": 3,
+        "answers": [
+          "159.138.153.43"
+        ],
+        "timestamp": "2025-10-21T13:34:06.313855"
+      },
+      {
+        "domain": "mpskota.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.42430853843688965,
+        "steps": 3,
+        "answers": [
+          "20.192.98.161"
+        ],
+        "timestamp": "2025-10-21T13:34:07.238515"
+      },
+      {
+        "domain": "mumphi.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 5.845963478088379,
+        "steps": 3,
+        "answers": [
+          "87.106.48.102"
+        ],
+        "timestamp": "2025-10-21T13:34:13.584919"
+      },
+      {
+        "domain": "newpages2u.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6694083213806152,
+        "steps": 3,
+        "answers": [
+          "110.74.174.131"
+        ],
+        "timestamp": "2025-10-21T13:34:14.754631"
+      },
+      {
+        "domain": "nipslab.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 2.128373384475708,
+        "steps": 3,
+        "answers": [
+          "89.46.108.36"
+        ],
+        "timestamp": "2025-10-21T13:34:17.383282"
+      },
+      {
+        "domain": "nucre.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 404.7062187194824,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:02.590608"
+      },
+      {
+        "domain": "oberoncompany.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.45850276947021484,
+        "steps": 3,
+        "answers": [
+          "104.21.68.213",
+          "172.67.198.171"
+        ],
+        "timestamp": "2025-10-21T13:41:03.549563"
+      },
+      {
+        "domain": "obtscan.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40279436111450195,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:04.452613"
+      },
+      {
+        "domain": "ohdev.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4699699878692627,
+        "steps": 3,
+        "answers": [
+          "51.89.253.246"
+        ],
+        "timestamp": "2025-10-21T13:41:05.422910"
+      },
+      {
+        "domain": "ovtoc.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5561103820800781,
+        "steps": 3,
+        "answers": [
+          "64.190.63.222"
+        ],
+        "timestamp": "2025-10-21T13:41:06.479366"
+      },
+      {
+        "domain": "panaceadream.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40636229515075684,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:07.386051"
+      },
+      {
+        "domain": "phoenix-music.ru",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.36737585067749023,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:08.253755"
+      },
+      {
+        "domain": "qdushu.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4036071300506592,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:09.157763"
+      },
+      {
+        "domain": "qingjiaopidaiji.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4001326560974121,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:10.058157"
+      },
+      {
+        "domain": "raqualia.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 1.1694867610931396,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:11.727919"
+      },
+      {
+        "domain": "redcrosseth.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5675263404846191,
+        "steps": 3,
+        "answers": [
+          "65.21.72.120"
+        ],
+        "timestamp": "2025-10-21T13:41:12.795779"
+      },
+      {
+        "domain": "rousing.dk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5126266479492188,
+        "steps": 3,
+        "answers": [
+          "212.237.249.17"
+        ],
+        "timestamp": "2025-10-21T13:41:13.808719"
+      },
+      {
+        "domain": "sandieskorner.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.41341638565063477,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:14.722431"
+      },
+      {
+        "domain": "seedy.dk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.668067455291748,
+        "steps": 3,
+        "answers": [
+          "93.191.156.22"
+        ],
+        "timestamp": "2025-10-21T13:41:15.890739"
+      },
+      {
+        "domain": "simple-health-reports.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.395979642868042,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:16.787011"
+      },
+      {
+        "domain": "sinemagrafik.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39951658248901367,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:17.686848"
+      },
+      {
+        "domain": "sscw.ee",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5032544136047363,
+        "steps": 3,
+        "answers": [
+          "217.146.69.45"
+        ],
+        "timestamp": "2025-10-21T13:41:18.690392"
+      },
+      {
+        "domain": "stopallthathating.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4184880256652832,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:19.609531"
+      },
+      {
+        "domain": "supreetsethi.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.395993709564209,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:20.505914"
+      },
+      {
+        "domain": "thankfullyyours.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5563969612121582,
+        "steps": 3,
+        "answers": [
+          "23.227.38.32"
+        ],
+        "timestamp": "2025-10-21T13:41:21.562835"
+      },
+      {
+        "domain": "thereeftank.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5460374355316162,
+        "steps": 3,
+        "answers": [
+          "151.101.193.91",
+          "151.101.1.91",
+          "151.101.129.91",
+          "151.101.65.91"
+        ],
+        "timestamp": "2025-10-21T13:41:22.609186"
+      },
+      {
+        "domain": "thunderex.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5736613273620605,
+        "steps": 3,
+        "answers": [
+          "97.74.85.52"
+        ],
+        "timestamp": "2025-10-21T13:41:23.683248"
+      },
+      {
+        "domain": "ticketbis.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4711637496948242,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:24.654813"
+      },
+      {
+        "domain": "tomorrowsreflection.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5619082450866699,
+        "steps": 3,
+        "answers": [
+          "34.67.56.17"
+        ],
+        "timestamp": "2025-10-21T13:41:25.717135"
+      },
+      {
+        "domain": "tonaci.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5231530666351318,
+        "steps": 3,
+        "answers": [
+          "69.46.47.132"
+        ],
+        "timestamp": "2025-10-21T13:41:26.740611"
+      },
+      {
+        "domain": "topilehtipuu.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.245175838470459,
+        "steps": 3,
+        "answers": [
+          "103.224.182.253"
+        ],
+        "timestamp": "2025-10-21T13:41:28.486132"
+      },
+      {
+        "domain": "tretsomshop.nl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.9857745170593262,
+        "steps": 3,
+        "answers": [
+          "23.227.38.32"
+        ],
+        "timestamp": "2025-10-21T13:41:30.972232"
+      },
+      {
+        "domain": "tsksv.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 2.116726875305176,
+        "steps": 3,
+        "answers": [
+          "91.199.149.117"
+        ],
+        "timestamp": "2025-10-21T13:41:33.589297"
+      },
+      {
+        "domain": "uanet.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 6.028635501861572,
+        "steps": 3,
+        "answers": [
+          "38.55.165.9"
+        ],
+        "timestamp": "2025-10-21T13:41:40.118240"
+      },
+      {
+        "domain": "udoo24.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4735565185546875,
+        "steps": 3,
+        "answers": [
+          "185.232.14.229"
+        ],
+        "timestamp": "2025-10-21T13:41:41.092123"
+      },
+      {
+        "domain": "vaco.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 2.448883056640625,
+        "steps": 3,
+        "answers": [
+          "81.88.217.58"
+        ],
+        "timestamp": "2025-10-21T13:41:44.041782"
+      },
+      {
+        "domain": "valerievandenbroek.nl",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.18187975883483887,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:44.723986"
+      },
+      {
+        "domain": "visualtap.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6667513847351074,
+        "steps": 3,
+        "answers": [
+          "52.20.84.62"
+        ],
+        "timestamp": "2025-10-21T13:41:45.891000"
+      },
+      {
+        "domain": "volksschule-neufahrn.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.31508779525756836,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:46.706500"
+      },
+      {
+        "domain": "webxtrap.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.564180850982666,
+        "steps": 3,
+        "answers": [
+          "109.234.165.168"
+        ],
+        "timestamp": "2025-10-21T13:41:47.770944"
+      },
+      {
+        "domain": "womenology.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4232184886932373,
+        "steps": 3,
+        "answers": [
+          "213.186.33.4"
+        ],
+        "timestamp": "2025-10-21T13:41:48.694437"
+      },
+      {
+        "domain": "xqgcab.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.398709774017334,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:49.593536"
+      },
+      {
+        "domain": "youngsnetwork.it",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.33646178245544434,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:41:50.430358"
+      },
+      {
+        "domain": "zamlelova.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 3.486412525177002,
+        "steps": 3,
+        "answers": [
+          "79.174.69.231"
+        ],
+        "timestamp": "2025-10-21T13:41:54.417091"
+      },
+      {
+        "domain": "zilch.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.914069652557373,
+        "steps": 3,
+        "answers": [
+          "104.237.133.18"
+        ],
+        "timestamp": "2025-10-21T13:41:55.831857"
+      }
+    ]
+  },
+  {
+    "pcap_file": "PCAP_3_H3.pcap",
+    "total_queries": 100,
+    "successful": 72,
+    "failed": 28,
+    "success_rate": 72.0,
+    "avg_latency_ms": 2052.336828576194,
+    "min_latency_ms": 332.52859115600586,
+    "max_latency_ms": 36843.73164176941,
+    "avg_steps": 3.013888888888889,
+    "throughput_qps": 0.5011839445212714,
+    "results": [
+      {
+        "domain": "abmcare.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43414306640625,
+        "steps": 3,
+        "answers": [
+          "104.18.11.144",
+          "104.18.10.144"
+        ],
+        "timestamp": "2025-10-21T13:44:32.742764"
+      },
+      {
+        "domain": "anvilnetworksolutions.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7471120357513428,
+        "steps": 3,
+        "answers": [
+          "217.160.0.13"
+        ],
+        "timestamp": "2025-10-21T13:44:33.990321"
+      },
+      {
+        "domain": "archiportale.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43987083435058594,
+        "steps": 3,
+        "answers": [
+          "104.18.13.154",
+          "104.18.12.154"
+        ],
+        "timestamp": "2025-10-21T13:44:34.930507"
+      },
+      {
+        "domain": "arcoat.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6404109001159668,
+        "steps": 3,
+        "answers": [
+          "66.39.19.55"
+        ],
+        "timestamp": "2025-10-21T13:44:36.071262"
+      },
+      {
+        "domain": "asseenontvlaunchpad.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3908884525299072,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:36.962482"
+      },
+      {
+        "domain": "autopareri.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4745790958404541,
+        "steps": 3,
+        "answers": [
+          "147.93.94.216"
+        ],
+        "timestamp": "2025-10-21T13:44:37.937404"
+      },
+      {
+        "domain": "bbqinjector.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4008314609527588,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:38.838575"
+      },
+      {
+        "domain": "begleyhutton.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.8764700889587402,
+        "steps": 3,
+        "answers": [
+          "198.185.159.144",
+          "198.49.23.145",
+          "198.185.159.145",
+          "198.49.23.144"
+        ],
+        "timestamp": "2025-10-21T13:44:41.215621"
+      },
+      {
+        "domain": "bigliettieventi.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.19206571578979492,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:41.907987"
+      },
+      {
+        "domain": "bmw-parts.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5651555061340332,
+        "steps": 3,
+        "answers": [
+          "91.236.136.97"
+        ],
+        "timestamp": "2025-10-21T13:44:42.973503"
+      },
+      {
+        "domain": "bookingnest.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5654556751251221,
+        "steps": 3,
+        "answers": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "timestamp": "2025-10-21T13:44:44.039271"
+      },
+      {
+        "domain": "callcomm.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.18860316276550293,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:44.728156"
+      },
+      {
+        "domain": "cdmail.fr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.3000717163085938,
+        "steps": 3,
+        "answers": [
+          "5.196.212.149"
+        ],
+        "timestamp": "2025-10-21T13:44:46.528591"
+      },
+      {
+        "domain": "ceskykutil.cz",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5931394100189209,
+        "steps": 3,
+        "answers": [
+          "80.211.205.242"
+        ],
+        "timestamp": "2025-10-21T13:44:47.622103"
+      },
+      {
+        "domain": "charityjob.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.48559117317199707,
+        "steps": 3,
+        "answers": [
+          "104.24.145.14",
+          "172.67.64.72",
+          "104.24.144.14"
+        ],
+        "timestamp": "2025-10-21T13:44:48.608126"
+      },
+      {
+        "domain": "chekiang.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.20340704917907715,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:49.311901"
+      },
+      {
+        "domain": "chenghuavideo.asia",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 7.756083250045776,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:44:57.568367"
+      },
+      {
+        "domain": "cia.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4907960891723633,
+        "steps": 3,
+        "answers": [
+          "52.209.118.185",
+          "52.213.149.102"
+        ],
+        "timestamp": "2025-10-21T13:44:58.559549"
+      },
+      {
+        "domain": "ciber.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.445864200592041,
+        "steps": 3,
+        "answers": [
+          "103.247.209.15"
+        ],
+        "timestamp": "2025-10-21T13:44:59.506428"
+      },
+      {
+        "domain": "clickdownloadfiles.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3938477039337158,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:00.400608"
+      },
+      {
+        "domain": "consumerreviews24.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39319777488708496,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:01.294153"
+      },
+      {
+        "domain": "cosmeticaestheticsurgery.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 31.812376976013184,
+        "steps": 3,
+        "answers": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "timestamp": "2025-10-21T13:45:33.606841"
+      },
+      {
+        "domain": "crsgfk.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3355734348297119,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:34.442724"
+      },
+      {
+        "domain": "currencyrates.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.41691160202026367,
+        "steps": 3,
+        "answers": [
+          "104.21.23.70",
+          "172.67.209.125"
+        ],
+        "timestamp": "2025-10-21T13:45:35.359964"
+      },
+      {
+        "domain": "cushinglawoffices.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40009427070617676,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:36.261100"
+      },
+      {
+        "domain": "cuteteenschoolgirlz.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39757728576660156,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:37.158926"
+      },
+      {
+        "domain": "de.vu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.3536376953125,
+        "steps": 3,
+        "answers": [
+          "81.28.232.69"
+        ],
+        "timestamp": "2025-10-21T13:45:38.012942"
+      },
+      {
+        "domain": "dilw.ie",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.3799707889556885,
+        "steps": 3,
+        "answers": [
+          "35.214.43.230"
+        ],
+        "timestamp": "2025-10-21T13:45:38.893229"
+      },
+      {
+        "domain": "dock2office.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39761829376220703,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:39.791394"
+      },
+      {
+        "domain": "drglendza.co.rs",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3393731117248535,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:40.631086"
+      },
+      {
+        "domain": "dricom-hosting.nl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.3366081714630127,
+        "steps": 3,
+        "answers": [
+          "46.249.36.223"
+        ],
+        "timestamp": "2025-10-21T13:45:41.468076"
+      },
+      {
+        "domain": "e-daily.gr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4780385494232178,
+        "steps": 3,
+        "answers": [
+          "104.26.13.52",
+          "104.26.12.52",
+          "172.67.70.26"
+        ],
+        "timestamp": "2025-10-21T13:45:42.446369"
+      },
+      {
+        "domain": "e-hps.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4424574375152588,
+        "steps": 3,
+        "answers": [
+          "208.44.185.221"
+        ],
+        "timestamp": "2025-10-21T13:45:43.389164"
+      },
+      {
+        "domain": "ecolems.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8687646389007568,
+        "steps": 3,
+        "answers": [
+          "51.103.54.68"
+        ],
+        "timestamp": "2025-10-21T13:45:44.758481"
+      },
+      {
+        "domain": "eggcityradio.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0188591480255127,
+        "steps": 3,
+        "answers": [
+          "103.224.182.253"
+        ],
+        "timestamp": "2025-10-21T13:45:46.277602"
+      },
+      {
+        "domain": "egov.sy",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.396024227142334,
+        "steps": 3,
+        "answers": [
+          "185.216.134.58"
+        ],
+        "timestamp": "2025-10-21T13:45:47.173886"
+      },
+      {
+        "domain": "fmnara.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.4206836223602295,
+        "steps": 3,
+        "answers": [
+          "49.247.215.98"
+        ],
+        "timestamp": "2025-10-21T13:45:49.094916"
+      },
+      {
+        "domain": "freeditorial.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.44838476181030273,
+        "steps": 3,
+        "answers": [
+          "51.178.246.100"
+        ],
+        "timestamp": "2025-10-21T13:45:50.043585"
+      },
+      {
+        "domain": "ftf.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.606269359588623,
+        "steps": 3,
+        "answers": [
+          "23.227.38.65"
+        ],
+        "timestamp": "2025-10-21T13:45:51.150258"
+      },
+      {
+        "domain": "gadanguides.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6546053886413574,
+        "steps": 3,
+        "answers": [
+          "93.188.2.51"
+        ],
+        "timestamp": "2025-10-21T13:45:52.305257"
+      },
+      {
+        "domain": "gadgetgearpro.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.397737979888916,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:53.203246"
+      },
+      {
+        "domain": "gardenofwords.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4255032539367676,
+        "steps": 3,
+        "answers": [
+          "192.0.78.25",
+          "192.0.78.24"
+        ],
+        "timestamp": "2025-10-21T13:45:54.129156"
+      },
+      {
+        "domain": "get-webby.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39013242721557617,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:45:55.019558"
+      },
+      {
+        "domain": "ghimpele.ro",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.49423718452453613,
+        "steps": 3,
+        "answers": [
+          "89.35.160.167"
+        ],
+        "timestamp": "2025-10-21T13:45:56.014039"
+      },
+      {
+        "domain": "giuseppelivraghi.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 36.84373164176941,
+        "steps": 3,
+        "answers": [
+          "89.46.108.54"
+        ],
+        "timestamp": "2025-10-21T13:46:33.358216"
+      },
+      {
+        "domain": "gregginn.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.561753511428833,
+        "steps": 3,
+        "answers": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "timestamp": "2025-10-21T13:46:34.420414"
+      },
+      {
+        "domain": "gxjbsj.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6431775093078613,
+        "steps": 3,
+        "answers": [
+          "172.247.103.2"
+        ],
+        "timestamp": "2025-10-21T13:46:35.563809"
+      },
+      {
+        "domain": "hayalforum.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3932676315307617,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:46:36.457413"
+      },
+      {
+        "domain": "hdcric.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5477287769317627,
+        "steps": 3,
+        "answers": [
+          "159.69.42.212",
+          "159.69.83.207",
+          "159.69.186.9",
+          "95.216.161.60"
+        ],
+        "timestamp": "2025-10-21T13:46:37.505403"
+      },
+      {
+        "domain": "hralda.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.19187569618225098,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:46:38.197606"
+      },
+      {
+        "domain": "hutago.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8245398998260498,
+        "steps": 3,
+        "answers": [
+          "118.27.125.209"
+        ],
+        "timestamp": "2025-10-21T13:46:39.522561"
+      },
+      {
+        "domain": "iael.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5434038639068604,
+        "steps": 3,
+        "answers": [
+          "139.162.174.209",
+          "172.104.251.198",
+          "139.162.181.76",
+          "172.104.149.86"
+        ],
+        "timestamp": "2025-10-21T13:46:40.566295"
+      },
+      {
+        "domain": "ishidatic.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6763086318969727,
+        "steps": 3,
+        "answers": [
+          "15.197.172.60"
+        ],
+        "timestamp": "2025-10-21T13:46:41.742862"
+      },
+      {
+        "domain": "laigang001.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.38964200019836426,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:46:42.632826"
+      },
+      {
+        "domain": "marilynlingerie.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39394283294677734,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:46:43.527338"
+      },
+      {
+        "domain": "mechachal.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.2560231685638428,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:46:44.283676"
+      },
+      {
+        "domain": "medipacademy.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43680810928344727,
+        "steps": 3,
+        "answers": [
+          "172.67.131.163",
+          "104.21.4.41"
+        ],
+        "timestamp": "2025-10-21T13:46:45.220751"
+      },
+      {
+        "domain": "metar.gr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4997227191925049,
+        "steps": 3,
+        "answers": [
+          "75.119.133.58"
+        ],
+        "timestamp": "2025-10-21T13:46:46.220886"
+      },
+      {
+        "domain": "michaelbyers.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5173358917236328,
+        "steps": 3,
+        "answers": [
+          "198.185.159.144",
+          "198.185.159.145",
+          "198.49.23.144",
+          "198.49.23.145"
+        ],
+        "timestamp": "2025-10-21T13:46:47.238510"
+      },
+      {
+        "domain": "minecraftserverdeals.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4409494400024414,
+        "steps": 3,
+        "answers": [
+          "104.21.1.113",
+          "172.67.129.48"
+        ],
+        "timestamp": "2025-10-21T13:46:48.179819"
+      },
+      {
+        "domain": "monitis.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.46651434898376465,
+        "steps": 3,
+        "answers": [
+          "188.172.236.218"
+        ],
+        "timestamp": "2025-10-21T13:46:49.146614"
+      },
+      {
+        "domain": "morban.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8164448738098145,
+        "steps": 3,
+        "answers": [
+          "217.160.0.111"
+        ],
+        "timestamp": "2025-10-21T13:46:50.463386"
+      },
+      {
+        "domain": "nasaspaceflight.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4446725845336914,
+        "steps": 3,
+        "answers": [
+          "172.66.40.183",
+          "172.66.43.73"
+        ],
+        "timestamp": "2025-10-21T13:46:51.408378"
+      },
+      {
+        "domain": "ncees.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.39225196838378906,
+        "steps": 3,
+        "answers": [
+          "172.66.158.97",
+          "104.20.28.40"
+        ],
+        "timestamp": "2025-10-21T13:46:52.301059"
+      },
+      {
+        "domain": "noblewomanhood.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.53755784034729,
+        "steps": 3,
+        "answers": [
+          "74.208.236.114"
+        ],
+        "timestamp": "2025-10-21T13:46:53.338849"
+      },
+      {
+        "domain": "note-so-easy.co.za",
+        "qtype": "A",
+        "status": "success",
+        "latency": 3.182746410369873,
+        "steps": 4,
+        "answers": [
+          "102.211.204.40"
+        ],
+        "timestamp": "2025-10-21T13:46:57.021941"
+      },
+      {
+        "domain": "oaister.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.404644250869751,
+        "steps": 3,
+        "answers": [
+          "132.174.1.212"
+        ],
+        "timestamp": "2025-10-21T13:46:57.927037"
+      },
+      {
+        "domain": "pahibu.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 35.01169753074646,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:33.439049"
+      },
+      {
+        "domain": "pet-connect.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5572974681854248,
+        "steps": 3,
+        "answers": [
+          "194.58.112.174"
+        ],
+        "timestamp": "2025-10-21T13:47:34.496765"
+      },
+      {
+        "domain": "polymth.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4330904483795166,
+        "steps": 3,
+        "answers": [
+          "172.67.147.218",
+          "104.21.57.169"
+        ],
+        "timestamp": "2025-10-21T13:47:35.430131"
+      },
+      {
+        "domain": "romney.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7253627777099609,
+        "steps": 3,
+        "answers": [
+          "208.91.197.27"
+        ],
+        "timestamp": "2025-10-21T13:47:36.655832"
+      },
+      {
+        "domain": "rterc.in",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.35512423515319824,
+        "steps": 3,
+        "answers": [
+          "147.79.69.9",
+          "93.127.173.248"
+        ],
+        "timestamp": "2025-10-21T13:47:37.511398"
+      },
+      {
+        "domain": "sailor.pl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.33252859115600586,
+        "steps": 3,
+        "answers": [
+          "88.99.19.146"
+        ],
+        "timestamp": "2025-10-21T13:47:38.344240"
+      },
+      {
+        "domain": "sarahpartridge.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39805150032043457,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:39.242613"
+      },
+      {
+        "domain": "sendrakhizonline.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5786783695220947,
+        "steps": 3,
+        "answers": [
+          "20.244.2.144"
+        ],
+        "timestamp": "2025-10-21T13:47:40.321619"
+      },
+      {
+        "domain": "shishioh.info",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.46254563331604004,
+        "steps": 3,
+        "answers": [
+          "219.94.162.166"
+        ],
+        "timestamp": "2025-10-21T13:47:41.284449"
+      },
+      {
+        "domain": "silveropt.ru",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3695707321166992,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:42.154422"
+      },
+      {
+        "domain": "skyhightmatter.info",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.20221805572509766,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:42.857059"
+      },
+      {
+        "domain": "sonoma-marinfair.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.38475871086120605,
+        "steps": 3,
+        "answers": [
+          "172.67.163.188",
+          "104.21.34.187"
+        ],
+        "timestamp": "2025-10-21T13:47:43.742126"
+      },
+      {
+        "domain": "stkpro.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6690080165863037,
+        "steps": 3,
+        "answers": [
+          "205.251.138.125"
+        ],
+        "timestamp": "2025-10-21T13:47:44.911357"
+      },
+      {
+        "domain": "synchchaos.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6853909492492676,
+        "steps": 3,
+        "answers": [
+          "203.161.61.102"
+        ],
+        "timestamp": "2025-10-21T13:47:46.097062"
+      },
+      {
+        "domain": "synrc.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4322178363800049,
+        "steps": 3,
+        "answers": [
+          "104.21.40.117",
+          "172.67.185.234"
+        ],
+        "timestamp": "2025-10-21T13:47:47.029551"
+      },
+      {
+        "domain": "tangkas888.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4497363567352295,
+        "steps": 3,
+        "answers": [
+          "104.21.7.113",
+          "172.67.130.50"
+        ],
+        "timestamp": "2025-10-21T13:47:47.979818"
+      },
+      {
+        "domain": "tawali.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5630717277526855,
+        "steps": 3,
+        "answers": [
+          "173.249.147.46"
+        ],
+        "timestamp": "2025-10-21T13:47:49.043263"
+      },
+      {
+        "domain": "teachmyass.info",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.8495442867279053,
+        "steps": 3,
+        "answers": [
+          "103.224.182.212"
+        ],
+        "timestamp": "2025-10-21T13:47:50.393282"
+      },
+      {
+        "domain": "teleskill.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.4246981143951416,
+        "steps": 3,
+        "answers": [
+          "185.81.4.109"
+        ],
+        "timestamp": "2025-10-21T13:47:52.318349"
+      },
+      {
+        "domain": "tenant-internet.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40543508529663086,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:53.224136"
+      },
+      {
+        "domain": "texasbeyondhistory.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0748589038848877,
+        "steps": 3,
+        "answers": [
+          "146.6.162.220"
+        ],
+        "timestamp": "2025-10-21T13:47:54.799271"
+      },
+      {
+        "domain": "topbarbee.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6833071708679199,
+        "steps": 3,
+        "answers": [
+          "159.203.135.249"
+        ],
+        "timestamp": "2025-10-21T13:47:55.982887"
+      },
+      {
+        "domain": "trackcheatingspouse.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40403079986572266,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:47:56.887395"
+      },
+      {
+        "domain": "uca.edu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 15.971811532974243,
+        "steps": 3,
+        "answers": [
+          "161.31.3.35"
+        ],
+        "timestamp": "2025-10-21T13:48:13.359628"
+      },
+      {
+        "domain": "urbannetwork.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 19.770225524902344,
+        "steps": 3,
+        "answers": [
+          "85.92.70.198"
+        ],
+        "timestamp": "2025-10-21T13:48:33.630296"
+      },
+      {
+        "domain": "verlockeshop.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6330573558807373,
+        "steps": 3,
+        "answers": [
+          "185.64.112.230"
+        ],
+        "timestamp": "2025-10-21T13:48:34.763797"
+      },
+      {
+        "domain": "video-peche-poisson.fr",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.36341428756713867,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:48:35.627512"
+      },
+      {
+        "domain": "vietcapitaltour.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4030885696411133,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:48:36.531140"
+      },
+      {
+        "domain": "virtualjerusalem.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6992554664611816,
+        "steps": 3,
+        "answers": [
+          "69.48.168.47"
+        ],
+        "timestamp": "2025-10-21T13:48:37.730669"
+      },
+      {
+        "domain": "vlielandoutdoorcenter.nl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.34798407554626465,
+        "steps": 3,
+        "answers": [
+          "185.232.249.41"
+        ],
+        "timestamp": "2025-10-21T13:48:38.578964"
+      },
+      {
+        "domain": "vpndefender.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.417055606842041,
+        "steps": 3,
+        "answers": [
+          "98.90.116.126",
+          "3.230.91.62"
+        ],
+        "timestamp": "2025-10-21T13:48:39.496407"
+      },
+      {
+        "domain": "ximangquantrieu.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5297229290008545,
+        "steps": 3,
+        "answers": [
+          "123.31.17.119"
+        ],
+        "timestamp": "2025-10-21T13:48:40.526559"
+      },
+      {
+        "domain": "zpav.pl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.34563469886779785,
+        "steps": 3,
+        "answers": [
+          "83.238.107.112"
+        ],
+        "timestamp": "2025-10-21T13:48:41.372523"
+      }
+    ]
+  },
+  {
+    "pcap_file": "PCAP_4_H4.pcap",
+    "total_queries": 100,
+    "successful": 73,
+    "failed": 27,
+    "success_rate": 73.0,
+    "avg_latency_ms": 1273.547780023862,
+    "min_latency_ms": 343.4267044067383,
+    "max_latency_ms": 29643.39780807495,
+    "avg_steps": 3.0,
+    "throughput_qps": 0.4381063382727273,
+    "results": [
+      {
+        "domain": "120shenbing.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3879876136779785,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:16.737046"
+      },
+      {
+        "domain": "22hotmail.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.41600871086120605,
+        "steps": 3,
+        "answers": [
+          "20.76.201.171",
+          "20.112.250.133",
+          "20.236.44.162",
+          "20.231.239.246",
+          "20.70.246.20"
+        ],
+        "timestamp": "2025-10-21T13:51:17.654183"
+      },
+      {
+        "domain": "2xfzy.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 7.370788335800171,
+        "steps": 3,
+        "answers": [
+          "23.226.181.51"
+        ],
+        "timestamp": "2025-10-21T13:51:25.525267"
+      },
+      {
+        "domain": "7apcrshrmanila.org",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.24660825729370117,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:26.272678"
+      },
+      {
+        "domain": "abhair.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0557489395141602,
+        "steps": 3,
+        "answers": [
+          "23.227.38.32"
+        ],
+        "timestamp": "2025-10-21T13:51:27.828794"
+      },
+      {
+        "domain": "adverman.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5599339008331299,
+        "steps": 3,
+        "answers": [
+          "77.87.198.232"
+        ],
+        "timestamp": "2025-10-21T13:51:28.889105"
+      },
+      {
+        "domain": "alb-automobiles.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3991389274597168,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:29.788550"
+      },
+      {
+        "domain": "ana-sofia.pt",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.8133819103240967,
+        "steps": 3,
+        "answers": [
+          "185.32.190.38"
+        ],
+        "timestamp": "2025-10-21T13:51:32.102303"
+      },
+      {
+        "domain": "arrabonet.hu",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.34476566314697266,
+        "steps": 3,
+        "answers": [
+          "213.163.44.68"
+        ],
+        "timestamp": "2025-10-21T13:51:32.947333"
+      },
+      {
+        "domain": "auto-klad.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 2.243828535079956,
+        "steps": 3,
+        "answers": [
+          "62.122.170.171"
+        ],
+        "timestamp": "2025-10-21T13:51:35.691540"
+      },
+      {
+        "domain": "b2b2c.ca",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0630881786346436,
+        "steps": 3,
+        "answers": [
+          "13.107.246.36"
+        ],
+        "timestamp": "2025-10-21T13:51:37.255049"
+      },
+      {
+        "domain": "bhhsneproperties.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4267842769622803,
+        "steps": 3,
+        "answers": [
+          "8.43.189.250"
+        ],
+        "timestamp": "2025-10-21T13:51:38.182140"
+      },
+      {
+        "domain": "boh10suphanburi.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39708781242370605,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:39.079756"
+      },
+      {
+        "domain": "boneshoppe.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39857935905456543,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:39.978746"
+      },
+      {
+        "domain": "breezelaw.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.559776782989502,
+        "steps": 3,
+        "answers": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "timestamp": "2025-10-21T13:51:41.038821"
+      },
+      {
+        "domain": "c0.pl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.34494590759277344,
+        "steps": 3,
+        "answers": [
+          "95.211.144.68"
+        ],
+        "timestamp": "2025-10-21T13:51:41.884024"
+      },
+      {
+        "domain": "capequilog.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.3584327697753906,
+        "steps": 3,
+        "answers": [
+          "208.94.116.26"
+        ],
+        "timestamp": "2025-10-21T13:51:43.742825"
+      },
+      {
+        "domain": "carolgraykennedy.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4034240245819092,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:44.646757"
+      },
+      {
+        "domain": "celerity.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4820723533630371,
+        "steps": 3,
+        "answers": [
+          "35.188.214.201"
+        ],
+        "timestamp": "2025-10-21T13:51:45.629159"
+      },
+      {
+        "domain": "cellslider.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.43088769912719727,
+        "steps": 3,
+        "answers": [
+          "20.237.25.126"
+        ],
+        "timestamp": "2025-10-21T13:51:46.560346"
+      },
+      {
+        "domain": "closerdiets.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.417966365814209,
+        "steps": 3,
+        "answers": [
+          "5.22.145.16",
+          "5.22.145.121"
+        ],
+        "timestamp": "2025-10-21T13:51:47.478580"
+      },
+      {
+        "domain": "contentremarketing.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6747763156890869,
+        "steps": 3,
+        "answers": [
+          "216.10.240.70"
+        ],
+        "timestamp": "2025-10-21T13:51:48.653970"
+      },
+      {
+        "domain": "daytimeghosthunter.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40856218338012695,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:49.562928"
+      },
+      {
+        "domain": "deine-bahn.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5912075042724609,
+        "steps": 3,
+        "answers": [
+          "92.204.239.74"
+        ],
+        "timestamp": "2025-10-21T13:51:50.654429"
+      },
+      {
+        "domain": "divefishhouse.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3928229808807373,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:51.547559"
+      },
+      {
+        "domain": "djbarryblends.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5667097568511963,
+        "steps": 3,
+        "answers": [
+          "54.225.184.165"
+        ],
+        "timestamp": "2025-10-21T13:51:52.614649"
+      },
+      {
+        "domain": "dmg-dental.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.9037454128265381,
+        "steps": 3,
+        "answers": [
+          "49.13.234.53"
+        ],
+        "timestamp": "2025-10-21T13:51:54.018646"
+      },
+      {
+        "domain": "empclan.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6697137355804443,
+        "steps": 3,
+        "answers": [
+          "64.26.30.251"
+        ],
+        "timestamp": "2025-10-21T13:51:55.188761"
+      },
+      {
+        "domain": "ereadz.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39293670654296875,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:56.082043"
+      },
+      {
+        "domain": "florenseusa.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5535488128662109,
+        "steps": 3,
+        "answers": [
+          "34.95.203.179"
+        ],
+        "timestamp": "2025-10-21T13:51:57.136020"
+      },
+      {
+        "domain": "frasesdemotivacao.net",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.39577627182006836,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:58.032140"
+      },
+      {
+        "domain": "freepornvideosx.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40091919898986816,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:58.933620"
+      },
+      {
+        "domain": "gaplex.biz",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.20554757118225098,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:51:59.639603"
+      },
+      {
+        "domain": "gardeninginflorida.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5570199489593506,
+        "steps": 3,
+        "answers": [
+          "76.223.67.189",
+          "13.248.213.45"
+        ],
+        "timestamp": "2025-10-21T13:52:00.696985"
+      },
+      {
+        "domain": "go2jump.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5624117851257324,
+        "steps": 3,
+        "answers": [
+          "34.175.54.178"
+        ],
+        "timestamp": "2025-10-21T13:52:01.759723"
+      },
+      {
+        "domain": "godo.co.kr",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.0949714183807373,
+        "steps": 3,
+        "answers": [
+          "180.210.81.80"
+        ],
+        "timestamp": "2025-10-21T13:52:03.355128"
+      },
+      {
+        "domain": "grandcanyongrandhotel.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 29.64339780807495,
+        "steps": 3,
+        "answers": [
+          "142.44.217.176"
+        ],
+        "timestamp": "2025-10-21T13:52:33.499417"
+      },
+      {
+        "domain": "greens.my",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.36710286140441895,
+        "steps": 3,
+        "answers": [
+          "104.21.4.120",
+          "172.67.132.13"
+        ],
+        "timestamp": "2025-10-21T13:52:34.366896"
+      },
+      {
+        "domain": "gurukulonline.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5713043212890625,
+        "steps": 3,
+        "answers": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "timestamp": "2025-10-21T13:52:35.438592"
+      },
+      {
+        "domain": "gustissimo.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.48066258430480957,
+        "steps": 3,
+        "answers": [
+          "178.255.74.104",
+          "178.255.74.135",
+          "178.255.74.133"
+        ],
+        "timestamp": "2025-10-21T13:52:36.419547"
+      },
+      {
+        "domain": "hackthissite.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7150766849517822,
+        "steps": 3,
+        "answers": [
+          "137.74.187.102",
+          "137.74.187.101",
+          "137.74.187.103",
+          "137.74.187.104",
+          "137.74.187.100"
+        ],
+        "timestamp": "2025-10-21T13:52:37.635212"
+      },
+      {
+        "domain": "ilikecrochet.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4322011470794678,
+        "steps": 3,
+        "answers": [
+          "192.124.249.58"
+        ],
+        "timestamp": "2025-10-21T13:52:38.567698"
+      },
+      {
+        "domain": "iointegrators.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4406266212463379,
+        "steps": 3,
+        "answers": [
+          "76.120.251.25"
+        ],
+        "timestamp": "2025-10-21T13:52:39.508786"
+      },
+      {
+        "domain": "irflashgame.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4001166820526123,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:52:40.409280"
+      },
+      {
+        "domain": "itgeorgia.co",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.9211816787719727,
+        "steps": 3,
+        "answers": [
+          "64.98.135.85"
+        ],
+        "timestamp": "2025-10-21T13:52:41.830789"
+      },
+      {
+        "domain": "jacquelinemertz.ch",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.32554125785827637,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:52:42.656663"
+      },
+      {
+        "domain": "kanoon-ansar.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.931279182434082,
+        "steps": 3,
+        "answers": [
+          "194.59.214.75"
+        ],
+        "timestamp": "2025-10-21T13:52:44.088226"
+      },
+      {
+        "domain": "kiyimuzik.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.4296891689300537,
+        "steps": 3,
+        "answers": [
+          "104.21.63.112",
+          "172.67.145.101"
+        ],
+        "timestamp": "2025-10-21T13:52:45.018284"
+      },
+      {
+        "domain": "koopsmodellbau.de",
+        "qtype": "A",
+        "status": "success",
+        "latency": 1.4145610332489014,
+        "steps": 3,
+        "answers": [
+          "217.160.0.247"
+        ],
+        "timestamp": "2025-10-21T13:52:46.933223"
+      },
+      {
+        "domain": "lespetiteschoses.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.46749043464660645,
+        "steps": 3,
+        "answers": [
+          "23.227.38.65"
+        ],
+        "timestamp": "2025-10-21T13:52:47.901044"
+      },
+      {
+        "domain": "livescan4all.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7000012397766113,
+        "steps": 3,
+        "answers": [
+          "149.20.203.54"
+        ],
+        "timestamp": "2025-10-21T13:52:49.101417"
+      },
+      {
+        "domain": "magic-illusion.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5228137969970703,
+        "steps": 3,
+        "answers": [
+          "104.21.4.130",
+          "172.67.132.25"
+        ],
+        "timestamp": "2025-10-21T13:52:50.124454"
+      },
+      {
+        "domain": "majorleaguelacrosse.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.44088101387023926,
+        "steps": 3,
+        "answers": [
+          "104.21.87.175",
+          "172.67.170.123"
+        ],
+        "timestamp": "2025-10-21T13:52:51.065622"
+      },
+      {
+        "domain": "medintime.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5073409080505371,
+        "steps": 3,
+        "answers": [
+          "104.21.2.236",
+          "172.67.129.206"
+        ],
+        "timestamp": "2025-10-21T13:52:52.073193"
+      },
+      {
+        "domain": "meditekyazilim.net",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.622718095779419,
+        "steps": 3,
+        "answers": [
+          "185.95.3.218"
+        ],
+        "timestamp": "2025-10-21T13:52:53.196195"
+      },
+      {
+        "domain": "megi.cz",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.48404884338378906,
+        "steps": 3,
+        "answers": [
+          "45.138.107.20",
+          "45.138.107.19"
+        ],
+        "timestamp": "2025-10-21T13:52:54.180676"
+      },
+      {
+        "domain": "millionfareast.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5682656764984131,
+        "steps": 3,
+        "answers": [
+          "72.167.243.77"
+        ],
+        "timestamp": "2025-10-21T13:52:55.249330"
+      },
+      {
+        "domain": "miscellaneousheathen.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7178521156311035,
+        "steps": 3,
+        "answers": [
+          "75.127.72.229"
+        ],
+        "timestamp": "2025-10-21T13:52:56.467622"
+      },
+      {
+        "domain": "msf.be",
+        "qtype": "A",
+        "status": "success",
+        "latency": 10.556071996688843,
+        "steps": 3,
+        "answers": [
+          "77.241.81.151"
+        ],
+        "timestamp": "2025-10-21T13:53:07.523933"
+      },
+      {
+        "domain": "muhammedmusa.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 25.603071451187134,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:53:33.628133"
+      },
+      {
+        "domain": "myface.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.4368753433227539,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:53:34.565709"
+      },
+      {
+        "domain": "myfantasticpark.es",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6197049617767334,
+        "steps": 3,
+        "answers": [
+          "89.31.143.90"
+        ],
+        "timestamp": "2025-10-21T13:53:35.685768"
+      },
+      {
+        "domain": "ngoanhien.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3931722640991211,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:53:36.579346"
+      },
+      {
+        "domain": "njafe.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6122310161590576,
+        "steps": 3,
+        "answers": [
+          "103.224.182.253"
+        ],
+        "timestamp": "2025-10-21T13:53:37.691892"
+      },
+      {
+        "domain": "oberandsons.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6947741508483887,
+        "steps": 3,
+        "answers": [
+          "34.128.166.114"
+        ],
+        "timestamp": "2025-10-21T13:53:38.887004"
+      },
+      {
+        "domain": "ok-magazine.ru",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5570552349090576,
+        "steps": 3,
+        "answers": [
+          "188.124.32.70"
+        ],
+        "timestamp": "2025-10-21T13:53:39.944421"
+      },
+      {
+        "domain": "onetoshop.nl",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.3434267044067383,
+        "steps": 3,
+        "answers": [
+          "35.204.76.89"
+        ],
+        "timestamp": "2025-10-21T13:53:40.788107"
+      },
+      {
+        "domain": "oneworldinfo.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6773865222930908,
+        "steps": 3,
+        "answers": [
+          "54.243.117.197",
+          "13.223.25.84"
+        ],
+        "timestamp": "2025-10-21T13:53:41.965891"
+      },
+      {
+        "domain": "originalmagicart.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5730857849121094,
+        "steps": 3,
+        "answers": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "timestamp": "2025-10-21T13:53:43.039520"
+      },
+      {
+        "domain": "overseasmedical.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5610649585723877,
+        "steps": 3,
+        "answers": [
+          "213.123.239.55"
+        ],
+        "timestamp": "2025-10-21T13:53:44.100915"
+      },
+      {
+        "domain": "pces.in",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.35737085342407227,
+        "steps": 3,
+        "answers": [
+          "195.35.44.242"
+        ],
+        "timestamp": "2025-10-21T13:53:44.958677"
+      },
+      {
+        "domain": "pilsnerurquell.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5957338809967041,
+        "steps": 3,
+        "answers": [
+          "93.185.98.138"
+        ],
+        "timestamp": "2025-10-21T13:53:46.054695"
+      },
+      {
+        "domain": "ranocchi.it",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5007345676422119,
+        "steps": 3,
+        "answers": [
+          "52.18.99.110"
+        ],
+        "timestamp": "2025-10-21T13:53:47.055759"
+      },
+      {
+        "domain": "roche-applied-science.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5753800868988037,
+        "steps": 3,
+        "answers": [
+          "149.250.245.221"
+        ],
+        "timestamp": "2025-10-21T13:53:48.131725"
+      },
+      {
+        "domain": "rolflouisville.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6940464973449707,
+        "steps": 3,
+        "answers": [
+          "208.88.75.191"
+        ],
+        "timestamp": "2025-10-21T13:53:49.326091"
+      },
+      {
+        "domain": "rositehost.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5632219314575195,
+        "steps": 3,
+        "answers": [
+          "178.157.78.2"
+        ],
+        "timestamp": "2025-10-21T13:53:50.389536"
+      },
+      {
+        "domain": "rubenquinones.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5680749416351318,
+        "steps": 3,
+        "answers": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "timestamp": "2025-10-21T13:53:51.457930"
+      },
+      {
+        "domain": "saharaimport.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5790178775787354,
+        "steps": 3,
+        "answers": [
+          "176.9.116.24"
+        ],
+        "timestamp": "2025-10-21T13:53:52.537230"
+      },
+      {
+        "domain": "sapendolo.it",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 100.17046737670898,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:33.208205"
+      },
+      {
+        "domain": "sf-notifications.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.42539310455322266,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:34.134028"
+      },
+      {
+        "domain": "silkroadtours.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5606250762939453,
+        "steps": 3,
+        "answers": [
+          "23.236.62.147"
+        ],
+        "timestamp": "2025-10-21T13:55:35.195386"
+      },
+      {
+        "domain": "sipflash.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.5366659164428711,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:36.232550"
+      },
+      {
+        "domain": "sitiweb.us",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5490643978118896,
+        "steps": 3,
+        "answers": [
+          "136.243.45.246"
+        ],
+        "timestamp": "2025-10-21T13:55:37.282415"
+      },
+      {
+        "domain": "skplus.kr",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3127937316894531,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:38.095902"
+      },
+      {
+        "domain": "solcredito.es",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5314655303955078,
+        "steps": 3,
+        "answers": [
+          "18.239.153.67",
+          "18.239.153.56",
+          "18.239.153.17",
+          "18.239.153.86"
+        ],
+        "timestamp": "2025-10-21T13:55:39.127648"
+      },
+      {
+        "domain": "stark.dk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5351130962371826,
+        "steps": 3,
+        "answers": [
+          "20.50.2.80"
+        ],
+        "timestamp": "2025-10-21T13:55:40.162985"
+      },
+      {
+        "domain": "supportpabiomass.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6497788429260254,
+        "steps": 3,
+        "answers": [
+          "162.248.51.100"
+        ],
+        "timestamp": "2025-10-21T13:55:41.313195"
+      },
+      {
+        "domain": "sweathelp.org",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.520305871963501,
+        "steps": 3,
+        "answers": [
+          "107.180.114.231"
+        ],
+        "timestamp": "2025-10-21T13:55:42.333856"
+      },
+      {
+        "domain": "theexoticpersian.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3927159309387207,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:43.226796"
+      },
+      {
+        "domain": "thepropertyvault.co.uk",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5550696849822998,
+        "steps": 3,
+        "answers": [
+          "76.223.67.189",
+          "13.248.213.45"
+        ],
+        "timestamp": "2025-10-21T13:55:44.282149"
+      },
+      {
+        "domain": "tripladoppia.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40046095848083496,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:45.182914"
+      },
+      {
+        "domain": "ugotrelis.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.6773884296417236,
+        "steps": 3,
+        "answers": [
+          "213.186.33.82"
+        ],
+        "timestamp": "2025-10-21T13:55:46.360916"
+      },
+      {
+        "domain": "valdo.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5351455211639404,
+        "steps": 3,
+        "answers": [
+          "23.227.38.65"
+        ],
+        "timestamp": "2025-10-21T13:55:47.396321"
+      },
+      {
+        "domain": "viahttps.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.7080504894256592,
+        "steps": 3,
+        "answers": [
+          "64.251.0.59"
+        ],
+        "timestamp": "2025-10-21T13:55:48.604707"
+      },
+      {
+        "domain": "videofun.me",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3344416618347168,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:49.439452"
+      },
+      {
+        "domain": "vinayaprabha.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5154712200164795,
+        "steps": 3,
+        "answers": [
+          "185.230.63.107",
+          "185.230.63.171",
+          "185.230.63.186"
+        ],
+        "timestamp": "2025-10-21T13:55:50.455236"
+      },
+      {
+        "domain": "wiltpr.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3949875831604004,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:51.350570"
+      },
+      {
+        "domain": "wordai.com",
+        "qtype": "A",
+        "status": "success",
+        "latency": 0.5621175765991211,
+        "steps": 3,
+        "answers": [
+          "23.111.159.202"
+        ],
+        "timestamp": "2025-10-21T13:55:52.412995"
+      },
+      {
+        "domain": "xxx-muschis.de",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.3273472785949707,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:53.240657"
+      },
+      {
+        "domain": "yunpda.com",
+        "qtype": "A",
+        "status": "failed",
+        "latency": 0.40265679359436035,
+        "steps": 0,
+        "answers": [],
+        "timestamp": "2025-10-21T13:55:54.143645"
+      }
+    ]
+  }
+]
