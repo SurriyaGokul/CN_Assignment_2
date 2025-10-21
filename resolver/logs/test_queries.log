@@ -1,0 +1,131 @@
+2025-10-21 12:43:55.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:43:55.%f - DNSResolver - INFO - DNS Resolver initialized - Mode: Iterative
+2025-10-21 12:43:55.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:43:55.%f - DNSResolver - INFO - 
+================================================================================
+2025-10-21 12:43:55.%f - DNSResolver - INFO - NEW QUERY: 41latitude.com. (Type: A)
+2025-10-21 12:43:55.%f - DNSResolver - INFO - Mode: Iterative
+2025-10-21 12:43:55.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:43:55.%f - DNSResolver - INFO - 
+Step 1: Querying ROOT server: 198.41.0.4
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Query: 41latitude.com. (Type: A)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Response received (RTT: 0.1630s)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Flags: QR TC RD
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Answer count: 0
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Authority count: 1
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Additional count: 11
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   REFERRAL received
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: l.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: j.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: h.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: d.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: b.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: f.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: k.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: m.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: i.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: g.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: a.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: c.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: e.gtld-servers.net
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.41.162.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.48.79.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.54.112.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.31.80.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.33.14.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 192.35.51.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO - 
+Step 2: Querying TLD server: 192.41.162.30
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Query: 41latitude.com. (Type: A)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Response received (RTT: 0.2351s)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Flags: QR RD
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Answer count: 0
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Authority count: 1
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Additional count: 4
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   REFERRAL received
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: dns1.registrar-servers.com
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     Nameserver: dns2.registrar-servers.com
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 156.154.132.200
+2025-10-21 12:43:55.%f - DNSResolver - INFO -     NS IP: 156.154.133.200
+2025-10-21 12:43:55.%f - DNSResolver - INFO - 
+Step 3: Querying TLD server: 156.154.132.200
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Query: 41latitude.com. (Type: A)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Response received (RTT: 0.0437s)
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Flags: QR AA RD
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Answer count: 0
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Authority count: 1
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   Additional count: 0
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   SOA record received - domain exists but no A records found
+2025-10-21 12:43:55.%f - DNSResolver - INFO -   No A records exist for 41latitude.com.
+2025-10-21 12:43:55.%f - DNSResolver - INFO - RESOLUTION COMPLETE: 41latitude.com.
+2025-10-21 12:43:55.%f - DNSResolver - INFO - Total time: 0.4460 seconds
+2025-10-21 12:43:55.%f - DNSResolver - INFO - Steps taken: 3
+2025-10-21 12:43:55.%f - DNSResolver - INFO - No answers found
+2025-10-21 12:44:05.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:44:05.%f - DNSResolver - INFO - DNS Resolver initialized - Mode: Iterative
+2025-10-21 12:44:05.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:44:05.%f - DNSResolver - INFO - 
+================================================================================
+2025-10-21 12:44:05.%f - DNSResolver - INFO - NEW QUERY: google.com. (Type: A)
+2025-10-21 12:44:05.%f - DNSResolver - INFO - Mode: Iterative
+2025-10-21 12:44:05.%f - DNSResolver - INFO - ================================================================================
+2025-10-21 12:44:05.%f - DNSResolver - INFO - 
+Step 1: Querying ROOT server: 198.41.0.4
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Query: google.com. (Type: A)
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Response received (RTT: 0.1561s)
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Flags: QR TC RD
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Answer count: 0
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Authority count: 1
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Additional count: 11
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   REFERRAL received
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: l.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: j.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: h.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: d.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: b.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: f.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: k.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: m.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: i.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: g.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: a.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: c.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     Nameserver: e.gtld-servers.net
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.41.162.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.48.79.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.54.112.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.31.80.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.33.14.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -     NS IP: 192.35.51.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO - 
+Step 2: Querying TLD server: 192.41.162.30
+2025-10-21 12:44:05.%f - DNSResolver - INFO -   Query: google.com. (Type: A)
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Response received (RTT: 0.2331s)
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Flags: QR RD
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Answer count: 0
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Authority count: 1
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Additional count: 8
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   REFERRAL received
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     Nameserver: ns2.google.com
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     Nameserver: ns1.google.com
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     Nameserver: ns3.google.com
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     Nameserver: ns4.google.com
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     NS IP: 216.239.34.10
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     NS IP: 216.239.32.10
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     NS IP: 216.239.36.10
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     NS IP: 216.239.38.10
+2025-10-21 12:44:06.%f - DNSResolver - INFO - 
+Step 3: Querying TLD server: 216.239.34.10
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Query: google.com. (Type: A)
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Response received (RTT: 0.0127s)
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Flags: QR AA RD
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Answer count: 1
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Authority count: 0
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   Additional count: 0
+2025-10-21 12:44:06.%f - DNSResolver - INFO -  ANSWER FOUND!
+2025-10-21 12:44:06.%f - DNSResolver - INFO -     -> google.com. 300 A 142.250.192.78
+2025-10-21 12:44:06.%f - DNSResolver - INFO - RESOLUTION COMPLETE: google.com.
+2025-10-21 12:44:06.%f - DNSResolver - INFO - Total time: 0.4064 seconds
+2025-10-21 12:44:06.%f - DNSResolver - INFO - Steps taken: 3
+2025-10-21 12:44:06.%f - DNSResolver - INFO - Answers found: 1
+2025-10-21 12:44:06.%f - DNSResolver - INFO -   -> 142.250.192.78
