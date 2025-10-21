@@ -1,22 +1,10 @@
-#!/usr/bin/env python3
-"""
-Batch PCAP Parser
-Parses all PCAP files in the data directory
-"""
-
 import os
 import sys
 from parse_pcap import DNSPacketParser
 
 
 def parse_all_pcaps(data_dir='../data', output_dir='./logs'):
-    """
-    Parse all PCAP files in the data directory
-    
-    Args:
-        data_dir (str): Directory containing PCAP files
-        output_dir (str): Directory to save output files
-    """
+
     os.makedirs(output_dir, exist_ok=True)
     
     # Find all PCAP files
