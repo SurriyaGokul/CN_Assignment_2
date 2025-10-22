@@ -1,6 +1,6 @@
 from mininet.topo import Topo
 from mininet.net import Mininet
-from mininet.node import RemoteController
+from mininet.node import OVSController
 from mininet.cli import CLI
 from mininet.log import setLogLevel
 from mininet.link import TCLink
@@ -35,7 +35,7 @@ class Topology(Topo):
 if __name__ == '__main__':
     setLogLevel('info')
     topo = Topology()
-    net = Mininet(topo=topo, link=TCLink,controller=lambda name: RemoteController(name, ip='127.0.0.1', port=6633))
+    net = Mininet(topo=topo, link=TCLink,controller=lambda name: OVSController(name, ip='127.0.0.1', port=6633))
     net.start()
 
     print("\nTesting connectivity between all hosts:")

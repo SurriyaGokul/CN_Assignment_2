@@ -1,0 +1,3658 @@
+{
+  "timestamp": "2025-10-22T01:57:08.782608",
+  "dns_server": "8.8.8.8",
+  "results": [
+    {
+      "host": "h1",
+      "pcap_file": "pcap_files/PCAP_1_H1.pcap",
+      "total_queries": 100,
+      "successful_queries": 0,
+      "failed_queries": 100,
+      "average_latency_ms": 0,
+      "average_throughput_bps": 0,
+      "domains_tested": [
+        "2brightsparks.co.uk",
+        "41latitude.com",
+        "7dfps.com",
+        "advertos.ru",
+        "afairjudgement.com",
+        "afresnohomeinspector.com",
+        "alchemedialtd.com",
+        "alenpuaca.com",
+        "amorefieldlife.com",
+        "aqvr.com",
+        "asadventure.com",
+        "astrumonline.ru",
+        "auqzzx.com",
+        "australiatradenow.com",
+        "autofirenze.biz",
+        "b-matrix.com",
+        "bikesandtransit.com",
+        "blueridgelife.com",
+        "buynowfromusa.com",
+        "camcard.com",
+        "caricsports.com",
+        "cetsi.fr",
+        "chonvn.com",
+        "chuamatsua.com",
+        "coutureauchocolat.com",
+        "daehepharma.com",
+        "datepanchang.com",
+        "diamondknot.com",
+        "ditrblog.com",
+        "dj-producer-j-mbargo.com",
+        "door2games.com",
+        "effexdjs.com",
+        "energybulbs.co.uk",
+        "eugenbotnar.com",
+        "ex-jw.org",
+        "fini.net",
+        "forpsi.net",
+        "gamemob.com",
+        "gensee.com",
+        "globalpoliticalspectrum.com",
+        "group14eng.com",
+        "gusbi.com",
+        "healthnews4you.com",
+        "hemcolubricants.com",
+        "hornil.com",
+        "house-sg.com",
+        "i-butterfly.ru",
+        "iag-inc.com",
+        "informarexresistere.fr",
+        "interfloracentral.co.uk",
+        "jantv.in",
+        "junio.com",
+        "kathihill.com",
+        "kennethehartman.com",
+        "kh.ua",
+        "khsm.ru",
+        "linksplash.info",
+        "livelinks.com",
+        "localhost.re",
+        "lozo.com",
+        "luckypuppygames.com",
+        "memeblender.com",
+        "mesites.co.za",
+        "michiganbulb.com",
+        "monsterhomesecuritystore.com",
+        "mwzip.com",
+        "mysearch-online.com",
+        "newstetic.com",
+        "niceinternetmoney.ru",
+        "o-ov.com",
+        "ondemandappliancerepair.com",
+        "owlcreek.com",
+        "pbprofile.com",
+        "phi-pe.com",
+        "pictures-thailand.com",
+        "pieceinch.com",
+        "portclydegeneralstore.com",
+        "ppsuika.ac.id",
+        "probigbets.com",
+        "progettogiovani.pd.it",
+        "radioterminal.ru",
+        "reprosystems.ru",
+        "retiragroup.com",
+        "rtsab.com",
+        "running-sigi.de",
+        "sdccdonline.net",
+        "sheltercoveinn.com",
+        "shivalikprints.com",
+        "shqqaa.com",
+        "simternet.com",
+        "somode.com",
+        "stunninggirls.net",
+        "toaskfuture.com",
+        "tottenhamhk.com",
+        "triggerfish.se",
+        "tuhafhaberler.com",
+        "uahoy.net",
+        "us.tf",
+        "wrestlingfanssuck.com",
+        "zzxu.cn"
+      ],
+      "results": [
+        {
+          "domain": "2brightsparks.co.uk",
+          "success": false,
+          "latency": 71.8240737915039,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "41latitude.com",
+          "success": false,
+          "latency": 16.846895217895508,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "7dfps.com",
+          "success": false,
+          "latency": 18.33033561706543,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "advertos.ru",
+          "success": false,
+          "latency": 7.909059524536133,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "afairjudgement.com",
+          "success": false,
+          "latency": 18.045902252197266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "afresnohomeinspector.com",
+          "success": false,
+          "latency": 17.30966567993164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 389
+        },
+        {
+          "domain": "alchemedialtd.com",
+          "success": false,
+          "latency": 19.071340560913086,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "alenpuaca.com",
+          "success": false,
+          "latency": 22.736787796020508,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "amorefieldlife.com",
+          "success": false,
+          "latency": 17.33112335205078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "aqvr.com",
+          "success": false,
+          "latency": 17.757892608642578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "asadventure.com",
+          "success": false,
+          "latency": 18.86129379272461,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "astrumonline.ru",
+          "success": false,
+          "latency": 17.8987979888916,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "auqzzx.com",
+          "success": false,
+          "latency": 17.969369888305664,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "australiatradenow.com",
+          "success": false,
+          "latency": 17.10987091064453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "autofirenze.biz",
+          "success": false,
+          "latency": 17.214536666870117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "b-matrix.com",
+          "success": false,
+          "latency": 16.922473907470703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "bikesandtransit.com",
+          "success": false,
+          "latency": 19.3631649017334,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "blueridgelife.com",
+          "success": false,
+          "latency": 19.36030387878418,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "buynowfromusa.com",
+          "success": false,
+          "latency": 18.003225326538086,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "camcard.com",
+          "success": false,
+          "latency": 19.501447677612305,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "caricsports.com",
+          "success": false,
+          "latency": 16.9985294342041,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "cetsi.fr",
+          "success": false,
+          "latency": 20.041942596435547,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "chonvn.com",
+          "success": false,
+          "latency": 16.83211326599121,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "chuamatsua.com",
+          "success": false,
+          "latency": 23.816823959350586,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "coutureauchocolat.com",
+          "success": false,
+          "latency": 18.819332122802734,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "daehepharma.com",
+          "success": false,
+          "latency": 20.317792892456055,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "datepanchang.com",
+          "success": false,
+          "latency": 19.722700119018555,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "diamondknot.com",
+          "success": false,
+          "latency": 20.258426666259766,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "ditrblog.com",
+          "success": false,
+          "latency": 19.33574676513672,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "dj-producer-j-mbargo.com",
+          "success": false,
+          "latency": 18.270254135131836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 389
+        },
+        {
+          "domain": "door2games.com",
+          "success": false,
+          "latency": 17.06409454345703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "effexdjs.com",
+          "success": false,
+          "latency": 17.397642135620117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "energybulbs.co.uk",
+          "success": false,
+          "latency": 23.287534713745117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "eugenbotnar.com",
+          "success": false,
+          "latency": 17.68326759338379,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "ex-jw.org",
+          "success": false,
+          "latency": 21.984100341796875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "fini.net",
+          "success": false,
+          "latency": 17.296791076660156,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "forpsi.net",
+          "success": false,
+          "latency": 17.127275466918945,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "gamemob.com",
+          "success": false,
+          "latency": 16.98446273803711,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "gensee.com",
+          "success": false,
+          "latency": 17.102479934692383,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "globalpoliticalspectrum.com",
+          "success": false,
+          "latency": 18.24665069580078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 398
+        },
+        {
+          "domain": "group14eng.com",
+          "success": false,
+          "latency": 17.41647720336914,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "gusbi.com",
+          "success": false,
+          "latency": 17.292261123657227,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "healthnews4you.com",
+          "success": false,
+          "latency": 20.227432250976562,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "hemcolubricants.com",
+          "success": false,
+          "latency": 17.3797607421875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "hornil.com",
+          "success": false,
+          "latency": 17.577648162841797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "house-sg.com",
+          "success": false,
+          "latency": 20.254135131835938,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "i-butterfly.ru",
+          "success": false,
+          "latency": 17.456531524658203,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "iag-inc.com",
+          "success": false,
+          "latency": 19.8366641998291,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "informarexresistere.fr",
+          "success": false,
+          "latency": 20.398378372192383,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "interfloracentral.co.uk",
+          "success": false,
+          "latency": 17.53520965576172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "jantv.in",
+          "success": false,
+          "latency": 27.233123779296875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "junio.com",
+          "success": false,
+          "latency": 21.43096923828125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "kathihill.com",
+          "success": false,
+          "latency": 18.52107048034668,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "kennethehartman.com",
+          "success": false,
+          "latency": 21.120786666870117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "kh.ua",
+          "success": false,
+          "latency": 17.840862274169922,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 332
+        },
+        {
+          "domain": "khsm.ru",
+          "success": false,
+          "latency": 21.767139434814453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "linksplash.info",
+          "success": false,
+          "latency": 16.904354095458984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "livelinks.com",
+          "success": false,
+          "latency": 21.528244018554688,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "localhost.re",
+          "success": false,
+          "latency": 20.180463790893555,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "lozo.com",
+          "success": false,
+          "latency": 16.8154239654541,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "luckypuppygames.com",
+          "success": false,
+          "latency": 16.394615173339844,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "memeblender.com",
+          "success": false,
+          "latency": 18.167972564697266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "mesites.co.za",
+          "success": false,
+          "latency": 18.38374137878418,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "michiganbulb.com",
+          "success": false,
+          "latency": 17.665624618530273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "monsterhomesecuritystore.com",
+          "success": false,
+          "latency": 18.164634704589844,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 401
+        },
+        {
+          "domain": "mwzip.com",
+          "success": false,
+          "latency": 19.46568489074707,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "mysearch-online.com",
+          "success": false,
+          "latency": 18.399715423583984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "newstetic.com",
+          "success": false,
+          "latency": 17.148494720458984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "niceinternetmoney.ru",
+          "success": false,
+          "latency": 16.910314559936523,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "o-ov.com",
+          "success": false,
+          "latency": 16.88361167907715,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "ondemandappliancerepair.com",
+          "success": false,
+          "latency": 17.885446548461914,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 398
+        },
+        {
+          "domain": "owlcreek.com",
+          "success": false,
+          "latency": 17.091989517211914,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "pbprofile.com",
+          "success": false,
+          "latency": 17.00758934020996,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "phi-pe.com",
+          "success": false,
+          "latency": 20.371437072753906,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "pictures-thailand.com",
+          "success": false,
+          "latency": 17.43149757385254,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "pieceinch.com",
+          "success": false,
+          "latency": 16.977787017822266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "portclydegeneralstore.com",
+          "success": false,
+          "latency": 17.302751541137695,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 392
+        },
+        {
+          "domain": "ppsuika.ac.id",
+          "success": false,
+          "latency": 24.82771873474121,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "probigbets.com",
+          "success": false,
+          "latency": 17.381906509399414,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "progettogiovani.pd.it",
+          "success": false,
+          "latency": 17.45128631591797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "radioterminal.ru",
+          "success": false,
+          "latency": 19.205093383789062,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "reprosystems.ru",
+          "success": false,
+          "latency": 21.273136138916016,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "retiragroup.com",
+          "success": false,
+          "latency": 18.56684684753418,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "rtsab.com",
+          "success": false,
+          "latency": 17.527103424072266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "running-sigi.de",
+          "success": false,
+          "latency": 16.405820846557617,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "sdccdonline.net",
+          "success": false,
+          "latency": 16.626596450805664,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "sheltercoveinn.com",
+          "success": false,
+          "latency": 17.44246482849121,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "shivalikprints.com",
+          "success": false,
+          "latency": 16.33930206298828,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "shqqaa.com",
+          "success": false,
+          "latency": 16.489744186401367,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "simternet.com",
+          "success": false,
+          "latency": 20.888566970825195,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "somode.com",
+          "success": false,
+          "latency": 16.228675842285156,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "stunninggirls.net",
+          "success": false,
+          "latency": 16.806602478027344,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "toaskfuture.com",
+          "success": false,
+          "latency": 17.60387420654297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "tottenhamhk.com",
+          "success": false,
+          "latency": 17.119884490966797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "triggerfish.se",
+          "success": false,
+          "latency": 18.89657974243164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "tuhafhaberler.com",
+          "success": false,
+          "latency": 17.248868942260742,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "uahoy.net",
+          "success": false,
+          "latency": 16.51787757873535,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "us.tf",
+          "success": false,
+          "latency": 17.140865325927734,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 332
+        },
+        {
+          "domain": "wrestlingfanssuck.com",
+          "success": false,
+          "latency": 17.705440521240234,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "zzxu.cn",
+          "success": false,
+          "latency": 17.59934425354004,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        }
+      ]
+    },
+    {
+      "host": "h2",
+      "pcap_file": "pcap_files/PCAP_2_H2.pcap",
+      "total_queries": 100,
+      "successful_queries": 0,
+      "failed_queries": 100,
+      "average_latency_ms": 0,
+      "average_throughput_bps": 0,
+      "domains_tested": [
+        "51cdngo.com",
+        "7sports.jp",
+        "a-loud.com",
+        "alkoholiker-clan.de",
+        "alltransport.ru",
+        "ambassadorsspfhf.org",
+        "amedeos.net",
+        "androgyn.org",
+        "asip.es",
+        "aspiringwriter.ca",
+        "atomicbase.com",
+        "bek.ir",
+        "bigjournalism.com",
+        "brfone.com",
+        "brown.edu",
+        "c3budiman.tk",
+        "capella.edu",
+        "casco.com",
+        "cellularfactory.com",
+        "cncdesign.co.kr",
+        "congsoxanh.com",
+        "consejodentistas.org",
+        "cornesoft.com",
+        "datadikdki.net",
+        "doommovie.com",
+        "elettronix.com",
+        "fanzi.pl",
+        "fauzanalfi.com",
+        "gamepsvita.com",
+        "gaybodyblog.com",
+        "gba4iosapp.com",
+        "gucenmez.com",
+        "gvowebcast.com",
+        "heygal.net",
+        "hivelocitymedia.com",
+        "horn-elektronik.com",
+        "hotel.ch",
+        "huhgmbh.com",
+        "hznzcn.com",
+        "i12.de",
+        "itattoos.org",
+        "jabeye.org",
+        "jcwcn.com",
+        "k-dsl.de",
+        "ku.edu",
+        "lacuentaperdida.org",
+        "lgmonitorreview.nl",
+        "lighthouse.cc",
+        "likeminded.ca",
+        "ljyelectronic.com",
+        "lookpage.org",
+        "mattselznick.com",
+        "meintrendyhandy.de",
+        "metabans.com",
+        "motiie.com",
+        "mplus.hk",
+        "mpskota.com",
+        "mumphi.de",
+        "newpages2u.com",
+        "nipslab.org",
+        "nucre.com",
+        "oberoncompany.com",
+        "obtscan.com",
+        "ohdev.co.uk",
+        "ovtoc.com",
+        "panaceadream.com",
+        "phoenix-music.ru",
+        "qdushu.com",
+        "qingjiaopidaiji.com",
+        "raqualia.com",
+        "redcrosseth.org",
+        "rousing.dk",
+        "sandieskorner.com",
+        "seedy.dk",
+        "simple-health-reports.com",
+        "sinemagrafik.com",
+        "sscw.ee",
+        "stopallthathating.com",
+        "supreetsethi.net",
+        "thankfullyyours.com",
+        "thereeftank.com",
+        "thunderex.com",
+        "ticketbis.com",
+        "tomorrowsreflection.com",
+        "tonaci.com",
+        "topilehtipuu.com",
+        "tretsomshop.nl",
+        "tsksv.ru",
+        "uanet.net",
+        "udoo24.com",
+        "vaco.ru",
+        "valerievandenbroek.nl",
+        "visualtap.com",
+        "volksschule-neufahrn.de",
+        "webxtrap.com",
+        "womenology.com",
+        "xqgcab.com",
+        "youngsnetwork.it",
+        "zamlelova.ru",
+        "zilch.org"
+      ],
+      "results": [
+        {
+          "domain": "51cdngo.com",
+          "success": false,
+          "latency": 19.744157791137695,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "7sports.jp",
+          "success": false,
+          "latency": 17.532825469970703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "a-loud.com",
+          "success": false,
+          "latency": 18.622159957885742,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "alkoholiker-clan.de",
+          "success": false,
+          "latency": 22.075414657592773,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "alltransport.ru",
+          "success": false,
+          "latency": 22.87149429321289,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "ambassadorsspfhf.org",
+          "success": false,
+          "latency": 16.483545303344727,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "amedeos.net",
+          "success": false,
+          "latency": 16.813993453979492,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "androgyn.org",
+          "success": false,
+          "latency": 20.687580108642578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "asip.es",
+          "success": false,
+          "latency": 22.516727447509766,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "aspiringwriter.ca",
+          "success": false,
+          "latency": 16.89434051513672,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "atomicbase.com",
+          "success": false,
+          "latency": 18.28622817993164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "bek.ir",
+          "success": false,
+          "latency": 21.869659423828125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 335
+        },
+        {
+          "domain": "bigjournalism.com",
+          "success": false,
+          "latency": 19.311189651489258,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "brfone.com",
+          "success": false,
+          "latency": 22.926807403564453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "brown.edu",
+          "success": false,
+          "latency": 18.964290618896484,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "c3budiman.tk",
+          "success": false,
+          "latency": 22.49765396118164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "capella.edu",
+          "success": false,
+          "latency": 18.52250099182129,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "casco.com",
+          "success": false,
+          "latency": 20.49732208251953,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "cellularfactory.com",
+          "success": false,
+          "latency": 21.558284759521484,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "cncdesign.co.kr",
+          "success": false,
+          "latency": 22.333145141601562,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "congsoxanh.com",
+          "success": false,
+          "latency": 18.39447021484375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "consejodentistas.org",
+          "success": false,
+          "latency": 19.092559814453125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "cornesoft.com",
+          "success": false,
+          "latency": 19.4242000579834,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "datadikdki.net",
+          "success": false,
+          "latency": 21.176576614379883,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "doommovie.com",
+          "success": false,
+          "latency": 19.72031593322754,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "elettronix.com",
+          "success": false,
+          "latency": 23.08201789855957,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "fanzi.pl",
+          "success": false,
+          "latency": 22.591352462768555,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "fauzanalfi.com",
+          "success": false,
+          "latency": 19.080638885498047,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "gamepsvita.com",
+          "success": false,
+          "latency": 19.67787742614746,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "gaybodyblog.com",
+          "success": false,
+          "latency": 20.371675491333008,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "gba4iosapp.com",
+          "success": false,
+          "latency": 21.853923797607422,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "gucenmez.com",
+          "success": false,
+          "latency": 18.31674575805664,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "gvowebcast.com",
+          "success": false,
+          "latency": 8.390188217163086,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "heygal.net",
+          "success": false,
+          "latency": 17.66228675842285,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "hivelocitymedia.com",
+          "success": false,
+          "latency": 22.034645080566406,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "horn-elektronik.com",
+          "success": false,
+          "latency": 9.45734977722168,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "hotel.ch",
+          "success": false,
+          "latency": 18.166542053222656,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "huhgmbh.com",
+          "success": false,
+          "latency": 19.034624099731445,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "hznzcn.com",
+          "success": false,
+          "latency": 26.33380889892578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "i12.de",
+          "success": false,
+          "latency": 28.285741806030273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 335
+        },
+        {
+          "domain": "itattoos.org",
+          "success": false,
+          "latency": 17.770051956176758,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "jabeye.org",
+          "success": false,
+          "latency": 17.633676528930664,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "jcwcn.com",
+          "success": false,
+          "latency": 24.851322174072266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "k-dsl.de",
+          "success": false,
+          "latency": 19.393444061279297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "ku.edu",
+          "success": false,
+          "latency": 19.137859344482422,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 335
+        },
+        {
+          "domain": "lacuentaperdida.org",
+          "success": false,
+          "latency": 20.363807678222656,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "lgmonitorreview.nl",
+          "success": false,
+          "latency": 18.58973503112793,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "lighthouse.cc",
+          "success": false,
+          "latency": 20.801067352294922,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "likeminded.ca",
+          "success": false,
+          "latency": 20.534515380859375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "ljyelectronic.com",
+          "success": false,
+          "latency": 20.135164260864258,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "lookpage.org",
+          "success": false,
+          "latency": 19.594192504882812,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "mattselznick.com",
+          "success": false,
+          "latency": 18.14413070678711,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "meintrendyhandy.de",
+          "success": false,
+          "latency": 19.9735164642334,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "metabans.com",
+          "success": false,
+          "latency": 20.430326461791992,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "motiie.com",
+          "success": false,
+          "latency": 19.97828483581543,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "mplus.hk",
+          "success": false,
+          "latency": 20.70927619934082,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "mpskota.com",
+          "success": false,
+          "latency": 19.185781478881836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "mumphi.de",
+          "success": false,
+          "latency": 26.89218521118164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "newpages2u.com",
+          "success": false,
+          "latency": 23.151636123657227,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "nipslab.org",
+          "success": false,
+          "latency": 22.60732650756836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "nucre.com",
+          "success": false,
+          "latency": 19.04153823852539,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "oberoncompany.com",
+          "success": false,
+          "latency": 21.23546600341797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "obtscan.com",
+          "success": false,
+          "latency": 23.538589477539062,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "ohdev.co.uk",
+          "success": false,
+          "latency": 19.32382583618164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "ovtoc.com",
+          "success": false,
+          "latency": 20.418643951416016,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "panaceadream.com",
+          "success": false,
+          "latency": 19.115209579467773,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "phoenix-music.ru",
+          "success": false,
+          "latency": 17.968177795410156,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "qdushu.com",
+          "success": false,
+          "latency": 18.891572952270508,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "qingjiaopidaiji.com",
+          "success": false,
+          "latency": 18.513202667236328,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "raqualia.com",
+          "success": false,
+          "latency": 17.59624481201172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "redcrosseth.org",
+          "success": false,
+          "latency": 18.764972686767578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "rousing.dk",
+          "success": false,
+          "latency": 23.23293685913086,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "sandieskorner.com",
+          "success": false,
+          "latency": 18.920421600341797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "seedy.dk",
+          "success": false,
+          "latency": 19.174575805664062,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "simple-health-reports.com",
+          "success": false,
+          "latency": 19.390106201171875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 392
+        },
+        {
+          "domain": "sinemagrafik.com",
+          "success": false,
+          "latency": 22.16792106628418,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "sscw.ee",
+          "success": false,
+          "latency": 22.364377975463867,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "stopallthathating.com",
+          "success": false,
+          "latency": 19.600391387939453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "supreetsethi.net",
+          "success": false,
+          "latency": 18.239259719848633,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "thankfullyyours.com",
+          "success": false,
+          "latency": 19.677400588989258,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "thereeftank.com",
+          "success": false,
+          "latency": 23.169517517089844,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "thunderex.com",
+          "success": false,
+          "latency": 10.805130004882812,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "ticketbis.com",
+          "success": false,
+          "latency": 22.055864334106445,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "tomorrowsreflection.com",
+          "success": false,
+          "latency": 20.821809768676758,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "tonaci.com",
+          "success": false,
+          "latency": 19.839763641357422,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "topilehtipuu.com",
+          "success": false,
+          "latency": 19.422531127929688,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "tretsomshop.nl",
+          "success": false,
+          "latency": 20.01667022705078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "tsksv.ru",
+          "success": false,
+          "latency": 23.45132827758789,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "uanet.net",
+          "success": false,
+          "latency": 20.215749740600586,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "udoo24.com",
+          "success": false,
+          "latency": 23.891210556030273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "vaco.ru",
+          "success": false,
+          "latency": 22.135496139526367,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "valerievandenbroek.nl",
+          "success": false,
+          "latency": 22.42588996887207,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "visualtap.com",
+          "success": false,
+          "latency": 24.83963966369629,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "volksschule-neufahrn.de",
+          "success": false,
+          "latency": 19.41370964050293,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "webxtrap.com",
+          "success": false,
+          "latency": 20.22838592529297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "womenology.com",
+          "success": false,
+          "latency": 19.545316696166992,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "xqgcab.com",
+          "success": false,
+          "latency": 21.754980087280273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "youngsnetwork.it",
+          "success": false,
+          "latency": 18.916606903076172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "zamlelova.ru",
+          "success": false,
+          "latency": 19.02294158935547,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "zilch.org",
+          "success": false,
+          "latency": 18.21303367614746,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        }
+      ]
+    },
+    {
+      "host": "h3",
+      "pcap_file": "pcap_files/PCAP_3_H3.pcap",
+      "total_queries": 100,
+      "successful_queries": 0,
+      "failed_queries": 100,
+      "average_latency_ms": 0,
+      "average_throughput_bps": 0,
+      "domains_tested": [
+        "abmcare.com",
+        "anvilnetworksolutions.net",
+        "archiportale.com",
+        "arcoat.com",
+        "asseenontvlaunchpad.com",
+        "autopareri.com",
+        "bbqinjector.com",
+        "begleyhutton.com",
+        "bigliettieventi.info",
+        "bmw-parts.ru",
+        "bookingnest.com",
+        "callcomm.info",
+        "cdmail.fr",
+        "ceskykutil.cz",
+        "charityjob.co.uk",
+        "chekiang.info",
+        "chenghuavideo.asia",
+        "cia.it",
+        "ciber.com",
+        "clickdownloadfiles.com",
+        "consumerreviews24.com",
+        "cosmeticaestheticsurgery.com",
+        "crsgfk.de",
+        "currencyrates.org",
+        "cushinglawoffices.com",
+        "cuteteenschoolgirlz.com",
+        "de.vu",
+        "dilw.ie",
+        "dock2office.com",
+        "drglendza.co.rs",
+        "dricom-hosting.nl",
+        "e-daily.gr",
+        "e-hps.com",
+        "ecolems.com",
+        "eggcityradio.com",
+        "egov.sy",
+        "fmnara.com",
+        "freeditorial.com",
+        "ftf.com",
+        "gadanguides.com",
+        "gadgetgearpro.com",
+        "gardenofwords.com",
+        "get-webby.com",
+        "ghimpele.ro",
+        "giuseppelivraghi.it",
+        "gregginn.com",
+        "gxjbsj.com",
+        "hayalforum.net",
+        "hdcric.com",
+        "hralda.info",
+        "hutago.com",
+        "iael.com",
+        "ishidatic.com",
+        "laigang001.com",
+        "marilynlingerie.com",
+        "mechachal.org",
+        "medipacademy.com",
+        "metar.gr",
+        "michaelbyers.org",
+        "minecraftserverdeals.com",
+        "monitis.com",
+        "morban.co.uk",
+        "nasaspaceflight.com",
+        "ncees.org",
+        "noblewomanhood.com",
+        "note-so-easy.co.za",
+        "oaister.org",
+        "pahibu.net",
+        "pet-connect.ru",
+        "polymth.com",
+        "romney.com",
+        "rterc.in",
+        "sailor.pl",
+        "sarahpartridge.net",
+        "sendrakhizonline.com",
+        "shishioh.info",
+        "silveropt.ru",
+        "skyhightmatter.info",
+        "sonoma-marinfair.org",
+        "stkpro.ru",
+        "synchchaos.com",
+        "synrc.com",
+        "tangkas888.com",
+        "tawali.com",
+        "teachmyass.info",
+        "teleskill.it",
+        "tenant-internet.com",
+        "texasbeyondhistory.net",
+        "topbarbee.com",
+        "trackcheatingspouse.com",
+        "uca.edu",
+        "urbannetwork.co.uk",
+        "verlockeshop.de",
+        "video-peche-poisson.fr",
+        "vietcapitaltour.com",
+        "virtualjerusalem.com",
+        "vlielandoutdoorcenter.nl",
+        "vpndefender.com",
+        "ximangquantrieu.com",
+        "zpav.pl"
+      ],
+      "results": [
+        {
+          "domain": "abmcare.com",
+          "success": false,
+          "latency": 26.98826789855957,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "anvilnetworksolutions.net",
+          "success": false,
+          "latency": 17.289161682128906,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 392
+        },
+        {
+          "domain": "archiportale.com",
+          "success": false,
+          "latency": 8.356571197509766,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "arcoat.com",
+          "success": false,
+          "latency": 19.38319206237793,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "asseenontvlaunchpad.com",
+          "success": false,
+          "latency": 21.93140983581543,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "autopareri.com",
+          "success": false,
+          "latency": 20.57051658630371,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "bbqinjector.com",
+          "success": false,
+          "latency": 18.143177032470703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "begleyhutton.com",
+          "success": false,
+          "latency": 22.14837074279785,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "bigliettieventi.info",
+          "success": false,
+          "latency": 21.248340606689453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "bmw-parts.ru",
+          "success": false,
+          "latency": 18.77617835998535,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "bookingnest.com",
+          "success": false,
+          "latency": 22.2318172454834,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "callcomm.info",
+          "success": false,
+          "latency": 22.857666015625,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "cdmail.fr",
+          "success": false,
+          "latency": 19.559144973754883,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "ceskykutil.cz",
+          "success": false,
+          "latency": 20.184040069580078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "charityjob.co.uk",
+          "success": false,
+          "latency": 21.464109420776367,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "chekiang.info",
+          "success": false,
+          "latency": 27.02045440673828,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "chenghuavideo.asia",
+          "success": false,
+          "latency": 21.00372314453125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "cia.it",
+          "success": false,
+          "latency": 19.404888153076172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 335
+        },
+        {
+          "domain": "ciber.com",
+          "success": false,
+          "latency": 21.953821182250977,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "clickdownloadfiles.com",
+          "success": false,
+          "latency": 18.989086151123047,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "consumerreviews24.com",
+          "success": false,
+          "latency": 19.672632217407227,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "cosmeticaestheticsurgery.com",
+          "success": false,
+          "latency": 21.374225616455078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 401
+        },
+        {
+          "domain": "crsgfk.de",
+          "success": false,
+          "latency": 19.338607788085938,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "currencyrates.org",
+          "success": false,
+          "latency": 18.173933029174805,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "cushinglawoffices.com",
+          "success": false,
+          "latency": 19.22893524169922,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "cuteteenschoolgirlz.com",
+          "success": false,
+          "latency": 20.824432373046875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "de.vu",
+          "success": false,
+          "latency": 19.30522918701172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 332
+        },
+        {
+          "domain": "dilw.ie",
+          "success": false,
+          "latency": 21.35014533996582,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "dock2office.com",
+          "success": false,
+          "latency": 19.734859466552734,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "drglendza.co.rs",
+          "success": false,
+          "latency": 17.611980438232422,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "dricom-hosting.nl",
+          "success": false,
+          "latency": 18.079757690429688,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "e-daily.gr",
+          "success": false,
+          "latency": 16.79229736328125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "e-hps.com",
+          "success": false,
+          "latency": 13.224124908447266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "ecolems.com",
+          "success": false,
+          "latency": 23.746728897094727,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "eggcityradio.com",
+          "success": false,
+          "latency": 17.75836944580078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "egov.sy",
+          "success": false,
+          "latency": 18.56231689453125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "fmnara.com",
+          "success": false,
+          "latency": 23.146629333496094,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "freeditorial.com",
+          "success": false,
+          "latency": 19.889116287231445,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "ftf.com",
+          "success": false,
+          "latency": 18.923282623291016,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "gadanguides.com",
+          "success": false,
+          "latency": 19.130706787109375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "gadgetgearpro.com",
+          "success": false,
+          "latency": 23.02837371826172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "gardenofwords.com",
+          "success": false,
+          "latency": 18.813610076904297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "get-webby.com",
+          "success": false,
+          "latency": 19.572973251342773,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "ghimpele.ro",
+          "success": false,
+          "latency": 18.719196319580078,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "giuseppelivraghi.it",
+          "success": false,
+          "latency": 18.013477325439453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "gregginn.com",
+          "success": false,
+          "latency": 19.430160522460938,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "gxjbsj.com",
+          "success": false,
+          "latency": 22.693872451782227,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "hayalforum.net",
+          "success": false,
+          "latency": 20.642995834350586,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "hdcric.com",
+          "success": false,
+          "latency": 20.519256591796875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "hralda.info",
+          "success": false,
+          "latency": 21.436691284179688,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "hutago.com",
+          "success": false,
+          "latency": 24.699687957763672,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "iael.com",
+          "success": false,
+          "latency": 21.562814712524414,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "ishidatic.com",
+          "success": false,
+          "latency": 21.451473236083984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "laigang001.com",
+          "success": false,
+          "latency": 20.816802978515625,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "marilynlingerie.com",
+          "success": false,
+          "latency": 18.236637115478516,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "mechachal.org",
+          "success": false,
+          "latency": 28.397321701049805,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "medipacademy.com",
+          "success": false,
+          "latency": 20.57170867919922,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "metar.gr",
+          "success": false,
+          "latency": 19.850730895996094,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "michaelbyers.org",
+          "success": false,
+          "latency": 21.76952362060547,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "minecraftserverdeals.com",
+          "success": false,
+          "latency": 11.32655143737793,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 389
+        },
+        {
+          "domain": "monitis.com",
+          "success": false,
+          "latency": 21.116971969604492,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "morban.co.uk",
+          "success": false,
+          "latency": 19.60611343383789,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "nasaspaceflight.com",
+          "success": false,
+          "latency": 18.636465072631836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "ncees.org",
+          "success": false,
+          "latency": 19.092321395874023,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "noblewomanhood.com",
+          "success": false,
+          "latency": 22.553443908691406,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "note-so-easy.co.za",
+          "success": false,
+          "latency": 26.89647674560547,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "oaister.org",
+          "success": false,
+          "latency": 20.08819580078125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "pahibu.net",
+          "success": false,
+          "latency": 18.529415130615234,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "pet-connect.ru",
+          "success": false,
+          "latency": 18.970966339111328,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "polymth.com",
+          "success": false,
+          "latency": 17.839670181274414,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "romney.com",
+          "success": false,
+          "latency": 19.395112991333008,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "rterc.in",
+          "success": false,
+          "latency": 19.766569137573242,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "sailor.pl",
+          "success": false,
+          "latency": 19.116878509521484,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "sarahpartridge.net",
+          "success": false,
+          "latency": 19.426822662353516,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "sendrakhizonline.com",
+          "success": false,
+          "latency": 22.409677505493164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "shishioh.info",
+          "success": false,
+          "latency": 22.359371185302734,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "silveropt.ru",
+          "success": false,
+          "latency": 17.879486083984375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "skyhightmatter.info",
+          "success": false,
+          "latency": 20.616531372070312,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "sonoma-marinfair.org",
+          "success": false,
+          "latency": 18.94998550415039,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "stkpro.ru",
+          "success": false,
+          "latency": 22.25041389465332,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "synchchaos.com",
+          "success": false,
+          "latency": 19.072532653808594,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "synrc.com",
+          "success": false,
+          "latency": 20.91383934020996,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "tangkas888.com",
+          "success": false,
+          "latency": 10.264396667480469,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "tawali.com",
+          "success": false,
+          "latency": 21.205663681030273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "teachmyass.info",
+          "success": false,
+          "latency": 20.954132080078125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "teleskill.it",
+          "success": false,
+          "latency": 22.62401580810547,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "tenant-internet.com",
+          "success": false,
+          "latency": 18.764495849609375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "texasbeyondhistory.net",
+          "success": false,
+          "latency": 19.43683624267578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "topbarbee.com",
+          "success": false,
+          "latency": 18.013954162597656,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "trackcheatingspouse.com",
+          "success": false,
+          "latency": 18.844127655029297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "uca.edu",
+          "success": false,
+          "latency": 20.410537719726562,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "urbannetwork.co.uk",
+          "success": false,
+          "latency": 19.98758316040039,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "verlockeshop.de",
+          "success": false,
+          "latency": 27.106046676635742,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "video-peche-poisson.fr",
+          "success": false,
+          "latency": 20.963668823242188,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "vietcapitaltour.com",
+          "success": false,
+          "latency": 21.364450454711914,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "virtualjerusalem.com",
+          "success": false,
+          "latency": 20.87855339050293,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "vlielandoutdoorcenter.nl",
+          "success": false,
+          "latency": 21.828174591064453,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 389
+        },
+        {
+          "domain": "vpndefender.com",
+          "success": false,
+          "latency": 20.107030868530273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "ximangquantrieu.com",
+          "success": false,
+          "latency": 21.33798599243164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "zpav.pl",
+          "success": false,
+          "latency": 21.744251251220703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        }
+      ]
+    },
+    {
+      "host": "h4",
+      "pcap_file": "pcap_files/PCAP_4_H4.pcap",
+      "total_queries": 100,
+      "successful_queries": 0,
+      "failed_queries": 100,
+      "average_latency_ms": 0,
+      "average_throughput_bps": 0,
+      "domains_tested": [
+        "120shenbing.com",
+        "22hotmail.com",
+        "2xfzy.com",
+        "7apcrshrmanila.org",
+        "abhair.com",
+        "adverman.com",
+        "alb-automobiles.com",
+        "ana-sofia.pt",
+        "arrabonet.hu",
+        "auto-klad.ru",
+        "b2b2c.ca",
+        "bhhsneproperties.com",
+        "boh10suphanburi.com",
+        "boneshoppe.com",
+        "breezelaw.com",
+        "c0.pl",
+        "capequilog.com",
+        "carolgraykennedy.com",
+        "celerity.com",
+        "cellslider.net",
+        "closerdiets.com",
+        "contentremarketing.com",
+        "daytimeghosthunter.com",
+        "deine-bahn.de",
+        "divefishhouse.com",
+        "djbarryblends.com",
+        "dmg-dental.com",
+        "empclan.com",
+        "ereadz.com",
+        "florenseusa.com",
+        "frasesdemotivacao.net",
+        "freepornvideosx.com",
+        "gaplex.biz",
+        "gardeninginflorida.com",
+        "go2jump.com",
+        "godo.co.kr",
+        "grandcanyongrandhotel.com",
+        "greens.my",
+        "gurukulonline.com",
+        "gustissimo.it",
+        "hackthissite.org",
+        "ilikecrochet.com",
+        "iointegrators.com",
+        "irflashgame.com",
+        "itgeorgia.co",
+        "jacquelinemertz.ch",
+        "kanoon-ansar.org",
+        "kiyimuzik.com",
+        "koopsmodellbau.de",
+        "lespetiteschoses.com",
+        "livescan4all.com",
+        "magic-illusion.ru",
+        "majorleaguelacrosse.com",
+        "medintime.ru",
+        "meditekyazilim.net",
+        "megi.cz",
+        "millionfareast.com",
+        "miscellaneousheathen.com",
+        "msf.be",
+        "muhammedmusa.com",
+        "myface.com",
+        "myfantasticpark.es",
+        "ngoanhien.com",
+        "njafe.org",
+        "oberandsons.com",
+        "ok-magazine.ru",
+        "onetoshop.nl",
+        "oneworldinfo.com",
+        "originalmagicart.com",
+        "overseasmedical.com",
+        "pces.in",
+        "pilsnerurquell.com",
+        "ranocchi.it",
+        "roche-applied-science.com",
+        "rolflouisville.com",
+        "rositehost.com",
+        "rubenquinones.com",
+        "saharaimport.com",
+        "sapendolo.it",
+        "sf-notifications.com",
+        "silkroadtours.com",
+        "sipflash.com",
+        "sitiweb.us",
+        "skplus.kr",
+        "solcredito.es",
+        "stark.dk",
+        "supportpabiomass.org",
+        "sweathelp.org",
+        "theexoticpersian.com",
+        "thepropertyvault.co.uk",
+        "tripladoppia.com",
+        "ugotrelis.com",
+        "valdo.com",
+        "viahttps.com",
+        "videofun.me",
+        "vinayaprabha.com",
+        "wiltpr.com",
+        "wordai.com",
+        "xxx-muschis.de",
+        "yunpda.com"
+      ],
+      "results": [
+        {
+          "domain": "120shenbing.com",
+          "success": false,
+          "latency": 26.810407638549805,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "22hotmail.com",
+          "success": false,
+          "latency": 18.010377883911133,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "2xfzy.com",
+          "success": false,
+          "latency": 18.442153930664062,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "7apcrshrmanila.org",
+          "success": false,
+          "latency": 18.39423179626465,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "abhair.com",
+          "success": false,
+          "latency": 34.93976593017578,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "adverman.com",
+          "success": false,
+          "latency": 22.490978240966797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "alb-automobiles.com",
+          "success": false,
+          "latency": 19.960641860961914,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "ana-sofia.pt",
+          "success": false,
+          "latency": 19.844770431518555,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "arrabonet.hu",
+          "success": false,
+          "latency": 20.826101303100586,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "auto-klad.ru",
+          "success": false,
+          "latency": 19.770145416259766,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "b2b2c.ca",
+          "success": false,
+          "latency": 21.831274032592773,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "bhhsneproperties.com",
+          "success": false,
+          "latency": 20.6298828125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "boh10suphanburi.com",
+          "success": false,
+          "latency": 21.101951599121094,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "boneshoppe.com",
+          "success": false,
+          "latency": 20.259618759155273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "breezelaw.com",
+          "success": false,
+          "latency": 18.584251403808594,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "c0.pl",
+          "success": false,
+          "latency": 19.01555061340332,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 332
+        },
+        {
+          "domain": "capequilog.com",
+          "success": false,
+          "latency": 17.74430274963379,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "carolgraykennedy.com",
+          "success": false,
+          "latency": 19.04749870300293,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "celerity.com",
+          "success": false,
+          "latency": 19.50550079345703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "cellslider.net",
+          "success": false,
+          "latency": 20.767688751220703,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "closerdiets.com",
+          "success": false,
+          "latency": 20.086288452148438,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "contentremarketing.com",
+          "success": false,
+          "latency": 19.483089447021484,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "daytimeghosthunter.com",
+          "success": false,
+          "latency": 20.543336868286133,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "deine-bahn.de",
+          "success": false,
+          "latency": 21.541595458984375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "divefishhouse.com",
+          "success": false,
+          "latency": 17.910242080688477,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "djbarryblends.com",
+          "success": false,
+          "latency": 17.69399642944336,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "dmg-dental.com",
+          "success": false,
+          "latency": 18.99862289428711,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "empclan.com",
+          "success": false,
+          "latency": 22.19843864440918,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "ereadz.com",
+          "success": false,
+          "latency": 18.625497817993164,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "florenseusa.com",
+          "success": false,
+          "latency": 18.918514251708984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "frasesdemotivacao.net",
+          "success": false,
+          "latency": 19.839048385620117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 380
+        },
+        {
+          "domain": "freepornvideosx.com",
+          "success": false,
+          "latency": 18.83864402770996,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "gaplex.biz",
+          "success": false,
+          "latency": 18.892288208007812,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "gardeninginflorida.com",
+          "success": false,
+          "latency": 20.366907119750977,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "go2jump.com",
+          "success": false,
+          "latency": 28.35869789123535,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "godo.co.kr",
+          "success": false,
+          "latency": 21.125078201293945,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "grandcanyongrandhotel.com",
+          "success": false,
+          "latency": 25.996923446655273,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 392
+        },
+        {
+          "domain": "greens.my",
+          "success": false,
+          "latency": 32.17768669128418,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "gurukulonline.com",
+          "success": false,
+          "latency": 21.57735824584961,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "gustissimo.it",
+          "success": false,
+          "latency": 18.457889556884766,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "hackthissite.org",
+          "success": false,
+          "latency": 24.106502532958984,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "ilikecrochet.com",
+          "success": false,
+          "latency": 21.979570388793945,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "iointegrators.com",
+          "success": false,
+          "latency": 20.946025848388672,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "irflashgame.com",
+          "success": false,
+          "latency": 18.43118667602539,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "itgeorgia.co",
+          "success": false,
+          "latency": 24.22022819519043,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "jacquelinemertz.ch",
+          "success": false,
+          "latency": 17.726421356201172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "kanoon-ansar.org",
+          "success": false,
+          "latency": 18.458843231201172,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "kiyimuzik.com",
+          "success": false,
+          "latency": 19.51742172241211,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "koopsmodellbau.de",
+          "success": false,
+          "latency": 21.58975601196289,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "lespetiteschoses.com",
+          "success": false,
+          "latency": 20.733118057250977,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "livescan4all.com",
+          "success": false,
+          "latency": 21.50750160217285,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "magic-illusion.ru",
+          "success": false,
+          "latency": 20.63298225402832,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "majorleaguelacrosse.com",
+          "success": false,
+          "latency": 23.17643165588379,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 386
+        },
+        {
+          "domain": "medintime.ru",
+          "success": false,
+          "latency": 17.72451400756836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "meditekyazilim.net",
+          "success": false,
+          "latency": 19.984006881713867,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "megi.cz",
+          "success": false,
+          "latency": 20.766735076904297,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "millionfareast.com",
+          "success": false,
+          "latency": 23.151159286499023,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "miscellaneousheathen.com",
+          "success": false,
+          "latency": 28.778076171875,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 389
+        },
+        {
+          "domain": "msf.be",
+          "success": false,
+          "latency": 19.165515899658203,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 335
+        },
+        {
+          "domain": "muhammedmusa.com",
+          "success": false,
+          "latency": 18.497943878173828,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "myface.com",
+          "success": false,
+          "latency": 18.33319664001465,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "myfantasticpark.es",
+          "success": false,
+          "latency": 26.520490646362305,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "ngoanhien.com",
+          "success": false,
+          "latency": 22.744178771972656,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "njafe.org",
+          "success": false,
+          "latency": 19.5920467376709,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "oberandsons.com",
+          "success": false,
+          "latency": 20.232677459716797,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 362
+        },
+        {
+          "domain": "ok-magazine.ru",
+          "success": false,
+          "latency": 21.549701690673828,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "onetoshop.nl",
+          "success": false,
+          "latency": 21.056175231933594,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "oneworldinfo.com",
+          "success": false,
+          "latency": 20.36452293395996,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "originalmagicart.com",
+          "success": false,
+          "latency": 22.82118797302246,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "overseasmedical.com",
+          "success": false,
+          "latency": 20.25461196899414,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 374
+        },
+        {
+          "domain": "pces.in",
+          "success": false,
+          "latency": 25.287628173828125,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 338
+        },
+        {
+          "domain": "pilsnerurquell.com",
+          "success": false,
+          "latency": 19.565343856811523,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "ranocchi.it",
+          "success": false,
+          "latency": 19.02461051940918,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "roche-applied-science.com",
+          "success": false,
+          "latency": 18.785476684570312,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 392
+        },
+        {
+          "domain": "rolflouisville.com",
+          "success": false,
+          "latency": 19.167661666870117,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 371
+        },
+        {
+          "domain": "rositehost.com",
+          "success": false,
+          "latency": 19.449949264526367,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "rubenquinones.com",
+          "success": false,
+          "latency": 19.708633422851562,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "saharaimport.com",
+          "success": false,
+          "latency": 19.685745239257812,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "sapendolo.it",
+          "success": false,
+          "latency": 22.34816551208496,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "sf-notifications.com",
+          "success": false,
+          "latency": 22.745609283447266,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "silkroadtours.com",
+          "success": false,
+          "latency": 18.331289291381836,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 368
+        },
+        {
+          "domain": "sipflash.com",
+          "success": false,
+          "latency": 19.18625831604004,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "sitiweb.us",
+          "success": false,
+          "latency": 19.240617752075195,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "skplus.kr",
+          "success": false,
+          "latency": 21.38352394104004,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "solcredito.es",
+          "success": false,
+          "latency": 22.431612014770508,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "stark.dk",
+          "success": false,
+          "latency": 19.18792724609375,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 341
+        },
+        {
+          "domain": "supportpabiomass.org",
+          "success": false,
+          "latency": 16.846656799316406,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "sweathelp.org",
+          "success": false,
+          "latency": 17.244338989257812,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "theexoticpersian.com",
+          "success": false,
+          "latency": 18.865585327148438,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 377
+        },
+        {
+          "domain": "thepropertyvault.co.uk",
+          "success": false,
+          "latency": 22.495746612548828,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 383
+        },
+        {
+          "domain": "tripladoppia.com",
+          "success": false,
+          "latency": 19.02174949645996,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "ugotrelis.com",
+          "success": false,
+          "latency": 20.83897590637207,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 356
+        },
+        {
+          "domain": "valdo.com",
+          "success": false,
+          "latency": 18.028974533081055,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 344
+        },
+        {
+          "domain": "viahttps.com",
+          "success": false,
+          "latency": 18.655061721801758,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 353
+        },
+        {
+          "domain": "videofun.me",
+          "success": false,
+          "latency": 23.8645076751709,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 350
+        },
+        {
+          "domain": "vinayaprabha.com",
+          "success": false,
+          "latency": 18.602371215820312,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 365
+        },
+        {
+          "domain": "wiltpr.com",
+          "success": false,
+          "latency": 18.27836036682129,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "wordai.com",
+          "success": false,
+          "latency": 17.557859420776367,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        },
+        {
+          "domain": "xxx-muschis.de",
+          "success": false,
+          "latency": 21.00849151611328,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 359
+        },
+        {
+          "domain": "yunpda.com",
+          "success": false,
+          "latency": 18.980979919433594,
+          "ip_address": null,
+          "error": "DNS server unreachable",
+          "bytes_transferred": 347
+        }
+      ]
+    }
+  ]
+}
