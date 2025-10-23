@@ -1,15 +1,15 @@
 {
-  "timestamp": "2025-10-22T01:57:08.782608",
+  "timestamp": "2025-10-23T15:29:14.752332",
   "dns_server": "8.8.8.8",
   "results": [
     {
       "host": "h1",
       "pcap_file": "pcap_files/PCAP_1_H1.pcap",
       "total_queries": 100,
-      "successful_queries": 0,
-      "failed_queries": 100,
-      "average_latency_ms": 0,
-      "average_throughput_bps": 0,
+      "successful_queries": 71,
+      "failed_queries": 29,
+      "average_latency_ms": 583.83,
+      "average_throughput_bps": 2414.19,
       "domains_tested": [
         "2brightsparks.co.uk",
         "41latitude.com",
@@ -115,803 +115,803 @@
       "results": [
         {
           "domain": "2brightsparks.co.uk",
-          "success": false,
-          "latency": 71.8240737915039,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 113.39569091796875,
+          "ip_address": "18.161.111.88",
+          "error": null,
+          "bytes_transferred": 274
         },
         {
           "domain": "41latitude.com",
           "success": false,
-          "latency": 16.846895217895508,
+          "latency": 156.3732624053955,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 112
         },
         {
           "domain": "7dfps.com",
-          "success": false,
-          "latency": 18.33033561706543,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 343.11604499816895,
+          "ip_address": "104.21.9.172",
+          "error": null,
+          "bytes_transferred": 256
         },
         {
           "domain": "advertos.ru",
-          "success": false,
-          "latency": 7.909059524536133,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 1604.5663356781006,
+          "ip_address": "45.92.176.75",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "afairjudgement.com",
-          "success": false,
-          "latency": 18.045902252197266,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 327.61359214782715,
+          "ip_address": "104.21.56.56",
+          "error": null,
+          "bytes_transferred": 294
         },
         {
           "domain": "afresnohomeinspector.com",
-          "success": false,
-          "latency": 17.30966567993164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 389
+          "success": true,
+          "latency": 1362.9460334777832,
+          "ip_address": "67.225.203.79",
+          "error": null,
+          "bytes_transferred": 126
         },
         {
           "domain": "alchemedialtd.com",
-          "success": false,
-          "latency": 19.071340560913086,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 240.98849296569824,
+          "ip_address": "68.66.224.29",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "alenpuaca.com",
-          "success": false,
-          "latency": 22.736787796020508,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 590.3856754302979,
+          "ip_address": "67.205.28.253",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "amorefieldlife.com",
-          "success": false,
-          "latency": 17.33112335205078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 91.28737449645996,
+          "ip_address": "162.241.226.124",
+          "error": null,
+          "bytes_transferred": 122
         },
         {
           "domain": "aqvr.com",
-          "success": false,
-          "latency": 17.757892608642578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 769.803524017334,
+          "ip_address": "89.117.19.57",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "asadventure.com",
-          "success": false,
-          "latency": 18.86129379272461,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 497.4668025970459,
+          "ip_address": "18.161.97.23",
+          "error": null,
+          "bytes_transferred": 823
         },
         {
           "domain": "astrumonline.ru",
-          "success": false,
-          "latency": 17.8987979888916,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 2342.4413204193115,
+          "ip_address": "217.69.136.59",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "auqzzx.com",
           "success": false,
-          "latency": 17.969369888305664,
+          "latency": 69.24843788146973,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "australiatradenow.com",
-          "success": false,
-          "latency": 17.10987091064453,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "success": true,
+          "latency": 125.35357475280762,
+          "ip_address": "52.77.97.73",
+          "error": null,
+          "bytes_transferred": 174
         },
         {
           "domain": "autofirenze.biz",
-          "success": false,
-          "latency": 17.214536666870117,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 966.9778347015381,
+          "ip_address": "89.46.109.17",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "b-matrix.com",
-          "success": false,
-          "latency": 16.922473907470703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 249.30143356323242,
+          "ip_address": "137.135.108.176",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "bikesandtransit.com",
-          "success": false,
-          "latency": 19.3631649017334,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 117.07353591918945,
+          "ip_address": "192.0.78.25",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "blueridgelife.com",
-          "success": false,
-          "latency": 19.36030387878418,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 295.5770492553711,
+          "ip_address": "192.124.249.6",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "buynowfromusa.com",
-          "success": false,
-          "latency": 18.003225326538086,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 113.27576637268066,
+          "ip_address": "35.223.118.1",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "camcard.com",
-          "success": false,
-          "latency": 19.501447677612305,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 139.76550102233887,
+          "ip_address": "184.169.200.40",
+          "error": null,
+          "bytes_transferred": 159
         },
         {
           "domain": "caricsports.com",
-          "success": false,
-          "latency": 16.9985294342041,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 104.82573509216309,
+          "ip_address": "104.21.51.12",
+          "error": null,
+          "bytes_transferred": 281
         },
         {
           "domain": "cetsi.fr",
-          "success": false,
-          "latency": 20.041942596435547,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 1035.386085510254,
+          "ip_address": "91.151.64.24",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "chonvn.com",
           "success": false,
-          "latency": 16.83211326599121,
+          "latency": 344.7706699371338,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "chuamatsua.com",
           "success": false,
-          "latency": 23.816823959350586,
+          "latency": 243.75271797180176,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 126
         },
         {
           "domain": "coutureauchocolat.com",
           "success": false,
-          "latency": 18.819332122802734,
+          "latency": 61.29956245422363,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "daehepharma.com",
           "success": false,
-          "latency": 20.317792892456055,
+          "latency": 413.7382507324219,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 113
         },
         {
           "domain": "datepanchang.com",
-          "success": false,
-          "latency": 19.722700119018555,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 176.97882652282715,
+          "ip_address": "13.75.66.141",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "diamondknot.com",
-          "success": false,
-          "latency": 20.258426666259766,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 217.12851524353027,
+          "ip_address": "198.185.159.145",
+          "error": null,
+          "bytes_transferred": 262
         },
         {
           "domain": "ditrblog.com",
           "success": false,
-          "latency": 19.33574676513672,
+          "latency": 59.07869338989258,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "dj-producer-j-mbargo.com",
           "success": false,
-          "latency": 18.270254135131836,
+          "latency": 275.3465175628662,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 389
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 100
         },
         {
           "domain": "door2games.com",
-          "success": false,
-          "latency": 17.06409454345703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 393.3706283569336,
+          "ip_address": "160.153.0.43",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "effexdjs.com",
           "success": false,
-          "latency": 17.397642135620117,
+          "latency": 61.440467834472656,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "energybulbs.co.uk",
-          "success": false,
-          "latency": 23.287534713745117,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 808.0313205718994,
+          "ip_address": "23.227.38.32",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "eugenbotnar.com",
           "success": false,
-          "latency": 17.68326759338379,
+          "latency": 57.90591239929199,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "ex-jw.org",
-          "success": false,
-          "latency": 21.984100341796875,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 261.75856590270996,
+          "ip_address": "185.230.63.186",
+          "error": null,
+          "bytes_transferred": 196
         },
         {
           "domain": "fini.net",
-          "success": false,
-          "latency": 17.296791076660156,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 385.4856491088867,
+          "ip_address": "198.57.192.137",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "forpsi.net",
-          "success": false,
-          "latency": 17.127275466918945,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 1399.9736309051514,
+          "ip_address": "85.255.6.237",
+          "error": null,
+          "bytes_transferred": 163
         },
         {
           "domain": "gamemob.com",
-          "success": false,
-          "latency": 16.98446273803711,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 386.94167137145996,
+          "ip_address": "15.197.148.33",
+          "error": null,
+          "bytes_transferred": 155
         },
         {
           "domain": "gensee.com",
-          "success": false,
-          "latency": 17.102479934692383,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 169.4948673248291,
+          "ip_address": "211.150.89.25",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "globalpoliticalspectrum.com",
           "success": false,
-          "latency": 18.24665069580078,
+          "latency": 54.042816162109375,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 398
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 103
         },
         {
           "domain": "group14eng.com",
-          "success": false,
-          "latency": 17.41647720336914,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 241.22285842895508,
+          "ip_address": "192.124.249.164",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "gusbi.com",
-          "success": false,
-          "latency": 17.292261123657227,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 781.3482284545898,
+          "ip_address": "185.145.195.19",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "healthnews4you.com",
-          "success": false,
-          "latency": 20.227432250976562,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 331.6149711608887,
+          "ip_address": "15.197.148.33",
+          "error": null,
+          "bytes_transferred": 169
         },
         {
           "domain": "hemcolubricants.com",
-          "success": false,
-          "latency": 17.3797607421875,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 661.3080501556396,
+          "ip_address": "194.9.94.86",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "hornil.com",
-          "success": false,
-          "latency": 17.577648162841797,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 405.6556224822998,
+          "ip_address": "183.111.138.226",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "house-sg.com",
-          "success": false,
-          "latency": 20.254135131835938,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 719.9492454528809,
+          "ip_address": "208.98.40.32",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "i-butterfly.ru",
-          "success": false,
-          "latency": 17.456531524658203,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 409.20329093933105,
+          "ip_address": "104.21.88.172",
+          "error": null,
+          "bytes_transferred": 279
         },
         {
           "domain": "iag-inc.com",
-          "success": false,
-          "latency": 19.8366641998291,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 597.5527763366699,
+          "ip_address": "103.224.182.253",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "informarexresistere.fr",
-          "success": false,
-          "latency": 20.398378372192383,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "success": true,
+          "latency": 513.9853954315186,
+          "ip_address": "178.32.143.165",
+          "error": null,
+          "bytes_transferred": 187
         },
         {
           "domain": "interfloracentral.co.uk",
-          "success": false,
-          "latency": 17.53520965576172,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "success": true,
+          "latency": 1486.191749572754,
+          "ip_address": "217.69.32.44",
+          "error": null,
+          "bytes_transferred": 124
         },
         {
           "domain": "jantv.in",
-          "success": false,
-          "latency": 27.233123779296875,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 100.67296028137207,
+          "ip_address": "104.21.5.51",
+          "error": null,
+          "bytes_transferred": 252
         },
         {
           "domain": "junio.com",
-          "success": false,
-          "latency": 21.43096923828125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 780.928373336792,
+          "ip_address": "209.196.144.25",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "kathihill.com",
-          "success": false,
-          "latency": 18.52107048034668,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 238.57355117797852,
+          "ip_address": "159.65.187.116",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "kennethehartman.com",
-          "success": false,
-          "latency": 21.120786666870117,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 105.77726364135742,
+          "ip_address": "192.0.78.25",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "kh.ua",
-          "success": false,
-          "latency": 17.840862274169922,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 332
+          "success": true,
+          "latency": 495.0084686279297,
+          "ip_address": "195.69.185.211",
+          "error": null,
+          "bytes_transferred": 152
         },
         {
           "domain": "khsm.ru",
-          "success": false,
-          "latency": 21.767139434814453,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 796.6535091400146,
+          "ip_address": "91.247.37.5",
+          "error": null,
+          "bytes_transferred": 107
         },
         {
           "domain": "linksplash.info",
           "success": false,
-          "latency": 16.904354095458984,
+          "latency": 384.6585750579834,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "livelinks.com",
-          "success": false,
-          "latency": 21.528244018554688,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 127.03323364257812,
+          "ip_address": "108.158.61.12",
+          "error": null,
+          "bytes_transferred": 250
         },
         {
           "domain": "localhost.re",
-          "success": false,
-          "latency": 20.180463790893555,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 174.95465278625488,
+          "ip_address": "172.67.163.57",
+          "error": null,
+          "bytes_transferred": 270
         },
         {
           "domain": "lozo.com",
-          "success": false,
-          "latency": 16.8154239654541,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 97.4736213684082,
+          "ip_address": "44.214.239.39",
+          "error": null,
+          "bytes_transferred": 150
         },
         {
           "domain": "luckypuppygames.com",
-          "success": false,
-          "latency": 16.394615173339844,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 2178.281545639038,
+          "ip_address": "172.237.146.8",
+          "error": null,
+          "bytes_transferred": 382
         },
         {
           "domain": "memeblender.com",
-          "success": false,
-          "latency": 18.167972564697266,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 102.71763801574707,
+          "ip_address": "104.21.7.158",
+          "error": null,
+          "bytes_transferred": 281
         },
         {
           "domain": "mesites.co.za",
-          "success": false,
-          "latency": 18.38374137878418,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 1536.444902420044,
+          "ip_address": "41.204.200.130",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "michiganbulb.com",
-          "success": false,
-          "latency": 17.665624618530273,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 327.9461860656738,
+          "ip_address": "208.27.142.168",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "monsterhomesecuritystore.com",
           "success": false,
-          "latency": 18.164634704589844,
+          "latency": 203.67074012756348,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 401
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 104
         },
         {
           "domain": "mwzip.com",
-          "success": false,
-          "latency": 19.46568489074707,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 115.00811576843262,
+          "ip_address": "172.67.194.102",
+          "error": null,
+          "bytes_transferred": 259
         },
         {
           "domain": "mysearch-online.com",
           "success": false,
-          "latency": 18.399715423583984,
+          "latency": 57.111501693725586,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "newstetic.com",
-          "success": false,
-          "latency": 17.148494720458984,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 107.90657997131348,
+          "ip_address": "172.67.131.89",
+          "error": null,
+          "bytes_transferred": 272
         },
         {
           "domain": "niceinternetmoney.ru",
           "success": false,
-          "latency": 16.910314559936523,
+          "latency": 692.7661895751953,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 96
         },
         {
           "domain": "o-ov.com",
           "success": false,
-          "latency": 16.88361167907715,
+          "latency": 178.7726879119873,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 120
         },
         {
           "domain": "ondemandappliancerepair.com",
-          "success": false,
-          "latency": 17.885446548461914,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 398
+          "success": true,
+          "latency": 843.3525562286377,
+          "ip_address": "74.208.236.102",
+          "error": null,
+          "bytes_transferred": 200
         },
         {
           "domain": "owlcreek.com",
-          "success": false,
-          "latency": 17.091989517211914,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 615.7498359680176,
+          "ip_address": "205.178.189.129",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "pbprofile.com",
           "success": false,
-          "latency": 17.00758934020996,
+          "latency": 193.49384307861328,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "phi-pe.com",
           "success": false,
-          "latency": 20.371437072753906,
+          "latency": 67.95787811279297,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "pictures-thailand.com",
-          "success": false,
-          "latency": 17.43149757385254,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "success": true,
+          "latency": 786.5338325500488,
+          "ip_address": "66.96.149.1",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "pieceinch.com",
-          "success": false,
-          "latency": 16.977787017822266,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 330.5811882019043,
+          "ip_address": "104.21.66.64",
+          "error": null,
+          "bytes_transferred": 274
         },
         {
           "domain": "portclydegeneralstore.com",
-          "success": false,
-          "latency": 17.302751541137695,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 392
+          "success": true,
+          "latency": 221.4186191558838,
+          "ip_address": "198.49.23.145",
+          "error": null,
+          "bytes_transferred": 302
         },
         {
           "domain": "ppsuika.ac.id",
-          "success": false,
-          "latency": 24.82771873474121,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 158.2341194152832,
+          "ip_address": "203.175.8.54",
+          "error": null,
+          "bytes_transferred": 169
         },
         {
           "domain": "probigbets.com",
           "success": false,
-          "latency": 17.381906509399414,
+          "latency": 62.34288215637207,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 90
         },
         {
           "domain": "progettogiovani.pd.it",
-          "success": false,
-          "latency": 17.45128631591797,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "success": true,
+          "latency": 836.991548538208,
+          "ip_address": "185.213.115.40",
+          "error": null,
+          "bytes_transferred": 124
         },
         {
           "domain": "radioterminal.ru",
-          "success": false,
-          "latency": 19.205093383789062,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 1102.6837825775146,
+          "ip_address": "188.225.40.161",
+          "error": null,
+          "bytes_transferred": 178
         },
         {
           "domain": "reprosystems.ru",
-          "success": false,
-          "latency": 21.273136138916016,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 496.43802642822266,
+          "ip_address": "172.67.167.102",
+          "error": null,
+          "bytes_transferred": 164
         },
         {
           "domain": "retiragroup.com",
           "success": false,
-          "latency": 18.56684684753418,
+          "latency": 61.5079402923584,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "rtsab.com",
           "success": false,
-          "latency": 17.527103424072266,
+          "latency": 838.3297920227051,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 107
         },
         {
           "domain": "running-sigi.de",
           "success": false,
-          "latency": 16.405820846557617,
+          "latency": 214.96081352233887,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "sdccdonline.net",
-          "success": false,
-          "latency": 16.626596450805664,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 4336.090564727783,
+          "ip_address": "209.129.16.41",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "sheltercoveinn.com",
           "success": false,
-          "latency": 17.44246482849121,
+          "latency": 637.516975402832,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 116
         },
         {
           "domain": "shivalikprints.com",
-          "success": false,
-          "latency": 16.33930206298828,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 88.34981918334961,
+          "ip_address": "162.215.11.92",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "shqqaa.com",
-          "success": false,
-          "latency": 16.489744186401367,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 108.81710052490234,
+          "ip_address": "104.21.25.127",
+          "error": null,
+          "bytes_transferred": 262
         },
         {
           "domain": "simternet.com",
-          "success": false,
-          "latency": 20.888566970825195,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 224.34449195861816,
+          "ip_address": "15.197.225.128",
+          "error": null,
+          "bytes_transferred": 160
         },
         {
           "domain": "somode.com",
           "success": false,
-          "latency": 16.228675842285156,
+          "latency": 55.29522895812988,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "stunninggirls.net",
-          "success": false,
-          "latency": 16.806602478027344,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 232.03134536743164,
+          "ip_address": "34.95.33.229",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "toaskfuture.com",
-          "success": false,
-          "latency": 17.60387420654297,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 217.8049087524414,
+          "ip_address": "119.18.54.195",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "tottenhamhk.com",
           "success": false,
-          "latency": 17.119884490966797,
+          "latency": 300.25458335876465,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "triggerfish.se",
-          "success": false,
-          "latency": 18.89657974243164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 1035.3662967681885,
+          "ip_address": "162.159.135.42",
+          "error": null,
+          "bytes_transferred": 164
         },
         {
           "domain": "tuhafhaberler.com",
           "success": false,
-          "latency": 17.248868942260742,
+          "latency": 57.11984634399414,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 93
         },
         {
           "domain": "uahoy.net",
           "success": false,
-          "latency": 16.51787757873535,
+          "latency": 54.52084541320801,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 85
         },
         {
           "domain": "us.tf",
           "success": false,
-          "latency": 17.140865325927734,
+          "latency": 2122.9443550109863,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 332
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 117
         },
         {
           "domain": "wrestlingfanssuck.com",
-          "success": false,
-          "latency": 17.705440521240234,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "success": true,
+          "latency": 752.709150314331,
+          "ip_address": "62.149.128.40",
+          "error": null,
+          "bytes_transferred": 123
         },
         {
           "domain": "zzxu.cn",
           "success": false,
-          "latency": 17.59934425354004,
+          "latency": 739.0820980072021,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 105
         }
       ]
     },
@@ -919,10 +919,10 @@
       "host": "h2",
       "pcap_file": "pcap_files/PCAP_2_H2.pcap",
       "total_queries": 100,
-      "successful_queries": 0,
-      "failed_queries": 100,
-      "average_latency_ms": 0,
-      "average_throughput_bps": 0,
+      "successful_queries": 67,
+      "failed_queries": 33,
+      "average_latency_ms": 675.18,
+      "average_throughput_bps": 1848.94,
       "domains_tested": [
         "51cdngo.com",
         "7sports.jp",
@@ -1029,802 +1029,802 @@
         {
           "domain": "51cdngo.com",
           "success": false,
-          "latency": 19.744157791137695,
+          "latency": 2716.8374061584473,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 109
         },
         {
           "domain": "7sports.jp",
-          "success": false,
-          "latency": 17.532825469970703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 660.3202819824219,
+          "ip_address": "150.95.219.152",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "a-loud.com",
-          "success": false,
-          "latency": 18.622159957885742,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 465.465784072876,
+          "ip_address": "183.111.199.180",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "alkoholiker-clan.de",
-          "success": false,
-          "latency": 22.075414657592773,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 857.954740524292,
+          "ip_address": "78.46.86.91",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "alltransport.ru",
-          "success": false,
-          "latency": 22.87149429321289,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 840.6922817230225,
+          "ip_address": "141.8.192.214",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "ambassadorsspfhf.org",
           "success": false,
-          "latency": 16.483545303344727,
+          "latency": 133.45074653625488,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 96
         },
         {
           "domain": "amedeos.net",
-          "success": false,
-          "latency": 16.813993453979492,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 199.5687484741211,
+          "ip_address": "76.223.105.230",
+          "error": null,
+          "bytes_transferred": 156
         },
         {
           "domain": "androgyn.org",
-          "success": false,
-          "latency": 20.687580108642578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 339.22290802001953,
+          "ip_address": "217.160.0.127",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "asip.es",
           "success": false,
-          "latency": 22.516727447509766,
+          "latency": 44.73114013671875,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 83
         },
         {
           "domain": "aspiringwriter.ca",
           "success": false,
-          "latency": 16.89434051513672,
+          "latency": 99.86114501953125,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 93
         },
         {
           "domain": "atomicbase.com",
-          "success": false,
-          "latency": 18.28622817993164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 775.404691696167,
+          "ip_address": "192.252.149.20",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "bek.ir",
           "success": false,
-          "latency": 21.869659423828125,
+          "latency": 417.60802268981934,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 335
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 82
         },
         {
           "domain": "bigjournalism.com",
-          "success": false,
-          "latency": 19.311189651489258,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 79.41818237304688,
+          "ip_address": "172.67.215.184",
+          "error": null,
+          "bytes_transferred": 290
         },
         {
           "domain": "brfone.com",
-          "success": false,
-          "latency": 22.926807403564453,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 349.55668449401855,
+          "ip_address": "13.223.25.84",
+          "error": null,
+          "bytes_transferred": 288
         },
         {
           "domain": "brown.edu",
-          "success": false,
-          "latency": 18.964290618896484,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 812.3376369476318,
+          "ip_address": "128.148.252.151",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "c3budiman.tk",
           "success": false,
-          "latency": 22.49765396118164,
+          "latency": 176.62382125854492,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "capella.edu",
-          "success": false,
-          "latency": 18.52250099182129,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 85.33930778503418,
+          "ip_address": "172.64.146.16",
+          "error": null,
+          "bytes_transferred": 266
         },
         {
           "domain": "casco.com",
-          "success": false,
-          "latency": 20.49732208251953,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 77.5289535522461,
+          "ip_address": "18.172.64.33",
+          "error": null,
+          "bytes_transferred": 230
         },
         {
           "domain": "cellularfactory.com",
-          "success": false,
-          "latency": 21.558284759521484,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 468.0471420288086,
+          "ip_address": "208.91.197.27",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "cncdesign.co.kr",
-          "success": false,
-          "latency": 22.333145141601562,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 2011.8858814239502,
+          "ip_address": "175.126.62.41",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "congsoxanh.com",
-          "success": false,
-          "latency": 18.39447021484375,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 87.92400360107422,
+          "ip_address": "172.67.150.218",
+          "error": null,
+          "bytes_transferred": 279
         },
         {
           "domain": "consejodentistas.org",
-          "success": false,
-          "latency": 19.092559814453125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 695.4255104064941,
+          "ip_address": "213.151.115.236",
+          "error": null,
+          "bytes_transferred": 124
         },
         {
           "domain": "cornesoft.com",
           "success": false,
-          "latency": 19.4242000579834,
+          "latency": 50.42123794555664,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "datadikdki.net",
-          "success": false,
-          "latency": 21.176576614379883,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 80.78408241271973,
+          "ip_address": "104.21.55.109",
+          "error": null,
+          "bytes_transferred": 278
         },
         {
           "domain": "doommovie.com",
-          "success": false,
-          "latency": 19.72031593322754,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 213.27614784240723,
+          "ip_address": "104.21.50.133",
+          "error": null,
+          "bytes_transferred": 275
         },
         {
           "domain": "elettronix.com",
-          "success": false,
-          "latency": 23.08201789855957,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 107.23495483398438,
+          "ip_address": "217.64.201.130",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "fanzi.pl",
           "success": false,
-          "latency": 22.591352462768555,
+          "latency": 45.90749740600586,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 84
         },
         {
           "domain": "fauzanalfi.com",
           "success": false,
-          "latency": 19.080638885498047,
+          "latency": 199.0187168121338,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 112
         },
         {
           "domain": "gamepsvita.com",
-          "success": false,
-          "latency": 19.67787742614746,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 77.16131210327148,
+          "ip_address": "172.67.145.175",
+          "error": null,
+          "bytes_transferred": 279
         },
         {
           "domain": "gaybodyblog.com",
-          "success": false,
-          "latency": 20.371675491333008,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 82.3822021484375,
+          "ip_address": "148.72.167.158",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "gba4iosapp.com",
-          "success": false,
-          "latency": 21.853923797607422,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 67.95382499694824,
+          "ip_address": "198.49.23.144",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "gucenmez.com",
-          "success": false,
-          "latency": 18.31674575805664,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 299.7128963470459,
+          "ip_address": "172.67.149.173",
+          "error": null,
+          "bytes_transferred": 271
         },
         {
           "domain": "gvowebcast.com",
-          "success": false,
-          "latency": 8.390188217163086,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 90.67463874816895,
+          "ip_address": "104.21.83.130",
+          "error": null,
+          "bytes_transferred": 279
         },
         {
           "domain": "heygal.net",
           "success": false,
-          "latency": 17.66228675842285,
+          "latency": 43.61438751220703,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "hivelocitymedia.com",
-          "success": false,
-          "latency": 22.034645080566406,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 73.97580146789551,
+          "ip_address": "104.21.1.224",
+          "error": null,
+          "bytes_transferred": 297
         },
         {
           "domain": "horn-elektronik.com",
-          "success": false,
-          "latency": 9.45734977722168,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 1667.86789894104,
+          "ip_address": "92.43.119.40",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "hotel.ch",
-          "success": false,
-          "latency": 18.166542053222656,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 81.71367645263672,
+          "ip_address": "172.67.191.193",
+          "error": null,
+          "bytes_transferred": 254
         },
         {
           "domain": "huhgmbh.com",
-          "success": false,
-          "latency": 19.034624099731445,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 625.636100769043,
+          "ip_address": "54.243.117.197",
+          "error": null,
+          "bytes_transferred": 292
         },
         {
           "domain": "hznzcn.com",
-          "success": false,
-          "latency": 26.33380889892578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 1376.2657642364502,
+          "ip_address": "120.55.81.189",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "i12.de",
           "success": false,
-          "latency": 28.285741806030273,
+          "latency": 305.1793575286865,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 335
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 104
         },
         {
           "domain": "itattoos.org",
           "success": false,
-          "latency": 17.770051956176758,
+          "latency": 405.0304889678955,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "jabeye.org",
-          "success": false,
-          "latency": 17.633676528930664,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 627.0415782928467,
+          "ip_address": "173.236.216.220",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "jcwcn.com",
-          "success": false,
-          "latency": 24.851322174072266,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 1817.5606727600098,
+          "ip_address": "128.14.74.54",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "k-dsl.de",
           "success": false,
-          "latency": 19.393444061279297,
+          "latency": 106.02140426635742,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 84
         },
         {
           "domain": "ku.edu",
-          "success": false,
-          "latency": 19.137859344482422,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 335
+          "success": true,
+          "latency": 376.12247467041016,
+          "ip_address": "129.237.135.76",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "lacuentaperdida.org",
           "success": false,
-          "latency": 20.363807678222656,
+          "latency": 178.25078964233398,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "lgmonitorreview.nl",
           "success": false,
-          "latency": 18.58973503112793,
+          "latency": 57.241201400756836,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 94
         },
         {
           "domain": "lighthouse.cc",
-          "success": false,
-          "latency": 20.801067352294922,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 294.22831535339355,
+          "ip_address": "192.110.166.196",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "likeminded.ca",
-          "success": false,
-          "latency": 20.534515380859375,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 423.2368469238281,
+          "ip_address": "198.100.154.154",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "ljyelectronic.com",
-          "success": false,
-          "latency": 20.135164260864258,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 673.6338138580322,
+          "ip_address": "156.232.155.66",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "lookpage.org",
           "success": false,
-          "latency": 19.594192504882812,
+          "latency": 1178.2026290893555,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "mattselznick.com",
-          "success": false,
-          "latency": 18.14413070678711,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 594.5444107055664,
+          "ip_address": "44.245.84.147",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "meintrendyhandy.de",
-          "success": false,
-          "latency": 19.9735164642334,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 881.5140724182129,
+          "ip_address": "94.143.8.110",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "metabans.com",
-          "success": false,
-          "latency": 20.430326461791992,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 168.49565505981445,
+          "ip_address": "172.67.162.83",
+          "error": null,
+          "bytes_transferred": 270
         },
         {
           "domain": "motiie.com",
           "success": false,
-          "latency": 19.97828483581543,
+          "latency": 46.56076431274414,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "mplus.hk",
-          "success": false,
-          "latency": 20.70927619934082,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 994.0476417541504,
+          "ip_address": "159.138.153.43",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "mpskota.com",
-          "success": false,
-          "latency": 19.185781478881836,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 301.70536041259766,
+          "ip_address": "20.192.98.161",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "mumphi.de",
-          "success": false,
-          "latency": 26.89218521118164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 1259.8049640655518,
+          "ip_address": "87.106.48.102",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "newpages2u.com",
-          "success": false,
-          "latency": 23.151636123657227,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 1384.831428527832,
+          "ip_address": "110.74.174.131",
+          "error": null,
+          "bytes_transferred": 169
         },
         {
           "domain": "nipslab.org",
-          "success": false,
-          "latency": 22.60732650756836,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 980.9145927429199,
+          "ip_address": "89.46.108.36",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "nucre.com",
-          "success": false,
-          "latency": 19.04153823852539,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 210.0241184234619,
+          "ip_address": "185.53.179.170",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "oberoncompany.com",
-          "success": false,
-          "latency": 21.23546600341797,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 88.33122253417969,
+          "ip_address": "104.21.68.213",
+          "error": null,
+          "bytes_transferred": 291
         },
         {
           "domain": "obtscan.com",
           "success": false,
-          "latency": 23.538589477539062,
+          "latency": 42.36721992492676,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 87
         },
         {
           "domain": "ohdev.co.uk",
-          "success": false,
-          "latency": 19.32382583618164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 67.8555965423584,
+          "ip_address": "51.89.253.246",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "ovtoc.com",
-          "success": false,
-          "latency": 20.418643951416016,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 332.82947540283203,
+          "ip_address": "64.190.63.222",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "panaceadream.com",
           "success": false,
-          "latency": 19.115209579467773,
+          "latency": 66.89333915710449,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "phoenix-music.ru",
           "success": false,
-          "latency": 17.968177795410156,
+          "latency": 827.6782035827637,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "qdushu.com",
           "success": false,
-          "latency": 18.891572952270508,
+          "latency": 41.90659523010254,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "qingjiaopidaiji.com",
           "success": false,
-          "latency": 18.513202667236328,
+          "latency": 41.097402572631836,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "raqualia.com",
           "success": false,
-          "latency": 17.59624481201172,
+          "latency": 638.9877796173096,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 110
         },
         {
           "domain": "redcrosseth.org",
-          "success": false,
-          "latency": 18.764972686767578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 513.0393505096436,
+          "ip_address": "65.21.72.120",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "rousing.dk",
-          "success": false,
-          "latency": 23.23293685913086,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 1238.0263805389404,
+          "ip_address": "212.237.249.17",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "sandieskorner.com",
           "success": false,
-          "latency": 18.920421600341797,
+          "latency": 49.201250076293945,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 93
         },
         {
           "domain": "seedy.dk",
-          "success": false,
-          "latency": 19.174575805664062,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 1673.2041835784912,
+          "ip_address": "93.191.156.22",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "simple-health-reports.com",
           "success": false,
-          "latency": 19.390106201171875,
+          "latency": 45.09925842285156,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 392
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 101
         },
         {
           "domain": "sinemagrafik.com",
           "success": false,
-          "latency": 22.16792106628418,
+          "latency": 44.52037811279297,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "sscw.ee",
-          "success": false,
-          "latency": 22.364377975463867,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 1104.1452884674072,
+          "ip_address": "217.146.69.45",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "stopallthathating.com",
           "success": false,
-          "latency": 19.600391387939453,
+          "latency": 47.180891036987305,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "supreetsethi.net",
           "success": false,
-          "latency": 18.239259719848633,
+          "latency": 42.20700263977051,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "thankfullyyours.com",
-          "success": false,
-          "latency": 19.677400588989258,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 193.09663772583008,
+          "ip_address": "23.227.38.32",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "thereeftank.com",
-          "success": false,
-          "latency": 23.169517517089844,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 89.36452865600586,
+          "ip_address": "151.101.65.91",
+          "error": null,
+          "bytes_transferred": 259
         },
         {
           "domain": "thunderex.com",
-          "success": false,
-          "latency": 10.805130004882812,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 181.58316612243652,
+          "ip_address": "97.74.85.52",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "ticketbis.com",
           "success": false,
-          "latency": 22.055864334106445,
+          "latency": 72.21031188964844,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 111
         },
         {
           "domain": "tomorrowsreflection.com",
-          "success": false,
-          "latency": 20.821809768676758,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "success": true,
+          "latency": 195.58143615722656,
+          "ip_address": "34.67.56.17",
+          "error": null,
+          "bytes_transferred": 123
         },
         {
           "domain": "tonaci.com",
-          "success": false,
-          "latency": 19.839763641357422,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 309.126615524292,
+          "ip_address": "69.46.47.132",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "topilehtipuu.com",
-          "success": false,
-          "latency": 19.422531127929688,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 1565.7310485839844,
+          "ip_address": "103.224.182.253",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "tretsomshop.nl",
-          "success": false,
-          "latency": 20.01667022705078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 614.7308349609375,
+          "ip_address": "23.227.38.32",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "tsksv.ru",
-          "success": false,
-          "latency": 23.45132827758789,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 1266.970157623291,
+          "ip_address": "91.199.149.117",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "uanet.net",
-          "success": false,
-          "latency": 20.215749740600586,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 568.047285079956,
+          "ip_address": "38.55.165.9",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "udoo24.com",
-          "success": false,
-          "latency": 23.891210556030273,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 100.64435005187988,
+          "ip_address": "185.232.14.229",
+          "error": null,
+          "bytes_transferred": 171
         },
         {
           "domain": "vaco.ru",
-          "success": false,
-          "latency": 22.135496139526367,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 1589.754343032837,
+          "ip_address": "81.88.217.58",
+          "error": null,
+          "bytes_transferred": 108
         },
         {
           "domain": "valerievandenbroek.nl",
           "success": false,
-          "latency": 22.42588996887207,
+          "latency": 47.00756072998047,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "visualtap.com",
-          "success": false,
-          "latency": 24.83963966369629,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 662.3783111572266,
+          "ip_address": "52.20.84.62",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "volksschule-neufahrn.de",
           "success": false,
-          "latency": 19.41370964050293,
+          "latency": 305.5102825164795,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 99
         },
         {
           "domain": "webxtrap.com",
-          "success": false,
-          "latency": 20.22838592529297,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 5035.189151763916,
+          "ip_address": "109.234.165.168",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "womenology.com",
-          "success": false,
-          "latency": 19.545316696166992,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 88.63615989685059,
+          "ip_address": "213.186.33.4",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "xqgcab.com",
           "success": false,
-          "latency": 21.754980087280273,
+          "latency": 44.09170150756836,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "youngsnetwork.it",
           "success": false,
-          "latency": 18.916606903076172,
+          "latency": 47.126054763793945,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "zamlelova.ru",
-          "success": false,
-          "latency": 19.02294158935547,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 1611.0644340515137,
+          "ip_address": "79.174.69.231",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "zilch.org",
-          "success": false,
-          "latency": 18.21303367614746,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 1508.971929550171,
+          "ip_address": "104.237.133.18",
+          "error": null,
+          "bytes_transferred": 112
         }
       ]
     },
@@ -1832,10 +1832,10 @@
       "host": "h3",
       "pcap_file": "pcap_files/PCAP_3_H3.pcap",
       "total_queries": 100,
-      "successful_queries": 0,
-      "failed_queries": 100,
-      "average_latency_ms": 0,
-      "average_throughput_bps": 0,
+      "successful_queries": 72,
+      "failed_queries": 28,
+      "average_latency_ms": 473.46,
+      "average_throughput_bps": 2798.76,
       "domains_tested": [
         "abmcare.com",
         "anvilnetworksolutions.net",
@@ -1941,803 +1941,803 @@
       "results": [
         {
           "domain": "abmcare.com",
-          "success": false,
-          "latency": 26.98826789855957,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 124.2976188659668,
+          "ip_address": "104.18.10.144",
+          "error": null,
+          "bytes_transferred": 254
         },
         {
           "domain": "anvilnetworksolutions.net",
-          "success": false,
-          "latency": 17.289161682128906,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 392
+          "success": true,
+          "latency": 656.0373306274414,
+          "ip_address": "217.160.0.13",
+          "error": null,
+          "bytes_transferred": 193
         },
         {
           "domain": "archiportale.com",
-          "success": false,
-          "latency": 8.356571197509766,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 121.26755714416504,
+          "ip_address": "104.18.13.154",
+          "error": null,
+          "bytes_transferred": 274
         },
         {
           "domain": "arcoat.com",
-          "success": false,
-          "latency": 19.38319206237793,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 398.8471031188965,
+          "ip_address": "66.39.19.55",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "asseenontvlaunchpad.com",
           "success": false,
-          "latency": 21.93140983581543,
+          "latency": 63.48586082458496,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 99
         },
         {
           "domain": "autopareri.com",
-          "success": false,
-          "latency": 20.57051658630371,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 121.25730514526367,
+          "ip_address": "147.93.94.216",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "bbqinjector.com",
           "success": false,
-          "latency": 18.143177032470703,
+          "latency": 76.27224922180176,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "begleyhutton.com",
-          "success": false,
-          "latency": 22.14837074279785,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 1048.1388568878174,
+          "ip_address": "198.185.159.144",
+          "error": null,
+          "bytes_transferred": 266
         },
         {
           "domain": "bigliettieventi.info",
           "success": false,
-          "latency": 21.248340606689453,
+          "latency": 200.84214210510254,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 96
         },
         {
           "domain": "bmw-parts.ru",
-          "success": false,
-          "latency": 18.77617835998535,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 1364.577054977417,
+          "ip_address": "91.236.136.97",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "bookingnest.com",
-          "success": false,
-          "latency": 22.2318172454834,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 264.418363571167,
+          "ip_address": "76.223.54.146",
+          "error": null,
+          "bytes_transferred": 164
         },
         {
           "domain": "callcomm.info",
           "success": false,
-          "latency": 22.857666015625,
+          "latency": 127.43282318115234,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "cdmail.fr",
-          "success": false,
-          "latency": 19.559144973754883,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 1038.5570526123047,
+          "ip_address": "5.196.212.149",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "ceskykutil.cz",
-          "success": false,
-          "latency": 20.184040069580078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 1193.575143814087,
+          "ip_address": "80.211.205.242",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "charityjob.co.uk",
-          "success": false,
-          "latency": 21.464109420776367,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 121.66833877563477,
+          "ip_address": "104.24.144.14",
+          "error": null,
+          "bytes_transferred": 387
         },
         {
           "domain": "chekiang.info",
           "success": false,
-          "latency": 27.02045440673828,
+          "latency": 127.42877006530762,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "chenghuavideo.asia",
           "success": false,
-          "latency": 21.00372314453125,
+          "latency": 341.64953231811523,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 130
         },
         {
           "domain": "cia.it",
-          "success": false,
-          "latency": 19.404888153076172,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 335
+          "success": true,
+          "latency": 698.1620788574219,
+          "ip_address": "54.228.218.49",
+          "error": null,
+          "bytes_transferred": 145
         },
         {
           "domain": "ciber.com",
-          "success": false,
-          "latency": 21.953821182250977,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 386.8675231933594,
+          "ip_address": "103.247.209.15",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "clickdownloadfiles.com",
           "success": false,
-          "latency": 18.989086151123047,
+          "latency": 65.58418273925781,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 98
         },
         {
           "domain": "consumerreviews24.com",
           "success": false,
-          "latency": 19.672632217407227,
+          "latency": 60.071706771850586,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "cosmeticaestheticsurgery.com",
-          "success": false,
-          "latency": 21.374225616455078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 401
+          "success": true,
+          "latency": 248.9469051361084,
+          "ip_address": "15.197.148.33",
+          "error": null,
+          "bytes_transferred": 189
         },
         {
           "domain": "crsgfk.de",
           "success": false,
-          "latency": 19.338607788085938,
+          "latency": 379.558801651001,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 85
         },
         {
           "domain": "currencyrates.org",
-          "success": false,
-          "latency": 18.173933029174805,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 238.72709274291992,
+          "ip_address": "172.67.209.125",
+          "error": null,
+          "bytes_transferred": 290
         },
         {
           "domain": "cushinglawoffices.com",
           "success": false,
-          "latency": 19.22893524169922,
+          "latency": 65.3371810913086,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "cuteteenschoolgirlz.com",
           "success": false,
-          "latency": 20.824432373046875,
+          "latency": 64.77165222167969,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 99
         },
         {
           "domain": "de.vu",
-          "success": false,
-          "latency": 19.30522918701172,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 332
+          "success": true,
+          "latency": 143.10383796691895,
+          "ip_address": "81.28.232.69",
+          "error": null,
+          "bytes_transferred": 106
         },
         {
           "domain": "dilw.ie",
-          "success": false,
-          "latency": 21.35014533996582,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 201.02620124816895,
+          "ip_address": "35.214.43.230",
+          "error": null,
+          "bytes_transferred": 109
         },
         {
           "domain": "dock2office.com",
           "success": false,
-          "latency": 19.734859466552734,
+          "latency": 70.39380073547363,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "drglendza.co.rs",
           "success": false,
-          "latency": 17.611980438232422,
+          "latency": 449.10717010498047,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "dricom-hosting.nl",
-          "success": false,
-          "latency": 18.079757690429688,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 821.3224411010742,
+          "ip_address": "46.249.36.223",
+          "error": null,
+          "bytes_transferred": 171
         },
         {
           "domain": "e-daily.gr",
-          "success": false,
-          "latency": 16.79229736328125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
+          "success": true,
+          "latency": 316.81013107299805,
+          "ip_address": "172.67.70.26",
+          "error": null,
           "bytes_transferred": 347
         },
         {
           "domain": "e-hps.com",
-          "success": false,
-          "latency": 13.224124908447266,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 106.13679885864258,
+          "ip_address": "208.44.185.221",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "ecolems.com",
-          "success": false,
-          "latency": 23.746728897094727,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 106.87541961669922,
+          "ip_address": "51.103.54.68",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "eggcityradio.com",
-          "success": false,
-          "latency": 17.75836944580078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 622.0600605010986,
+          "ip_address": "103.224.182.253",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "egov.sy",
-          "success": false,
-          "latency": 18.56231689453125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 793.466329574585,
+          "ip_address": "185.216.134.58",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "fmnara.com",
-          "success": false,
-          "latency": 23.146629333496094,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 584.4907760620117,
+          "ip_address": "49.247.215.98",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "freeditorial.com",
-          "success": false,
-          "latency": 19.889116287231445,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 106.98580741882324,
+          "ip_address": "51.178.246.100",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "ftf.com",
-          "success": false,
-          "latency": 18.923282623291016,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 302.0362854003906,
+          "ip_address": "23.227.38.65",
+          "error": null,
+          "bytes_transferred": 108
         },
         {
           "domain": "gadanguides.com",
-          "success": false,
-          "latency": 19.130706787109375,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 806.0159683227539,
+          "ip_address": "93.188.2.51",
+          "error": null,
+          "bytes_transferred": 165
         },
         {
           "domain": "gadgetgearpro.com",
           "success": false,
-          "latency": 23.02837371826172,
+          "latency": 66.2846565246582,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 93
         },
         {
           "domain": "gardenofwords.com",
-          "success": false,
-          "latency": 18.813610076904297,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 113.10362815856934,
+          "ip_address": "192.0.78.24",
+          "error": null,
+          "bytes_transferred": 164
         },
         {
           "domain": "get-webby.com",
           "success": false,
-          "latency": 19.572973251342773,
+          "latency": 63.02142143249512,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "ghimpele.ro",
-          "success": false,
-          "latency": 18.719196319580078,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 483.72554779052734,
+          "ip_address": "89.35.160.167",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "giuseppelivraghi.it",
-          "success": false,
-          "latency": 18.013477325439453,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 856.8642139434814,
+          "ip_address": "89.46.108.54",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "gregginn.com",
-          "success": false,
-          "latency": 19.430160522460938,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 230.76272010803223,
+          "ip_address": "3.33.130.190",
+          "error": null,
+          "bytes_transferred": 157
         },
         {
           "domain": "gxjbsj.com",
-          "success": false,
-          "latency": 22.693872451782227,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 526.8614292144775,
+          "ip_address": "172.247.103.2",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "hayalforum.net",
           "success": false,
-          "latency": 20.642995834350586,
+          "latency": 69.97179985046387,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 90
         },
         {
           "domain": "hdcric.com",
-          "success": false,
-          "latency": 20.519256591796875,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 467.62967109680176,
+          "ip_address": "159.69.83.207",
+          "error": null,
+          "bytes_transferred": 237
         },
         {
           "domain": "hralda.info",
           "success": false,
-          "latency": 21.436691284179688,
+          "latency": 131.50739669799805,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 87
         },
         {
           "domain": "hutago.com",
-          "success": false,
-          "latency": 24.699687957763672,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 403.656005859375,
+          "ip_address": "118.27.125.209",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "iael.com",
-          "success": false,
-          "latency": 21.562814712524414,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 808.1128597259521,
+          "ip_address": "172.104.149.86",
+          "error": null,
+          "bytes_transferred": 464
         },
         {
           "domain": "ishidatic.com",
-          "success": false,
-          "latency": 21.451473236083984,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 645.4885005950928,
+          "ip_address": "15.197.172.60",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "laigang001.com",
           "success": false,
-          "latency": 20.816802978515625,
+          "latency": 73.38070869445801,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 90
         },
         {
           "domain": "marilynlingerie.com",
           "success": false,
-          "latency": 18.236637115478516,
+          "latency": 58.84122848510742,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "mechachal.org",
           "success": false,
-          "latency": 28.397321701049805,
+          "latency": 183.09354782104492,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "medipacademy.com",
-          "success": false,
-          "latency": 20.57170867919922,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 131.08253479003906,
+          "ip_address": "104.21.4.41",
+          "error": null,
+          "bytes_transferred": 284
         },
         {
           "domain": "metar.gr",
-          "success": false,
-          "latency": 19.850730895996094,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 486.6161346435547,
+          "ip_address": "75.119.133.58",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "michaelbyers.org",
-          "success": false,
-          "latency": 21.76952362060547,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 313.997745513916,
+          "ip_address": "198.185.159.145",
+          "error": null,
+          "bytes_transferred": 266
         },
         {
           "domain": "minecraftserverdeals.com",
-          "success": false,
-          "latency": 11.32655143737793,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 389
+          "success": true,
+          "latency": 120.5286979675293,
+          "ip_address": "104.21.1.113",
+          "error": null,
+          "bytes_transferred": 316
         },
         {
           "domain": "monitis.com",
-          "success": false,
-          "latency": 21.116971969604492,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 416.4586067199707,
+          "ip_address": "188.172.236.218",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "morban.co.uk",
-          "success": false,
-          "latency": 19.60611343383789,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 656.3317775726318,
+          "ip_address": "217.160.0.111",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "nasaspaceflight.com",
-          "success": false,
-          "latency": 18.636465072631836,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 102.40387916564941,
+          "ip_address": "172.66.43.73",
+          "error": null,
+          "bytes_transferred": 171
         },
         {
           "domain": "ncees.org",
-          "success": false,
-          "latency": 19.092321395874023,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 108.64901542663574,
+          "ip_address": "172.66.158.97",
+          "error": null,
+          "bytes_transferred": 253
         },
         {
           "domain": "noblewomanhood.com",
-          "success": false,
-          "latency": 22.553443908691406,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 646.8541622161865,
+          "ip_address": "74.208.236.114",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "note-so-easy.co.za",
-          "success": false,
-          "latency": 26.89647674560547,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 667.2289371490479,
+          "ip_address": "102.211.204.40",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "oaister.org",
-          "success": false,
-          "latency": 20.08819580078125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 251.76525115966797,
+          "ip_address": "132.174.1.212",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "pahibu.net",
           "success": false,
-          "latency": 18.529415130615234,
+          "latency": 66.71452522277832,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "pet-connect.ru",
-          "success": false,
-          "latency": 18.970966339111328,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 1720.6707000732422,
+          "ip_address": "194.58.112.174",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "polymth.com",
-          "success": false,
-          "latency": 17.839670181274414,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 259.04297828674316,
+          "ip_address": "172.67.147.218",
+          "error": null,
+          "bytes_transferred": 267
         },
         {
           "domain": "romney.com",
-          "success": false,
-          "latency": 19.395112991333008,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 580.5726051330566,
+          "ip_address": "208.91.197.27",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "rterc.in",
-          "success": false,
-          "latency": 19.766569137573242,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 126.83939933776855,
+          "ip_address": "88.222.243.50",
+          "error": null,
+          "bytes_transferred": 279
         },
         {
           "domain": "sailor.pl",
-          "success": false,
-          "latency": 19.116878509521484,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 848.2999801635742,
+          "ip_address": "88.99.19.146",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "sarahpartridge.net",
           "success": false,
-          "latency": 19.426822662353516,
+          "latency": 58.80451202392578,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 94
         },
         {
           "domain": "sendrakhizonline.com",
-          "success": false,
-          "latency": 22.409677505493164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 373.03829193115234,
+          "ip_address": "20.244.2.144",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "shishioh.info",
-          "success": false,
-          "latency": 22.359371185302734,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 810.204029083252,
+          "ip_address": "219.94.162.166",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "silveropt.ru",
           "success": false,
-          "latency": 17.879486083984375,
+          "latency": 800.7941246032715,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 88
         },
         {
           "domain": "skyhightmatter.info",
           "success": false,
-          "latency": 20.616531372070312,
+          "latency": 277.9693603515625,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "sonoma-marinfair.org",
-          "success": false,
-          "latency": 18.94998550415039,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 186.8457794189453,
+          "ip_address": "104.21.34.187",
+          "error": null,
+          "bytes_transferred": 303
         },
         {
           "domain": "stkpro.ru",
-          "success": false,
-          "latency": 22.25041389465332,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 1267.6472663879395,
+          "ip_address": "205.251.138.125",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "synchchaos.com",
-          "success": false,
-          "latency": 19.072532653808594,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 698.0433464050293,
+          "ip_address": "203.161.61.102",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "synrc.com",
-          "success": false,
-          "latency": 20.91383934020996,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 114.26711082458496,
+          "ip_address": "172.67.185.234",
+          "error": null,
+          "bytes_transferred": 259
         },
         {
           "domain": "tangkas888.com",
-          "success": false,
-          "latency": 10.264396667480469,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 113.4486198425293,
+          "ip_address": "104.21.7.113",
+          "error": null,
+          "bytes_transferred": 276
         },
         {
           "domain": "tawali.com",
-          "success": false,
-          "latency": 21.205663681030273,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 238.17753791809082,
+          "ip_address": "173.249.147.46",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "teachmyass.info",
-          "success": false,
-          "latency": 20.954132080078125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 764.9950981140137,
+          "ip_address": "103.224.182.212",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "teleskill.it",
-          "success": false,
-          "latency": 22.62401580810547,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 136.5218162536621,
+          "ip_address": "185.81.4.109",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "tenant-internet.com",
           "success": false,
-          "latency": 18.764495849609375,
+          "latency": 66.44845008850098,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "texasbeyondhistory.net",
-          "success": false,
-          "latency": 19.43683624267578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "success": true,
+          "latency": 724.3430614471436,
+          "ip_address": "146.6.162.220",
+          "error": null,
+          "bytes_transferred": 124
         },
         {
           "domain": "topbarbee.com",
-          "success": false,
-          "latency": 18.013954162597656,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 119.04716491699219,
+          "ip_address": "159.203.135.249",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "trackcheatingspouse.com",
           "success": false,
-          "latency": 18.844127655029297,
+          "latency": 61.768531799316406,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 99
         },
         {
           "domain": "uca.edu",
-          "success": false,
-          "latency": 20.410537719726562,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 362.6110553741455,
+          "ip_address": "161.31.3.35",
+          "error": null,
+          "bytes_transferred": 107
         },
         {
           "domain": "urbannetwork.co.uk",
-          "success": false,
-          "latency": 19.98758316040039,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 230.48663139343262,
+          "ip_address": "85.92.70.198",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "verlockeshop.de",
-          "success": false,
-          "latency": 27.106046676635742,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 959.552526473999,
+          "ip_address": "185.64.112.230",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "video-peche-poisson.fr",
           "success": false,
-          "latency": 20.963668823242188,
+          "latency": 129.16159629821777,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 98
         },
         {
           "domain": "vietcapitaltour.com",
           "success": false,
-          "latency": 21.364450454711914,
+          "latency": 70.73855400085449,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "virtualjerusalem.com",
-          "success": false,
-          "latency": 20.87855339050293,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 331.5238952636719,
+          "ip_address": "69.48.168.47",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "vlielandoutdoorcenter.nl",
-          "success": false,
-          "latency": 21.828174591064453,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 389
+          "success": true,
+          "latency": 813.3401870727539,
+          "ip_address": "185.232.249.41",
+          "error": null,
+          "bytes_transferred": 127
         },
         {
           "domain": "vpndefender.com",
-          "success": false,
-          "latency": 20.107030868530273,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 118.42179298400879,
+          "ip_address": "34.234.125.61",
+          "error": null,
+          "bytes_transferred": 162
         },
         {
           "domain": "ximangquantrieu.com",
-          "success": false,
-          "latency": 21.33798599243164,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 337.932825088501,
+          "ip_address": "123.31.17.119",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "zpav.pl",
-          "success": false,
-          "latency": 21.744251251220703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 479.7196388244629,
+          "ip_address": "83.238.107.112",
+          "error": null,
+          "bytes_transferred": 110
         }
       ]
     },
@@ -2745,10 +2745,10 @@
       "host": "h4",
       "pcap_file": "pcap_files/PCAP_4_H4.pcap",
       "total_queries": 100,
-      "successful_queries": 0,
-      "failed_queries": 100,
-      "average_latency_ms": 0,
-      "average_throughput_bps": 0,
+      "successful_queries": 73,
+      "failed_queries": 27,
+      "average_latency_ms": 557.15,
+      "average_throughput_bps": 2170.72,
       "domains_tested": [
         "120shenbing.com",
         "22hotmail.com",
@@ -2855,802 +2855,802 @@
         {
           "domain": "120shenbing.com",
           "success": false,
-          "latency": 26.810407638549805,
+          "latency": 83.42885971069336,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "22hotmail.com",
-          "success": false,
-          "latency": 18.010377883911133,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 179.2166233062744,
+          "ip_address": "20.112.250.133",
+          "error": null,
+          "bytes_transferred": 296
         },
         {
           "domain": "2xfzy.com",
-          "success": false,
-          "latency": 18.442153930664062,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 565.6094551086426,
+          "ip_address": "23.226.181.51",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "7apcrshrmanila.org",
           "success": false,
-          "latency": 18.39423179626465,
+          "latency": 169.31867599487305,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 94
         },
         {
           "domain": "abhair.com",
-          "success": false,
-          "latency": 34.93976593017578,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 431.8561553955078,
+          "ip_address": "23.227.38.32",
+          "error": null,
+          "bytes_transferred": 111
         },
         {
           "domain": "adverman.com",
-          "success": false,
-          "latency": 22.490978240966797,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 891.8435573577881,
+          "ip_address": "77.87.198.232",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "alb-automobiles.com",
           "success": false,
-          "latency": 19.960641860961914,
+          "latency": 218.95813941955566,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "ana-sofia.pt",
-          "success": false,
-          "latency": 19.844770431518555,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 568.8796043395996,
+          "ip_address": "185.32.190.38",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "arrabonet.hu",
-          "success": false,
-          "latency": 20.826101303100586,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 917.8066253662109,
+          "ip_address": "213.163.44.68",
+          "error": null,
+          "bytes_transferred": 114
         },
         {
           "domain": "auto-klad.ru",
-          "success": false,
-          "latency": 19.770145416259766,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 2058.3200454711914,
+          "ip_address": "62.122.170.171",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "b2b2c.ca",
-          "success": false,
-          "latency": 21.831274032592773,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 1199.143409729004,
+          "ip_address": "13.107.246.36",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "bhhsneproperties.com",
-          "success": false,
-          "latency": 20.6298828125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 213.10853958129883,
+          "ip_address": "8.43.189.250",
+          "error": null,
+          "bytes_transferred": 121
         },
         {
           "domain": "boh10suphanburi.com",
           "success": false,
-          "latency": 21.101951599121094,
+          "latency": 95.56818008422852,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "boneshoppe.com",
           "success": false,
-          "latency": 20.259618759155273,
+          "latency": 340.55280685424805,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 90
         },
         {
           "domain": "breezelaw.com",
-          "success": false,
-          "latency": 18.584251403808594,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 212.13436126708984,
+          "ip_address": "13.248.169.48",
+          "error": null,
+          "bytes_transferred": 160
         },
         {
           "domain": "c0.pl",
-          "success": false,
-          "latency": 19.01555061340332,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 332
+          "success": true,
+          "latency": 799.6535301208496,
+          "ip_address": "95.211.144.68",
+          "error": null,
+          "bytes_transferred": 107
         },
         {
           "domain": "capequilog.com",
-          "success": false,
-          "latency": 17.74430274963379,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 4231.175422668457,
+          "ip_address": "208.94.116.26",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "carolgraykennedy.com",
           "success": false,
-          "latency": 19.04749870300293,
+          "latency": 87.34965324401855,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 96
         },
         {
           "domain": "celerity.com",
-          "success": false,
-          "latency": 19.50550079345703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 224.00307655334473,
+          "ip_address": "35.188.214.201",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "cellslider.net",
-          "success": false,
-          "latency": 20.767688751220703,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 341.6588306427002,
+          "ip_address": "20.237.25.126",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "closerdiets.com",
-          "success": false,
-          "latency": 20.086288452148438,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 176.8660545349121,
+          "ip_address": "5.22.145.16",
+          "error": null,
+          "bytes_transferred": 295
         },
         {
           "domain": "contentremarketing.com",
-          "success": false,
-          "latency": 19.483089447021484,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "success": true,
+          "latency": 542.4535274505615,
+          "ip_address": "216.10.240.70",
+          "error": null,
+          "bytes_transferred": 124
         },
         {
           "domain": "daytimeghosthunter.com",
           "success": false,
-          "latency": 20.543336868286133,
+          "latency": 83.70757102966309,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 98
         },
         {
           "domain": "deine-bahn.de",
-          "success": false,
-          "latency": 21.541595458984375,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 501.4307498931885,
+          "ip_address": "92.204.239.74",
+          "error": null,
+          "bytes_transferred": 163
         },
         {
           "domain": "divefishhouse.com",
           "success": false,
-          "latency": 17.910242080688477,
+          "latency": 92.49591827392578,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 93
         },
         {
           "domain": "djbarryblends.com",
-          "success": false,
-          "latency": 17.69399642944336,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 278.57208251953125,
+          "ip_address": "54.225.184.165",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "dmg-dental.com",
-          "success": false,
-          "latency": 18.99862289428711,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 425.05431175231934,
+          "ip_address": "49.13.234.53",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "empclan.com",
-          "success": false,
-          "latency": 22.19843864440918,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 633.6963176727295,
+          "ip_address": "64.26.30.251",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "ereadz.com",
           "success": false,
-          "latency": 18.625497817993164,
+          "latency": 81.89845085144043,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "florenseusa.com",
-          "success": false,
-          "latency": 18.918514251708984,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 266.754150390625,
+          "ip_address": "34.95.203.179",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "frasesdemotivacao.net",
           "success": false,
-          "latency": 19.839048385620117,
+          "latency": 84.99360084533691,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 380
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 97
         },
         {
           "domain": "freepornvideosx.com",
           "success": false,
-          "latency": 18.83864402770996,
+          "latency": 83.7562084197998,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 95
         },
         {
           "domain": "gaplex.biz",
           "success": false,
-          "latency": 18.892288208007812,
+          "latency": 152.52065658569336,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "gardeninginflorida.com",
-          "success": false,
-          "latency": 20.366907119750977,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "success": true,
+          "latency": 317.1048164367676,
+          "ip_address": "76.223.67.189",
+          "error": null,
+          "bytes_transferred": 178
         },
         {
           "domain": "go2jump.com",
-          "success": false,
-          "latency": 28.35869789123535,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 293.2136058807373,
+          "ip_address": "34.175.54.178",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "godo.co.kr",
-          "success": false,
-          "latency": 21.125078201293945,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 457.8268527984619,
+          "ip_address": "180.210.81.80",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "grandcanyongrandhotel.com",
-          "success": false,
-          "latency": 25.996923446655273,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 392
+          "success": true,
+          "latency": 161.8647575378418,
+          "ip_address": "142.44.217.176",
+          "error": null,
+          "bytes_transferred": 128
         },
         {
           "domain": "greens.my",
-          "success": false,
-          "latency": 32.17768669128418,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 165.98820686340332,
+          "ip_address": "104.21.4.120",
+          "error": null,
+          "bytes_transferred": 256
         },
         {
           "domain": "gurukulonline.com",
-          "success": false,
-          "latency": 21.57735824584961,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 285.1827144622803,
+          "ip_address": "13.248.169.48",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "gustissimo.it",
-          "success": false,
-          "latency": 18.457889556884766,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 790.926456451416,
+          "ip_address": "178.255.74.135",
+          "error": null,
+          "bytes_transferred": 208
         },
         {
           "domain": "hackthissite.org",
-          "success": false,
-          "latency": 24.106502532958984,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 513.1938457489014,
+          "ip_address": "137.74.187.101",
+          "error": null,
+          "bytes_transferred": 315
         },
         {
           "domain": "ilikecrochet.com",
-          "success": false,
-          "latency": 21.979570388793945,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 512.9351615905762,
+          "ip_address": "192.124.249.58",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "iointegrators.com",
-          "success": false,
-          "latency": 20.946025848388672,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 360.1682186126709,
+          "ip_address": "76.120.251.25",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "irflashgame.com",
           "success": false,
-          "latency": 18.43118667602539,
+          "latency": 89.32638168334961,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 91
         },
         {
           "domain": "itgeorgia.co",
-          "success": false,
-          "latency": 24.22022819519043,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 817.2013759613037,
+          "ip_address": "64.98.135.85",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "jacquelinemertz.ch",
           "success": false,
-          "latency": 17.726421356201172,
+          "latency": 90.35825729370117,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 94
         },
         {
           "domain": "kanoon-ansar.org",
-          "success": false,
-          "latency": 18.458843231201172,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 224.5619297027588,
+          "ip_address": "194.59.214.75",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "kiyimuzik.com",
-          "success": false,
-          "latency": 19.51742172241211,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 161.43345832824707,
+          "ip_address": "104.21.63.112",
+          "error": null,
+          "bytes_transferred": 275
         },
         {
           "domain": "koopsmodellbau.de",
-          "success": false,
-          "latency": 21.58975601196289,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 767.7614688873291,
+          "ip_address": "217.160.0.247",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "lespetiteschoses.com",
-          "success": false,
-          "latency": 20.733118057250977,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 216.3994312286377,
+          "ip_address": "23.227.38.65",
+          "error": null,
+          "bytes_transferred": 177
         },
         {
           "domain": "livescan4all.com",
-          "success": false,
-          "latency": 21.50750160217285,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 649.8618125915527,
+          "ip_address": "149.20.203.54",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "magic-illusion.ru",
-          "success": false,
-          "latency": 20.63298225402832,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 157.95135498046875,
+          "ip_address": "172.67.132.25",
+          "error": null,
+          "bytes_transferred": 288
         },
         {
           "domain": "majorleaguelacrosse.com",
-          "success": false,
-          "latency": 23.17643165588379,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 386
+          "success": true,
+          "latency": 172.7921962738037,
+          "ip_address": "104.21.87.175",
+          "error": null,
+          "bytes_transferred": 315
         },
         {
           "domain": "medintime.ru",
-          "success": false,
-          "latency": 17.72451400756836,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 636.5060806274414,
+          "ip_address": "172.67.129.206",
+          "error": null,
+          "bytes_transferred": 269
         },
         {
           "domain": "meditekyazilim.net",
-          "success": false,
-          "latency": 19.984006881713867,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 1045.283555984497,
+          "ip_address": "185.95.3.218",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "megi.cz",
-          "success": false,
-          "latency": 20.766735076904297,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 414.03698921203613,
+          "ip_address": "45.138.107.19",
+          "error": null,
+          "bytes_transferred": 228
         },
         {
           "domain": "millionfareast.com",
-          "success": false,
-          "latency": 23.151159286499023,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 287.3103618621826,
+          "ip_address": "72.167.243.77",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "miscellaneousheathen.com",
-          "success": false,
-          "latency": 28.778076171875,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 389
+          "success": true,
+          "latency": 484.71570014953613,
+          "ip_address": "75.127.72.229",
+          "error": null,
+          "bytes_transferred": 126
         },
         {
           "domain": "msf.be",
-          "success": false,
-          "latency": 19.165515899658203,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 335
+          "success": true,
+          "latency": 318.6507225036621,
+          "ip_address": "77.241.81.151",
+          "error": null,
+          "bytes_transferred": 108
         },
         {
           "domain": "muhammedmusa.com",
           "success": false,
-          "latency": 18.497943878173828,
+          "latency": 93.28818321228027,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "myface.com",
           "success": false,
-          "latency": 18.33319664001465,
+          "latency": 265.89465141296387,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 108
         },
         {
           "domain": "myfantasticpark.es",
-          "success": false,
-          "latency": 26.520490646362305,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 418.19119453430176,
+          "ip_address": "89.31.143.90",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "ngoanhien.com",
           "success": false,
-          "latency": 22.744178771972656,
+          "latency": 68.94969940185547,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 89
         },
         {
           "domain": "njafe.org",
-          "success": false,
-          "latency": 19.5920467376709,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 834.0318202972412,
+          "ip_address": "103.224.182.253",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "oberandsons.com",
-          "success": false,
-          "latency": 20.232677459716797,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 362
+          "success": true,
+          "latency": 691.7169094085693,
+          "ip_address": "34.128.166.114",
+          "error": null,
+          "bytes_transferred": 118
         },
         {
           "domain": "ok-magazine.ru",
-          "success": false,
-          "latency": 21.549701690673828,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 1325.2286911010742,
+          "ip_address": "188.124.32.70",
+          "error": null,
+          "bytes_transferred": 116
         },
         {
           "domain": "onetoshop.nl",
-          "success": false,
-          "latency": 21.056175231933594,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 154.40964698791504,
+          "ip_address": "35.204.76.89",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "oneworldinfo.com",
-          "success": false,
-          "latency": 20.36452293395996,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 724.5171070098877,
+          "ip_address": "13.223.25.84",
+          "error": null,
+          "bytes_transferred": 312
         },
         {
           "domain": "originalmagicart.com",
-          "success": false,
-          "latency": 22.82118797302246,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 226.14479064941406,
+          "ip_address": "15.197.225.128",
+          "error": null,
+          "bytes_transferred": 174
         },
         {
           "domain": "overseasmedical.com",
-          "success": false,
-          "latency": 20.25461196899414,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 374
+          "success": true,
+          "latency": 1125.2496242523193,
+          "ip_address": "213.123.239.55",
+          "error": null,
+          "bytes_transferred": 122
         },
         {
           "domain": "pces.in",
-          "success": false,
-          "latency": 25.287628173828125,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 338
+          "success": true,
+          "latency": 222.11074829101562,
+          "ip_address": "195.35.44.242",
+          "error": null,
+          "bytes_transferred": 166
         },
         {
           "domain": "pilsnerurquell.com",
-          "success": false,
-          "latency": 19.565343856811523,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 253.8444995880127,
+          "ip_address": "93.185.98.138",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "ranocchi.it",
-          "success": false,
-          "latency": 19.02461051940918,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "success": true,
+          "latency": 642.8215503692627,
+          "ip_address": "52.18.99.110",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "roche-applied-science.com",
-          "success": false,
-          "latency": 18.785476684570312,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 392
+          "success": true,
+          "latency": 384.6912384033203,
+          "ip_address": "149.250.245.221",
+          "error": null,
+          "bytes_transferred": 129
         },
         {
           "domain": "rolflouisville.com",
-          "success": false,
-          "latency": 19.167661666870117,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 371
+          "success": true,
+          "latency": 628.7004947662354,
+          "ip_address": "208.88.75.191",
+          "error": null,
+          "bytes_transferred": 120
         },
         {
           "domain": "rositehost.com",
-          "success": false,
-          "latency": 19.449949264526367,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "success": true,
+          "latency": 972.9437828063965,
+          "ip_address": "178.157.78.2",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "rubenquinones.com",
-          "success": false,
-          "latency": 19.708633422851562,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 279.82068061828613,
+          "ip_address": "3.33.251.168",
+          "error": null,
+          "bytes_transferred": 168
         },
         {
           "domain": "saharaimport.com",
-          "success": false,
-          "latency": 19.685745239257812,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 837.202787399292,
+          "ip_address": "176.9.116.24",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "sapendolo.it",
           "success": false,
-          "latency": 22.34816551208496,
+          "latency": 91.11762046813965,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 124
         },
         {
           "domain": "sf-notifications.com",
           "success": false,
-          "latency": 22.745609283447266,
+          "latency": 198.66251945495605,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 118
         },
         {
           "domain": "silkroadtours.com",
-          "success": false,
-          "latency": 18.331289291381836,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 368
+          "success": true,
+          "latency": 396.99506759643555,
+          "ip_address": "23.236.62.147",
+          "error": null,
+          "bytes_transferred": 119
         },
         {
           "domain": "sipflash.com",
           "success": false,
-          "latency": 19.18625831604004,
+          "latency": 623.4662532806396,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 110
         },
         {
           "domain": "sitiweb.us",
-          "success": false,
-          "latency": 19.240617752075195,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 828.9439678192139,
+          "ip_address": "136.243.45.246",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "skplus.kr",
           "success": false,
-          "latency": 21.38352394104004,
+          "latency": 242.33555793762207,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 85
         },
         {
           "domain": "solcredito.es",
-          "success": false,
-          "latency": 22.431612014770508,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 407.2284698486328,
+          "ip_address": "18.239.153.86",
+          "error": null,
+          "bytes_transferred": 250
         },
         {
           "domain": "stark.dk",
-          "success": false,
-          "latency": 19.18792724609375,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 341
+          "success": true,
+          "latency": 278.9437770843506,
+          "ip_address": "20.50.2.80",
+          "error": null,
+          "bytes_transferred": 107
         },
         {
           "domain": "supportpabiomass.org",
-          "success": false,
-          "latency": 16.846656799316406,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "success": true,
+          "latency": 490.79179763793945,
+          "ip_address": "162.248.51.100",
+          "error": null,
+          "bytes_transferred": 123
         },
         {
           "domain": "sweathelp.org",
-          "success": false,
-          "latency": 17.244338989257812,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 369.86565589904785,
+          "ip_address": "107.180.114.231",
+          "error": null,
+          "bytes_transferred": 117
         },
         {
           "domain": "theexoticpersian.com",
           "success": false,
-          "latency": 18.865585327148438,
+          "latency": 86.70663833618164,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 377
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 96
         },
         {
           "domain": "thepropertyvault.co.uk",
-          "success": false,
-          "latency": 22.495746612548828,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 383
+          "success": true,
+          "latency": 280.517578125,
+          "ip_address": "13.248.213.45",
+          "error": null,
+          "bytes_transferred": 178
         },
         {
           "domain": "tripladoppia.com",
           "success": false,
-          "latency": 19.02174949645996,
+          "latency": 308.96973609924316,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 92
         },
         {
           "domain": "ugotrelis.com",
-          "success": false,
-          "latency": 20.83897590637207,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 356
+          "success": true,
+          "latency": 898.8525867462158,
+          "ip_address": "213.186.33.82",
+          "error": null,
+          "bytes_transferred": 115
         },
         {
           "domain": "valdo.com",
-          "success": false,
-          "latency": 18.028974533081055,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 344
+          "success": true,
+          "latency": 288.637638092041,
+          "ip_address": "23.227.38.65",
+          "error": null,
+          "bytes_transferred": 110
         },
         {
           "domain": "viahttps.com",
-          "success": false,
-          "latency": 18.655061721801758,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 353
+          "success": true,
+          "latency": 444.4386959075928,
+          "ip_address": "64.251.0.59",
+          "error": null,
+          "bytes_transferred": 112
         },
         {
           "domain": "videofun.me",
           "success": false,
-          "latency": 23.8645076751709,
+          "latency": 147.82285690307617,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 350
+          "error": "Could not parse IP address from response",
+          "bytes_transferred": 109
         },
         {
           "domain": "vinayaprabha.com",
-          "success": false,
-          "latency": 18.602371215820312,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 365
+          "success": true,
+          "latency": 225.01349449157715,
+          "ip_address": "185.230.63.171",
+          "error": null,
+          "bytes_transferred": 217
         },
         {
           "domain": "wiltpr.com",
           "success": false,
-          "latency": 18.27836036682129,
+          "latency": 242.78807640075684,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         },
         {
           "domain": "wordai.com",
-          "success": false,
-          "latency": 17.557859420776367,
-          "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "success": true,
+          "latency": 168.20144653320312,
+          "ip_address": "23.111.159.202",
+          "error": null,
+          "bytes_transferred": 113
         },
         {
           "domain": "xxx-muschis.de",
           "success": false,
-          "latency": 21.00849151611328,
+          "latency": 277.02808380126953,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 359
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 90
         },
         {
           "domain": "yunpda.com",
           "success": false,
-          "latency": 18.980979919433594,
+          "latency": 89.26796913146973,
           "ip_address": null,
-          "error": "DNS server unreachable",
-          "bytes_transferred": 347
+          "error": "Domain not found (NXDOMAIN)",
+          "bytes_transferred": 86
         }
       ]
     }

@@ -1,15 +1,9 @@
-#!/usr/bin/env python3
-"""
-Part B: DNS Resolution Testing with Default Host Resolver
-Uses the default host resolver to resolve URLs from PCAP files in the simulated topology.
-Records average lookup latency, throughput, success/failure metrics per host.
-"""
-
 from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.node import OVSController
+from mininet.nodelib import NAT
 from mininet.cli import CLI
-from mininet.log import setLogLevel
+from mininet.log import setLogLevel, info
 from mininet.link import TCLink
 import sys
 import os
@@ -21,14 +15,13 @@ from datetime import datetime
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'resolver'))
 
 try:
-    from scapy.all import rdpcap, DNS, DNSQR
+    from scapy.all import DNS, DNSQR ,PcapReader
 except ImportError:
     print("Error: scapy is required. Install it with: pip install scapy")
     sys.exit(1)
 
 
-class Topology(Topo):
-    """Network topology with 4 hosts and 1 DNS server"""
+class TopologyWithNAT(Topo):
     def build(self):
         # Adding switches
         s1 = self.addSwitch('s1')
@@ -36,12 +29,16 @@ class Topology(Topo):
         s3 = self.addSwitch('s3')
         s4 = self.addSwitch('s4')
 
-        # Adding hosts
-        h1 = self.addHost('h1', ip='10.0.0.1/24')
-        h2 = self.addHost('h2', ip='10.0.0.2/24')
-        h3 = self.addHost('h3', ip='10.0.0.3/24')
-        h4 = self.addHost('h4', ip='10.0.0.4/24')
-        dns = self.addHost('dns', ip='10.0.0.5/24')
+        # Adding hosts with default route pointing to NAT
+        h1 = self.addHost('h1', ip='10.0.0.1/24', defaultRoute='via 10.0.0.254')
+        h2 = self.addHost('h2', ip='10.0.0.2/24', defaultRoute='via 10.0.0.254')
+        h3 = self.addHost('h3', ip='10.0.0.3/24', defaultRoute='via 10.0.0.254')
+        h4 = self.addHost('h4', ip='10.0.0.4/24', defaultRoute='via 10.0.0.254')
+        dns = self.addHost('dns', ip='10.0.0.5/24', defaultRoute='via 10.0.0.254')
+        
+        # Add NAT node
+        nat = self.addNode('nat0', cls=NAT, ip='10.0.0.254/24', 
+                          subnet='10.0.0.0/24', inNamespace=False)
 
         # Adding links with bandwidth and delay
         self.addLink(h1, s1, cls=TCLink, bw=100, delay='2ms')
@@ -49,6 +46,9 @@ class Topology(Topo):
         self.addLink(h3, s3, cls=TCLink, bw=100, delay='2ms')
         self.addLink(h4, s4, cls=TCLink, bw=100, delay='2ms')
         self.addLink(dns, s2, cls=TCLink, bw=100, delay='1ms')
+        
+        # Connect NAT to switch s2 (central switch)
+        self.addLink(nat, s2)
 
         # Adding switch interconnections
         self.addLink(s1, s2, cls=TCLink, bw=100, delay='5ms')
@@ -56,75 +56,7 @@ class Topology(Topo):
         self.addLink(s3, s4, cls=TCLink, bw=100, delay='10ms')
 
 
-def enable_nat_internet_access(net):
-    """
-    Enable NAT for Mininet hosts to access the internet
-    This allows hosts to reach external DNS servers like 8.8.8.8
-    """
-    print("\n*** Configuring NAT for internet access ***")
-    
-    # Get the root namespace interface (typically eth0 or similar)
-    root_intf = None
-    import subprocess
-    try:
-        # Find the default route interface
-        result = subprocess.check_output("ip route | grep default | awk '{print $5}'", shell=True).decode().strip()
-        if result:
-            root_intf = result
-            print(f"  Using host interface: {root_intf}")
-    except:
-        # Fallback to common interface names
-        for intf in ['eth0', 'ens33', 'enp0s3', 'wlan0']:
-            try:
-                subprocess.check_output(f"ip link show {intf}", shell=True, stderr=subprocess.DEVNULL)
-                root_intf = intf
-                print(f"  Using host interface: {root_intf}")
-                break
-            except:
-                continue
-    
-    if not root_intf:
-        print("  ⚠️  Could not detect host interface, using eth0")
-        root_intf = 'eth0'
-    
-    # Enable IP forwarding
-    print("  Enabling IP forwarding...")
-    os.system('sysctl -w net.ipv4.ip_forward=1 > /dev/null 2>&1')
-    
-    # Configure NAT using iptables
-    print("  Configuring NAT rules...")
-    
-    # Clear existing NAT rules
-    os.system('iptables -t nat -F')
-    os.system('iptables -t nat -X')
-    
-    # Add NAT rule for Mininet network (10.0.0.0/24)
-    os.system(f'iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o {root_intf} -j MASQUERADE')
-    
-    # Configure default gateway for all hosts
-    print("  Setting default gateway for hosts...")
-    for host_name in ['h1', 'h2', 'h3', 'h4', 'dns']:
-        host = net.get(host_name)
-        # Add default route through one of the switches (use root namespace)
-        host.cmd(f'ip route add default via 10.0.0.254 dev {host_name}-eth0 2>/dev/null || true')
-        # Also try direct route to internet gateway
-        host.cmd(f'route add default gw 10.0.0.254 2>/dev/null || true')
-    
-    print("  ✅ NAT configuration complete")
-    
-    return True
-
-
 def extract_domains_from_pcap(pcap_file):
-    """
-    Extract unique domain names from PCAP file
-    
-    Args:
-        pcap_file (str): Path to PCAP file
-        
-    Returns:
-        list: List of unique domain names
-    """
     domains = set()
     
     if not os.path.exists(pcap_file):
@@ -132,49 +64,61 @@ def extract_domains_from_pcap(pcap_file):
         return []
     
     try:
-        packets = rdpcap(pcap_file)
-        print(f"Loaded {len(packets)} packets from {pcap_file}")
+        print(f"Reading PCAP file in stream mode: {pcap_file}...", end=' ', flush=True)
+        start_time = time.time()
+        packet_count = 0
+        dns_packet_count = 0
         
-        for packet in packets:
-            if DNS in packet and packet[DNS].qd:
-                dns_layer = packet[DNS]
-                # Only process DNS queries (qr=0)
-                if dns_layer.qr == 0:
-                    try:
-                        query = dns_layer.qd
-                        if hasattr(query, 'qname'):
-                            qname = query.qname
-                            if isinstance(qname, bytes):
-                                domain = qname.decode('utf-8', errors='ignore').strip('.')
-                            else:
-                                domain = str(qname).strip('.')
+        # Use PcapReader for stream mode (doesn't load all packets into memory at once)
+        with PcapReader(pcap_file) as pcap_reader:
+            for packet in pcap_reader:
+                packet_count += 1
+                
+                # Show progress every 100k packets
+                if packet_count % 100000 == 0:
+                    print(f"\n  [{packet_count//1000}k packets processed, {len(domains)} domains found]", end=' ', flush=True)
+            
+                # Process DNS queries only
+                try:
+                    if DNS in packet and packet.haslayer(DNS):
+                        dns_layer = packet[DNS]
+                        # Only process DNS queries (qr=0 means query, qr=1 means response)
+                        if dns_layer.qr == 0 and dns_layer.qd:
+                            dns_packet_count += 1
+                            query = dns_layer.qd
                             
-                            if domain and domain != '':
-                                domains.add(domain)
-                    except Exception as e:
-                        print(f"Error parsing DNS query: {e}")
-                        continue
+                            if hasattr(query, 'qname'):
+                                qname = query.qname
+                                if isinstance(qname, bytes):
+                                    domain = qname.decode('utf-8', errors='ignore').strip('.')
+                                else:
+                                    domain = str(qname).strip('.')
+                                
+                                # Add valid domain names only
+                                if domain and domain != '' and '.' in domain:
+                                    domains.add(domain.lower())  # Normalize to lowercase
+                except:
+                    # Skip packets that can't be parsed
+                    continue
         
-        print(f"Extracted {len(domains)} unique domains from {pcap_file}")
+        end_time = time.time()
+        processing_time = end_time - start_time
+        
+        print(f"\n  Processed {packet_count:,} packets ({dns_packet_count:,} DNS queries) in {processing_time:.2f}s")
+        print(f"  Extracted {len(domains)} unique domains")
+        
+        # Return sorted list
         return sorted(list(domains))
         
     except Exception as e:
-        print(f"Error reading PCAP file {pcap_file}: {e}")
+        print(f"\nError reading PCAP file {pcap_file}: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 
-def resolve_domain_on_host(host, domain, dns_server='8.8.8.8'):
-    """
-    Resolve a domain using the default host resolver (getent or nslookup)
-    
-    Args:
-        host: Mininet host object
-        domain (str): Domain name to resolve
-        dns_server (str): DNS server IP (optional)
-        
-    Returns:
-        dict: Resolution result with latency, success status, and IP
-    """
+def resolve_domain_on_host(host, domain, dns_server='8.8.8.8', timeout=5):
+
     result = {
         'domain': domain,
         'success': False,
@@ -185,8 +129,7 @@ def resolve_domain_on_host(host, domain, dns_server='8.8.8.8'):
     }
     
     # Use nslookup for DNS resolution with timing
-    # nslookup is more portable and provides better control
-    cmd = f"nslookup {domain} {dns_server}"
+    cmd = f"timeout {timeout} nslookup {domain} {dns_server}"
     
     start_time = time.time()
     try:
@@ -204,20 +147,80 @@ def resolve_domain_on_host(host, domain, dns_server='8.8.8.8'):
         elif "connection timed out" in output.lower() or "no servers could be reached" in output.lower():
             result['success'] = False
             result['error'] = "DNS server unreachable"
+        elif "network unreachable" in output.lower():
+            result['success'] = False
+            result['error'] = "Network unreachable"
+        elif "timed out" in output.lower() or "timeout" in output.lower():
+            result['success'] = False
+            result['error'] = "Query timeout"
         else:
-            # Try to extract IP address from output
+        
             lines = output.split('\n')
+            found_answer_section = False
+            
             for i, line in enumerate(lines):
-                if 'Address:' in line and i > 0:  # Skip the DNS server address
+                # Look for "Non-authoritative answer:" or the domain name
+                if 'non-authoritative answer' in line.lower() or f'name:\t{domain}' in line.lower():
+                    found_answer_section = True
+                    continue
+                
+                # After finding the answer section, look for Address:
+                if found_answer_section and 'address:' in line.lower():
                     parts = line.split('Address:')
                     if len(parts) > 1:
                         ip = parts[1].strip().split('#')[0].strip()
-                        if ip and not ip.startswith('127.') and '.' in ip:
-                            result['ip_address'] = ip
-                            result['success'] = True
+                        # Validate it's not the DNS server IP and it's a valid IP format
+                        if ip and ip != dns_server and '.' in ip and not ip.startswith('127.'):
+                            # Additional validation: check if it looks like an IPv4 address
+                            ip_parts = ip.split('.')
+                            if len(ip_parts) == 4:
+                                try:
+                                    # Check if all parts are valid numbers
+                                    if all(0 <= int(part) <= 255 for part in ip_parts):
+                                        result['ip_address'] = ip
+                                        result['success'] = True
+                                        break
+                                except ValueError:
+                                    continue
+            
+            # Alternative parsing: look for "Name:" followed by "Address:"
+            if not result['success']:
+                for i, line in enumerate(lines):
+                    if 'name:' in line.lower() and domain.lower() in line.lower():
+                        # Check the next few lines for Address:
+                        for j in range(i+1, min(i+5, len(lines))):
+                            next_line = lines[j]
+                            if 'address:' in next_line.lower():
+                                parts = next_line.split('Address:')
+                                if len(parts) > 1:
+                                    ip = parts[1].strip().split('#')[0].strip()
+                                    if ip and ip != dns_server and '.' in ip:
+                                        ip_parts = ip.split('.')
+                                        if len(ip_parts) == 4:
+                                            try:
+                                                if all(0 <= int(part) <= 255 for part in ip_parts):
+                                                    result['ip_address'] = ip
+                                                    result['success'] = True
+                                                    break
+                                            except ValueError:
+                                                continue
+                        if result['success']:
                             break
             
-            # If no IP found but no error, mark as failed
+            # Check for IPv6 addresses if no IPv4 found
+            if not result['success']:
+                for line in lines:
+                    if 'address:' in line.lower() and '::' in line:
+                        # Extract IPv6 address
+                        parts = line.split('Address:')
+                        if len(parts) > 1:
+                            ipv6 = parts[1].strip().split('#')[0].strip()
+                            if '::' in ipv6:
+                                result['success'] = True
+                                result['ip_address'] = ipv6
+                                break
+            
+            # Still no success? Mark as parsing error
             if not result['success']:
                 result['error'] = "Could not parse IP address from response"
         
@@ -231,18 +234,7 @@ def resolve_domain_on_host(host, domain, dns_server='8.8.8.8'):
 
 
 def test_dns_resolution_for_host(net, host_name, pcap_file, dns_server='8.8.8.8'):
-    """
-    Test DNS resolution for a specific host using domains from its PCAP file
-    
-    Args:
-        net: Mininet network object
-        host_name (str): Name of the host (e.g., 'h1')
-        pcap_file (str): Path to PCAP file for this host
-        dns_server (str): DNS server IP to use
-        
-    Returns:
-        dict: Statistics for this host
-    """
+
     print(f"\n{'='*70}")
     print(f"Testing DNS resolution for {host_name.upper()}")
     print(f"PCAP file: {pcap_file}")
@@ -334,38 +326,53 @@ def run_part_b_tests(dns_server='8.8.8.8'):
     
     # Setup topology
     setLogLevel('info')
-    topo = Topology()
+    topo = TopologyWithNAT()
     net = Mininet(topo=topo, link=TCLink, 
                   controller=lambda name: OVSController(name, ip='127.0.0.1', port=6633))
     
     try:
         net.start()
         
-        print("\nWaiting for network to stabilize...")
-        time.sleep(2)
+        info("\n*** Configuring NAT\n")
+        nat = net.get('nat0')
+        nat.configDefault()
         
-        print("\nTesting connectivity...")
+        print("\nWaiting for network to stabilize...")
+        time.sleep(3)
+        
+        print("\nTesting internal connectivity...")
         net.pingAll()
         
-        # Enable NAT for internet access
-        enable_nat_internet_access(net)
+        # Wait for routing to settle
+        time.sleep(2)
         
-        # Test internet connectivity from h1
+        # Test internet connectivity
         print("\n*** Testing internet connectivity ***")
         h1 = net.get('h1')
-        result = h1.cmd('ping -c 2 -W 2 8.8.8.8')
-        if '2 received' in result or '2 packets received' in result:
-            print("  ✅ Internet connectivity working!")
-        else:
-            print("  ⚠️  Internet connectivity may have issues")
-            print(f"  Ping result: {result[:200]}")
         
-        # Configure DNS for each host (use public DNS)
+        print("  Testing ping to 8.8.8.8...")
+        result = h1.cmd('ping -c 3 -W 3 8.8.8.8')
+        if 'bytes from 8.8.8.8' in result or '3 received' in result:
+            print("  Internet connectivity working!")
+        else:
+            print(" Ping failed. Output:")
+            print("  " + result.replace('\n', '\n  ')[:400])
+        
+        # Configure DNS for each host
         print(f"\nConfiguring DNS server ({dns_server}) for all hosts...")
         for host_name in ['h1', 'h2', 'h3', 'h4']:
             host = net.get(host_name)
-            # Configure resolv.conf to use specified DNS server
             host.cmd(f'echo "nameserver {dns_server}" > /etc/resolv.conf')
+            print(f"  {host_name}: DNS configured")
+        
+        # Test DNS resolution
+        print("\n*** Testing DNS resolution ***")
+        test_result = h1.cmd('nslookup google.com ' + dns_server)
+        if 'Address:' in test_result and 'google.com' in test_result.lower():
+            print("  DNS resolution working!")
+        else:
+            print("   DNS test output:")
+            print("  " + test_result.replace('\n', '\n  ')[:300])
         
         # PCAP files for each host
         pcap_files = {
