@@ -92,9 +92,9 @@ class DNSResolverServer:
             domain = domain + '.'
         
         self.logger.info(f"\n{'='*80}")
-        self.logger.info(f"📋 NEW QUERY: {domain} (Type: {qtype})")
-        self.logger.info(f"🕐 Timestamp: {datetime.now().isoformat()}")
-        self.logger.info(f"🔄 Resolution Mode: Iterative")
+        self.logger.info(f"NEW QUERY: {domain} (Type: {qtype})")
+        self.logger.info(f"Timestamp: {datetime.now().isoformat()}")
+        self.logger.info(f"Resolution Mode: Iterative")
         
         # Create comprehensive query log entry with ALL required fields
         query_log = {
@@ -131,7 +131,7 @@ class DNSResolverServer:
             if cache_key in self.cache:
                 cached_data, cached_rrsets, expiry = self.cache[cache_key]
                 if time.time() < expiry:
-                    self.logger.info(f"🎯 CACHE STATUS: HIT for {domain}")
+                    self.logger.info(f"CACHE STATUS: HIT for {domain}")
                     query_log['cache_status'] = 'HIT'
                     with self.lock:
                         self.statistics['cache_hits'] += 1
@@ -141,11 +141,11 @@ class DNSResolverServer:
                     query_log['success'] = True
                     query_log['resolution_time_ms'] = round((time.time() - start_time) * 1000, 2)
                     
-                    self.logger.info(f"✅ RESOLVED from cache in {query_log['resolution_time_ms']:.2f}ms")
+                    self.logger.info(f"RESOLVED from cache in {query_log['resolution_time_ms']:.2f}ms")
                     return query_log
             
             # Cache miss
-            self.logger.info(f"❌ CACHE STATUS: MISS for {domain}")
+            self.logger.info(f"CACHE STATUS: MISS for {domain}")
             query_log['cache_status'] = 'MISS'
             
             with self.lock:
@@ -173,7 +173,7 @@ class DNSResolverServer:
                             server_type = "AUTHORITATIVE"
                         
                         # d. DNS server IP contacted
-                        self.logger.info(f"\n📍 Step {step_number}: Querying {server_type} server")
+                        self.logger.info(f"\nStep {step_number}: Querying {server_type} server")
                         self.logger.info(f"   DNS Server IP: {server_ip}")
                         
                         # Create DNS query
@@ -204,7 +204,7 @@ class DNSResolverServer:
                             'answers': []
                         }
                         
-                        self.logger.info(f"   ⏱️  RTT: {rtt_ms:.2f}ms")
+                        self.logger.info(f"   RTT: {rtt_ms:.2f}ms")
                         
                         # Check for answers
                         if response.answer:
@@ -216,7 +216,7 @@ class DNSResolverServer:
                                 for rdata in rrset:
                                     answer_str = str(rdata)
                                     answers.append(answer_str)
-                                    self.logger.info(f"   ✅ Answer: {answer_str}")
+                                    self.logger.info(f"   Answer: {answer_str}")
                             
                             # f. Response received
                             step_log['response_type'] = 'ANSWER'
@@ -236,7 +236,7 @@ class DNSResolverServer:
                             # h. Total time to resolution
                             query_log['resolution_time_ms'] = round((time.time() - start_time) * 1000, 2)
                             
-                            self.logger.info(f"\n✅ RESOLUTION SUCCESSFUL")
+                            self.logger.info(f"\nRESOLUTION SUCCESSFUL")
                             self.logger.info(f"   Total Time: {query_log['resolution_time_ms']:.2f}ms")
                             self.logger.info(f"   Total Servers Contacted: {len(query_log['resolution_path'])}")
                             self.logger.info(f"   Final Answer: {query_log['final_answer']}")
@@ -254,7 +254,7 @@ class DNSResolverServer:
                                     for rdata in rrset:
                                         ns_name = str(rdata.target)
                                         ns_names.append(ns_name)
-                                        self.logger.info(f"   ↪️  Referral to NS: {ns_name}")
+                                        self.logger.info(f"   Referral to NS: {ns_name}")
                             
                             # Extract nameserver IPs from additional section
                             if response.additional:
@@ -263,11 +263,11 @@ class DNSResolverServer:
                                         for rdata in rrset:
                                             ip = str(rdata)
                                             ns_ips.append(ip)
-                                            self.logger.info(f"   📍 NS IP: {ip}")
+                                            self.logger.info(f"   NS IP: {ip}")
                             
                             # If no IPs in additional section, resolve NS names
                             if not ns_ips and ns_names:
-                                self.logger.info("   🔍 Resolving NS names to IPs...")
+                                self.logger.info("   Resolving NS names to IPs...")
                                 for ns_name in ns_names[:2]:
                                     try:
                                         ns_query = dns.message.make_query(ns_name, 'A')
@@ -296,10 +296,10 @@ class DNSResolverServer:
                         else:
                             step_log['response_type'] = 'EMPTY'
                             query_log['resolution_path'].append(step_log)
-                            self.logger.warning(f"   ⚠️  Empty response")
+                            self.logger.warning(f"   Empty response")
                             
                     except Exception as e:
-                        self.logger.warning(f"   ❌ Error querying {server_ip}: {str(e)}")
+                        self.logger.warning(f"   Error querying {server_ip}: {str(e)}")
                         continue
                 
                 # Check if we got a referral in this iteration
@@ -311,7 +311,7 @@ class DNSResolverServer:
                 query_log['error'] = 'No answer found after iterative resolution'
                 with self.lock:
                     self.statistics['failed'] += 1
-                self.logger.warning(f"\n❌ RESOLUTION FAILED for {domain}")
+                self.logger.warning(f"\nRESOLUTION FAILED for {domain}")
             
             # h. Total time to resolution
             query_log['resolution_time_ms'] = round((time.time() - start_time) * 1000, 2)
@@ -319,7 +319,7 @@ class DNSResolverServer:
             return query_log
             
         except Exception as e:
-            self.logger.error(f"\n❌ ERROR resolving {domain}: {str(e)}")
+            self.logger.error(f"\nERROR resolving {domain}: {str(e)}")
             query_log['error'] = str(e)
             query_log['resolution_time_ms'] = round((time.time() - start_time) * 1000, 2)
             with self.lock:
@@ -354,15 +354,15 @@ class DNSResolverServer:
             with open(self.json_log, 'w') as f:
                 json.dump(data, f, indent=2)
             
-            self.logger.debug(f"💾 Logs written to {self.json_log}")
+            self.logger.debug(f"Logs written to {self.json_log}")
         except Exception as e:
-            self.logger.error(f"❌ Error writing logs: {e}")
+            self.logger.error(f"Error writing logs: {e}")
     
     def shutdown(self):
         """Shutdown server and save logs"""
         self.logger.info("\n" + "="*80)
-        self.logger.info("🛑 Shutting down DNS server...")
-        self.logger.info(f"📊 Final Statistics:")
+        self.logger.info("Shutting down DNS server...")
+        self.logger.info(f"Final Statistics:")
         self.logger.info(f"   Total Queries: {self.statistics['total_queries']}")
         self.logger.info(f"   Successful: {self.statistics['successful']}")
         self.logger.info(f"   Failed: {self.statistics['failed']}")
@@ -370,7 +370,7 @@ class DNSResolverServer:
         self.logger.info(f"   Cache Misses: {self.statistics['cache_misses']}")
         
         self._write_logs_to_file()
-        self.logger.info(f"💾 All logs saved to {self.json_log}")
+        self.logger.info(f"All logs saved to {self.json_log}")
         self.logger.info("="*80)
 
 
@@ -391,7 +391,7 @@ class DNSUDPHandler(socketserver.BaseRequestHandler):
                 qname = str(request.question[0].name)
                 qtype = dns.rdatatype.to_text(request.question[0].rdtype)
                 
-                self.server.resolver.logger.info(f"\n📨 Query from {client_addr[0]}: {qname} ({qtype})")
+                self.server.resolver.logger.info(f"\nQuery from {client_addr[0]}: {qname} ({qtype})")
                 
                 # Resolve the query with comprehensive logging
                 result = self.server.resolver.resolve_iterative(qname, qtype)
@@ -406,16 +406,16 @@ class DNSUDPHandler(socketserver.BaseRequestHandler):
                     for rrset in result['answer_rrsets']:
                         response.answer.append(rrset)
                     
-                    self.server.resolver.logger.info(f"📤 Sending response to {client_addr[0]}")
+                    self.server.resolver.logger.info(f"Sending response to {client_addr[0]}")
                 else:
                     response.set_rcode(dns.rcode.NXDOMAIN)
-                    self.server.resolver.logger.info(f"📤 Sending NXDOMAIN to {client_addr[0]}")
+                    self.server.resolver.logger.info(f"Sending NXDOMAIN to {client_addr[0]}")
                 
                 # Send response
                 sock.sendto(response.to_wire(), client_addr)
                 
         except Exception as e:
-            self.server.resolver.logger.error(f"❌ Error handling request from {client_addr[0]}: {e}")
+            self.server.resolver.logger.error(f"Error handling request from {client_addr[0]}: {e}")
             import traceback
             self.server.resolver.logger.error(traceback.format_exc())
 
