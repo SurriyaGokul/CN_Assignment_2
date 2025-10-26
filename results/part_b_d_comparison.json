@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-10-26T18:16:30.283525",
+  "part_b_dns": "8.8.8.8",
+  "part_d_dns": "10.0.0.5",
+  "comparison": [
+    {
+      "host": "h1",
+      "part_b": {
+        "total_queries": 100,
+        "successful": 71,
+        "avg_latency_ms": 583.83,
+        "success_rate": 71.0
+      },
+      "part_d": {
+        "total_queries": 100,
+        "successful": 51,
+        "avg_latency_ms": 478.15,
+        "success_rate": 51.0
+      },
+      "latency_diff_ms": -105.68000000000006,
+      "latency_diff_percent": -18.101159584125526
+    },
+    {
+      "host": "h2",
+      "part_b": {
+        "total_queries": 100,
+        "successful": 67,
+        "avg_latency_ms": 675.18,
+        "success_rate": 67.0
+      },
+      "part_d": {
+        "total_queries": 100,
+        "successful": 38,
+        "avg_latency_ms": 544.59,
+        "success_rate": 38.0
+      },
+      "latency_diff_ms": -130.58999999999992,
+      "latency_diff_percent": -19.341508930951736
+    },
+    {
+      "host": "h3",
+      "part_b": {
+        "total_queries": 100,
+        "successful": 72,
+        "avg_latency_ms": 473.46,
+        "success_rate": 72.0
+      },
+      "part_d": {
+        "total_queries": 100,
+        "successful": 40,
+        "avg_latency_ms": 532.07,
+        "success_rate": 40.0
+      },
+      "latency_diff_ms": 58.61000000000007,
+      "latency_diff_percent": 12.379081654205228
+    },
+    {
+      "host": "h4",
+      "part_b": {
+        "total_queries": 100,
+        "successful": 73,
+        "avg_latency_ms": 557.15,
+        "success_rate": 73.0
+      },
+      "part_d": {
+        "total_queries": 100,
+        "successful": 41,
+        "avg_latency_ms": 614.71,
+        "success_rate": 41.0
+      },
+      "latency_diff_ms": 57.56000000000006,
+      "latency_diff_percent": 10.331149600646157
+    }
+  ]
+}

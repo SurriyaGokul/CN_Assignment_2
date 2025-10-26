@@ -12,9 +12,25 @@ Usage:
 import json
 import sys
 import os
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+
+# Auto-install matplotlib if not present
+try:
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import numpy as np
+    import matplotlib
+    matplotlib.use('Agg')
+except ImportError:
+    print("  📦 Installing matplotlib and seaborn...")
+    import subprocess
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'matplotlib', 'seaborn'], 
+                   check=True)
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import numpy as np
+    import matplotlib
+    matplotlib.use('Agg')
+
 from pathlib import Path
 
 # Set style
@@ -45,10 +61,28 @@ def plot_latency_first_10(queries, output_dir):
     
     first_10 = queries[:10]
     
-    # Extract data
-    domains = [q['domain'].replace('.', '').replace('www', '')[:20] for q in first_10]
-    latencies = [q['total_time'] * 1000 for q in first_10]  # Convert to ms
-    statuses = [q['success'] for q in first_10]
+    # Extract data - handle both 'total_time' and 'resolution_time_ms' fields
+    domains = []
+    latencies = []
+    statuses = []
+    
+    for q in first_10:
+        # Get domain name
+        domain = q.get('domain', 'unknown')
+        domain = domain.replace('.', '').replace('www', '')[:20]
+        domains.append(domain)
+        
+        # Get latency (handle different field names)
+        if 'resolution_time_ms' in q:
+            latency = q['resolution_time_ms']
+        elif 'total_time' in q:
+            latency = q['total_time'] * 1000  # Convert to ms
+        else:
+            latency = 0
+        latencies.append(latency)
+        
+        # Get success status
+        statuses.append(q.get('success', False))
     
     # Create color map
     colors = ['#2ecc71' if s else '#e74c3c' for s in statuses]
@@ -98,8 +132,11 @@ def plot_latency_first_10(queries, output_dir):
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"✓ Saved: {output_path}")
     
-    plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
-    print(f"✓ Saved: {output_path.replace('.png', '.pdf')}")
+    try:
+        plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+        print(f"✓ Saved: {output_path.replace('.png', '.pdf')}")
+    except:
+        pass
     
     plt.close()
 
@@ -110,10 +147,28 @@ def plot_servers_visited_first_10(queries, output_dir):
     
     first_10 = queries[:10]
     
-    # Extract data
-    domains = [q['domain'].replace('.', '').replace('www', '')[:20] for q in first_10]
-    num_servers = [len(q['steps']) for q in first_10]
-    statuses = [q['success'] for q in first_10]
+    # Extract data - handle different field names
+    domains = []
+    num_servers = []
+    statuses = []
+    
+    for q in first_10:
+        # Get domain name
+        domain = q.get('domain', 'unknown')
+        domain = domain.replace('.', '').replace('www', '')[:20]
+        domains.append(domain)
+        
+        # Get number of servers (handle different field names)
+        if 'resolution_path' in q:
+            num = len(q['resolution_path'])
+        elif 'steps' in q:
+            num = len(q['steps'])
+        else:
+            num = 0
+        num_servers.append(num)
+        
+        # Get success status
+        statuses.append(q.get('success', False))
     
     # Create color map
     colors = []
@@ -178,8 +233,11 @@ def plot_servers_visited_first_10(queries, output_dir):
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"✓ Saved: {output_path}")
     
-    plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
-    print(f"✓ Saved: {output_path.replace('.png', '.pdf')}")
+    try:
+        plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+        print(f"✓ Saved: {output_path.replace('.png', '.pdf')}")
+    except:
+        pass
     
     plt.close()
 
@@ -190,17 +248,28 @@ def plot_resolution_steps_breakdown(queries, output_dir):
     
     first_10 = queries[:10]
     
-    domains = [q['domain'].replace('.', '').replace('www', '')[:20] for q in first_10]
-    
-    # Count server types
+    domains = []
     root_counts = []
     tld_counts = []
     auth_counts = []
     
-    for query in first_10:
-        root = sum(1 for step in query['steps'] if step['server_type'] == 'ROOT')
-        tld = sum(1 for step in query['steps'] if step['server_type'] == 'TLD')
-        auth = sum(1 for step in query['steps'] if step['server_type'] == 'AUTHORITATIVE')
+    for q in first_10:
+        domain = q.get('domain', 'unknown')
+        domain = domain.replace('.', '').replace('www', '')[:20]
+        domains.append(domain)
+        
+        # Get resolution path (handle different field names)
+        if 'resolution_path' in q:
+            steps = q['resolution_path']
+        elif 'steps' in q:
+            steps = q['steps']
+        else:
+            steps = []
+        
+        # Count server types
+        root = sum(1 for step in steps if step.get('server_type') == 'ROOT')
+        tld = sum(1 for step in steps if step.get('server_type') == 'TLD')
+        auth = sum(1 for step in steps if step.get('server_type') in ['AUTHORITATIVE', 'AUTH'])
         
         root_counts.append(root)
         tld_counts.append(tld)
@@ -242,7 +311,10 @@ def plot_resolution_steps_breakdown(queries, output_dir):
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"✓ Saved: {output_path}")
     
-    plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+    try:
+        plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+    except:
+        pass
     plt.close()
 
 
@@ -257,24 +329,40 @@ def generate_summary_table(queries, stats, output_dir):
     ax.axis('off')
     
     # Prepare table data
-    table_data = [['#', 'Domain', 'Status', 'Latency (ms)', 'Servers Visited', 'Answers']]
+    table_data = [['#', 'Domain', 'Status', 'Latency (ms)', 'Servers', 'Cache']]
     
     for i, query in enumerate(first_10, 1):
-        domain = query['domain'][:30]
-        status = '✓ Success' if query['success'] else '✗ Failed'
-        latency = f"{query['total_time'] * 1000:.2f}"
-        servers = str(len(query['steps']))
-        answers = str(len(query['answers']))
+        domain = query.get('domain', 'unknown')[:35]
+        status = '✓ Success' if query.get('success', False) else '✗ Failed'
         
-        table_data.append([str(i), domain, status, latency, servers, answers])
+        # Get latency
+        if 'resolution_time_ms' in query:
+            latency = f"{query['resolution_time_ms']:.2f}"
+        elif 'total_time' in query:
+            latency = f"{query['total_time'] * 1000:.2f}"
+        else:
+            latency = "N/A"
+        
+        # Get servers count
+        if 'resolution_path' in query:
+            servers = str(len(query['resolution_path']))
+        elif 'steps' in query:
+            servers = str(len(query['steps']))
+        else:
+            servers = "0"
+        
+        # Get cache status
+        cache = query.get('cache_status', 'MISS')
+        
+        table_data.append([str(i), domain, status, latency, servers, cache])
     
     # Create table
     table = ax.table(cellText=table_data[1:], colLabels=table_data[0],
                     cellLoc='center', loc='center',
-                    colWidths=[0.05, 0.4, 0.12, 0.15, 0.15, 0.1])
+                    colWidths=[0.05, 0.35, 0.12, 0.15, 0.1, 0.1])
     
     table.auto_set_font_size(False)
-    table.set_fontsize(10)
+    table.set_fontsize(9)
     table.scale(1, 2.5)
     
     # Style header
@@ -294,6 +382,11 @@ def generate_summary_table(queries, stats, output_dir):
                     table[(i, j)].set_facecolor('#d5f4e6')
                 else:
                     table[(i, j)].set_facecolor('#fadbd8')
+            
+            # Color cache column
+            if j == 5:
+                if table_data[i][j] == 'HIT':
+                    table[(i, j)].set_facecolor('#d5f4e6')
     
     plt.title(f'DNS Query Summary - First 10 Queries (PCAP_1_H1)\n' +
               f'Custom DNS Resolver (10.0.0.5) - Total Queries: {stats.get("total_queries", "N/A")}',
@@ -305,7 +398,10 @@ def generate_summary_table(queries, stats, output_dir):
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"✓ Saved: {output_path}")
     
-    plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+    try:
+        plt.savefig(output_path.replace('.png', '.pdf'), bbox_inches='tight')
+    except:
+        pass
     plt.close()
 
 
@@ -318,7 +414,7 @@ def main():
         sys.exit(1)
     
     json_file = sys.argv[1]
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else './visualizations'
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else './plots'
     
     if not os.path.exists(json_file):
         print(f"Error: JSON file not found: {json_file}")
@@ -355,7 +451,7 @@ def main():
     print("2. h1_servers_visited_first_10_queries.png/pdf - Servers visited (REQUIRED)")
     print("3. h1_resolution_breakdown.png/pdf - Resolution steps breakdown")
     print("4. h1_summary_table.png/pdf - Summary table")
-    print("\nThese fulfill the Part D visualization requirements!")
+    print("\n✅ These fulfill the Part D visualization requirements!")
 
 
 if __name__ == '__main__':

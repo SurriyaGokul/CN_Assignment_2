@@ -1,0 +1,915 @@
+{
+  "host": "h3",
+  "pcap_file": "PCAP_3_H3.pcap",
+  "dns_server": "10.0.0.5",
+  "total_queries": 100,
+  "successful_queries": 40,
+  "failed_queries": 60,
+  "success_rate": 40.0,
+  "average_latency_ms": 532.07,
+  "average_throughput_bps": 341.31,
+  "domains_tested": [
+    "abmcare.com",
+    "anvilnetworksolutions.net",
+    "archiportale.com",
+    "arcoat.com",
+    "asseenontvlaunchpad.com",
+    "autopareri.com",
+    "bbqinjector.com",
+    "begleyhutton.com",
+    "bigliettieventi.info",
+    "bmw-parts.ru",
+    "bookingnest.com",
+    "callcomm.info",
+    "cdmail.fr",
+    "ceskykutil.cz",
+    "charityjob.co.uk",
+    "chekiang.info",
+    "chenghuavideo.asia",
+    "cia.it",
+    "ciber.com",
+    "clickdownloadfiles.com",
+    "consumerreviews24.com",
+    "cosmeticaestheticsurgery.com",
+    "crsgfk.de",
+    "currencyrates.org",
+    "cushinglawoffices.com",
+    "cuteteenschoolgirlz.com",
+    "de.vu",
+    "dilw.ie",
+    "dock2office.com",
+    "drglendza.co.rs",
+    "dricom-hosting.nl",
+    "e-daily.gr",
+    "e-hps.com",
+    "ecolems.com",
+    "eggcityradio.com",
+    "egov.sy",
+    "fmnara.com",
+    "freeditorial.com",
+    "ftf.com",
+    "gadanguides.com",
+    "gadgetgearpro.com",
+    "gardenofwords.com",
+    "get-webby.com",
+    "ghimpele.ro",
+    "giuseppelivraghi.it",
+    "gregginn.com",
+    "gxjbsj.com",
+    "hayalforum.net",
+    "hdcric.com",
+    "hralda.info",
+    "hutago.com",
+    "iael.com",
+    "ishidatic.com",
+    "laigang001.com",
+    "marilynlingerie.com",
+    "mechachal.org",
+    "medipacademy.com",
+    "metar.gr",
+    "michaelbyers.org",
+    "minecraftserverdeals.com",
+    "monitis.com",
+    "morban.co.uk",
+    "nasaspaceflight.com",
+    "ncees.org",
+    "noblewomanhood.com",
+    "note-so-easy.co.za",
+    "oaister.org",
+    "pahibu.net",
+    "pet-connect.ru",
+    "polymth.com",
+    "romney.com",
+    "rterc.in",
+    "sailor.pl",
+    "sarahpartridge.net",
+    "sendrakhizonline.com",
+    "shishioh.info",
+    "silveropt.ru",
+    "skyhightmatter.info",
+    "sonoma-marinfair.org",
+    "stkpro.ru",
+    "synchchaos.com",
+    "synrc.com",
+    "tangkas888.com",
+    "tawali.com",
+    "teachmyass.info",
+    "teleskill.it",
+    "tenant-internet.com",
+    "texasbeyondhistory.net",
+    "topbarbee.com",
+    "trackcheatingspouse.com",
+    "uca.edu",
+    "urbannetwork.co.uk",
+    "verlockeshop.de",
+    "video-peche-poisson.fr",
+    "vietcapitaltour.com",
+    "virtualjerusalem.com",
+    "vlielandoutdoorcenter.nl",
+    "vpndefender.com",
+    "ximangquantrieu.com",
+    "zpav.pl"
+  ],
+  "results": [
+    {
+      "domain": "abmcare.com",
+      "success": true,
+      "latency": 426.074743270874,
+      "ip_address": "104.18.11.144",
+      "error": null,
+      "bytes_transferred": 30
+    },
+    {
+      "domain": "anvilnetworksolutions.net",
+      "success": false,
+      "latency": 5017.056465148926,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "archiportale.com",
+      "success": true,
+      "latency": 393.48530769348145,
+      "ip_address": "104.18.13.154",
+      "error": null,
+      "bytes_transferred": 30
+    },
+    {
+      "domain": "arcoat.com",
+      "success": true,
+      "latency": 604.844331741333,
+      "ip_address": "66.39.19.55",
+      "error": null,
+      "bytes_transferred": 13
+    },
+    {
+      "domain": "asseenontvlaunchpad.com",
+      "success": false,
+      "latency": 5021.8446254730225,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "autopareri.com",
+      "success": true,
+      "latency": 420.6082820892334,
+      "ip_address": "147.93.94.216",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "bbqinjector.com",
+      "success": false,
+      "latency": 5022.746324539185,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "begleyhutton.com",
+      "success": false,
+      "latency": 5018.120765686035,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "bigliettieventi.info",
+      "success": false,
+      "latency": 5018.259525299072,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "bmw-parts.ru",
+      "success": true,
+      "latency": 625.9315013885498,
+      "ip_address": "91.236.136.97",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "bookingnest.com",
+      "success": true,
+      "latency": 675.015926361084,
+      "ip_address": "13.248.169.48",
+      "error": null,
+      "bytes_transferred": 30
+    },
+    {
+      "domain": "callcomm.info",
+      "success": false,
+      "latency": 2419.4631576538086,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "cdmail.fr",
+      "success": false,
+      "latency": 5014.900684356689,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "ceskykutil.cz",
+      "success": true,
+      "latency": 702.9604911804199,
+      "ip_address": "80.211.205.242",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "charityjob.co.uk",
+      "success": false,
+      "latency": 5016.8352127075195,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "chekiang.info",
+      "success": false,
+      "latency": 5014.356851577759,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "chenghuavideo.asia",
+      "success": false,
+      "latency": 5016.97039604187,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "cia.it",
+      "success": true,
+      "latency": 570.8298683166504,
+      "ip_address": "54.228.218.49",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "ciber.com",
+      "success": true,
+      "latency": 397.536039352417,
+      "ip_address": "103.247.209.15",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "clickdownloadfiles.com",
+      "success": false,
+      "latency": 5016.615629196167,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "consumerreviews24.com",
+      "success": false,
+      "latency": 5022.78995513916,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "cosmeticaestheticsurgery.com",
+      "success": true,
+      "latency": 550.9395599365234,
+      "ip_address": "3.33.130.190",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "crsgfk.de",
+      "success": false,
+      "latency": 5016.597032546997,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "currencyrates.org",
+      "success": false,
+      "latency": 5021.610736846924,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "cushinglawoffices.com",
+      "success": false,
+      "latency": 5017.880916595459,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "cuteteenschoolgirlz.com",
+      "success": false,
+      "latency": 5016.5855884552,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "de.vu",
+      "success": false,
+      "latency": 5018.1450843811035,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "dilw.ie",
+      "success": false,
+      "latency": 5017.190933227539,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "dock2office.com",
+      "success": false,
+      "latency": 5016.631364822388,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "drglendza.co.rs",
+      "success": false,
+      "latency": 5016.749143600464,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "dricom-hosting.nl",
+      "success": true,
+      "latency": 486.15026473999023,
+      "ip_address": "46.249.36.223",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "e-daily.gr",
+      "success": false,
+      "latency": 5017.559766769409,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "e-hps.com",
+      "success": true,
+      "latency": 448.27818870544434,
+      "ip_address": "208.44.185.221",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "ecolems.com",
+      "success": false,
+      "latency": 5014.667272567749,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "eggcityradio.com",
+      "success": false,
+      "latency": 5023.581504821777,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "egov.sy",
+      "success": true,
+      "latency": 899.0991115570068,
+      "ip_address": "185.216.134.58",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "fmnara.com",
+      "success": false,
+      "latency": 5017.148017883301,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "freeditorial.com",
+      "success": true,
+      "latency": 399.8541831970215,
+      "ip_address": "51.178.246.100",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "ftf.com",
+      "success": false,
+      "latency": 5028.704643249512,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "gadanguides.com",
+      "success": false,
+      "latency": 5017.838954925537,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "gadgetgearpro.com",
+      "success": false,
+      "latency": 5016.40248298645,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "gardenofwords.com",
+      "success": true,
+      "latency": 380.8448314666748,
+      "ip_address": "192.0.78.25",
+      "error": null,
+      "bytes_transferred": 26
+    },
+    {
+      "domain": "get-webby.com",
+      "success": false,
+      "latency": 5015.158653259277,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "ghimpele.ro",
+      "success": false,
+      "latency": 5056.463956832886,
+      "ip_address": null,
+      "error": "Could not parse IP",
+      "bytes_transferred": 51
+    },
+    {
+      "domain": "giuseppelivraghi.it",
+      "success": false,
+      "latency": 5017.714262008667,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "gregginn.com",
+      "success": true,
+      "latency": 677.3214340209961,
+      "ip_address": "15.197.148.33",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "gxjbsj.com",
+      "success": true,
+      "latency": 601.6867160797119,
+      "ip_address": "172.247.103.2",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "hayalforum.net",
+      "success": false,
+      "latency": 5017.352104187012,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "hdcric.com",
+      "success": true,
+      "latency": 591.5119647979736,
+      "ip_address": "95.216.161.60",
+      "error": null,
+      "bytes_transferred": 59
+    },
+    {
+      "domain": "hralda.info",
+      "success": false,
+      "latency": 5014.7504806518555,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "hutago.com",
+      "success": false,
+      "latency": 5020.537376403809,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "iael.com",
+      "success": true,
+      "latency": 506.06346130371094,
+      "ip_address": "139.162.181.76",
+      "error": null,
+      "bytes_transferred": 66
+    },
+    {
+      "domain": "ishidatic.com",
+      "success": true,
+      "latency": 641.0434246063232,
+      "ip_address": "15.197.172.60",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "laigang001.com",
+      "success": false,
+      "latency": 5016.23797416687,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "marilynlingerie.com",
+      "success": false,
+      "latency": 5016.133785247803,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "mechachal.org",
+      "success": false,
+      "latency": 5016.60418510437,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "medipacademy.com",
+      "success": true,
+      "latency": 398.69093894958496,
+      "ip_address": "104.21.4.41",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "metar.gr",
+      "success": false,
+      "latency": 5029.881954193115,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "michaelbyers.org",
+      "success": false,
+      "latency": 5020.956516265869,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "minecraftserverdeals.com",
+      "success": true,
+      "latency": 533.9908599853516,
+      "ip_address": "104.21.1.113",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "monitis.com",
+      "success": true,
+      "latency": 435.0581169128418,
+      "ip_address": "188.172.236.218",
+      "error": null,
+      "bytes_transferred": 17
+    },
+    {
+      "domain": "morban.co.uk",
+      "success": false,
+      "latency": 5015.440225601196,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "nasaspaceflight.com",
+      "success": true,
+      "latency": 389.05787467956543,
+      "ip_address": "172.66.43.73",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "ncees.org",
+      "success": false,
+      "latency": 5015.466928482056,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "noblewomanhood.com",
+      "success": true,
+      "latency": 481.5845489501953,
+      "ip_address": "74.208.236.114",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "note-so-easy.co.za",
+      "success": false,
+      "latency": 5013.69571685791,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "oaister.org",
+      "success": false,
+      "latency": 5018.334865570068,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "pahibu.net",
+      "success": false,
+      "latency": 5017.340898513794,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "pet-connect.ru",
+      "success": true,
+      "latency": 620.5706596374512,
+      "ip_address": "194.58.112.174",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "polymth.com",
+      "success": true,
+      "latency": 399.1215229034424,
+      "ip_address": "104.21.57.169",
+      "error": null,
+      "bytes_transferred": 31
+    },
+    {
+      "domain": "romney.com",
+      "success": true,
+      "latency": 664.9975776672363,
+      "ip_address": "208.91.197.27",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "rterc.in",
+      "success": false,
+      "latency": 5019.992828369141,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "sailor.pl",
+      "success": false,
+      "latency": 5015.298366546631,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "sarahpartridge.net",
+      "success": false,
+      "latency": 5014.645338058472,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "sendrakhizonline.com",
+      "success": true,
+      "latency": 591.677188873291,
+      "ip_address": "20.244.2.144",
+      "error": null,
+      "bytes_transferred": 14
+    },
+    {
+      "domain": "shishioh.info",
+      "success": false,
+      "latency": 5016.704559326172,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "silveropt.ru",
+      "success": false,
+      "latency": 5026.178598403931,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "skyhightmatter.info",
+      "success": false,
+      "latency": 5020.364284515381,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "sonoma-marinfair.org",
+      "success": false,
+      "latency": 5018.268823623657,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "stkpro.ru",
+      "success": true,
+      "latency": 697.5793838500977,
+      "ip_address": "205.251.138.125",
+      "error": null,
+      "bytes_transferred": 17
+    },
+    {
+      "domain": "synchchaos.com",
+      "success": true,
+      "latency": 624.1199970245361,
+      "ip_address": "203.161.61.102",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "synrc.com",
+      "success": true,
+      "latency": 566.8761730194092,
+      "ip_address": "172.67.185.234",
+      "error": null,
+      "bytes_transferred": 31
+    },
+    {
+      "domain": "tangkas888.com",
+      "success": true,
+      "latency": 413.527250289917,
+      "ip_address": "104.21.7.113",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "tawali.com",
+      "success": true,
+      "latency": 495.7621097564697,
+      "ip_address": "173.249.147.46",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "teachmyass.info",
+      "success": false,
+      "latency": 5016.210556030273,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "teleskill.it",
+      "success": false,
+      "latency": 5016.379356384277,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "tenant-internet.com",
+      "success": false,
+      "latency": 5014.883279800415,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "texasbeyondhistory.net",
+      "success": false,
+      "latency": 5012.763977050781,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "topbarbee.com",
+      "success": true,
+      "latency": 477.1606922149658,
+      "ip_address": "159.203.135.249",
+      "error": null,
+      "bytes_transferred": 17
+    },
+    {
+      "domain": "trackcheatingspouse.com",
+      "success": false,
+      "latency": 5016.000032424927,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "uca.edu",
+      "success": false,
+      "latency": 5016.450643539429,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "urbannetwork.co.uk",
+      "success": false,
+      "latency": 5019.722938537598,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "verlockeshop.de",
+      "success": false,
+      "latency": 5012.833833694458,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "video-peche-poisson.fr",
+      "success": false,
+      "latency": 5013.094425201416,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "vietcapitaltour.com",
+      "success": false,
+      "latency": 5014.198064804077,
+      "ip_address": null,
+      "error": "Timeout/No response",
+      "bytes_transferred": 0
+    },
+    {
+      "domain": "virtualjerusalem.com",
+      "success": true,
+      "latency": 603.3687591552734,
+      "ip_address": "69.48.168.47",
+      "error": null,
+      "bytes_transferred": 14
+    },
+    {
+      "domain": "vlielandoutdoorcenter.nl",
+      "success": true,
+      "latency": 589.3721580505371,
+      "ip_address": "185.232.249.41",
+      "error": null,
+      "bytes_transferred": 16
+    },
+    {
+      "domain": "vpndefender.com",
+      "success": true,
+      "latency": 391.2527561187744,
+      "ip_address": "54.224.56.57",
+      "error": null,
+      "bytes_transferred": 29
+    },
+    {
+      "domain": "ximangquantrieu.com",
+      "success": true,
+      "latency": 491.06287956237793,
+      "ip_address": "123.31.17.119",
+      "error": null,
+      "bytes_transferred": 15
+    },
+    {
+      "domain": "zpav.pl",
+      "success": true,
+      "latency": 417.7711009979248,
+      "ip_address": "83.238.107.112",
+      "error": null,
+      "bytes_transferred": 16
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Host,Part_B_Success,Part_B_Latency_ms,Part_D_Success,Part_D_Latency_ms,Diff_ms,Diff_percent
+h1,71,583.83,51,478.15,-105.68,-18.1
+h2,67,675.18,38,544.59,-130.59,-19.3
+h3,72,473.46,40,532.07,58.61,12.4
+h4,73,557.15,41,614.71,57.56,10.3
