@@ -376,10 +376,10 @@ def run_part_b_tests(dns_server='8.8.8.8'):
         
         # PCAP files for each host
         pcap_files = {
-            'h1': 'pcap_files/PCAP_1_H1.pcap',
-            'h2': 'pcap_files/PCAP_2_H2.pcap',
-            'h3': 'pcap_files/PCAP_3_H3.pcap',
-            'h4': 'pcap_files/PCAP_4_H4.pcap'
+            'h1': 'data/PCAP_1_H1.pcap',
+            'h2': 'data/PCAP_2_H2.pcap',
+            'h3': 'data/PCAP_3_H3.pcap',
+            'h4': 'data/PCAP_4_H4.pcap'
         }
         
         # Test DNS resolution for each host
