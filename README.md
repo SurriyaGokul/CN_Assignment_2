@@ -39,6 +39,7 @@ Install prerequisites on Debian/Ubuntu:
 sudo apt-get update
 sudo apt-get install -y mininet python3-pip dnsutils net-tools iproute2
 pip3 install -r requirements.txt
+sudo apt-get install openvswitch-testcontroller
 ```
 
 Notes:
