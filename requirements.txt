@@ -1,0 +1,5 @@
+dnspython~=2.6
+scapy~=2.5
+matplotlib~=3.9
+seaborn~=0.13
+numpy~=1.26
